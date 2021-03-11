@@ -1,0 +1,30 @@
+_id: req_34787a1ec83243618b5d4b9998ce32f2
+type: Request
+parentId: fld_181407a9e8ab4a6fb4e691bff01fd3ca
+modified: 1615482891445
+created: 1615482329227
+url: https://api.bantubeli.com/auth/login
+name: User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"farhan@email.com",
+    	"password":"123456789"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_777705f5c85141bdac8bd0129a2885c0
+authentication: {}
+metaSortKey: -1615482329228
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
