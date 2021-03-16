@@ -1,10 +1,10 @@
-_id: req_34787a1ec83243618b5d4b9998ce32f2
+_id: req_6534e0cc09f845db9a0bec498bdef8a0
 type: Request
-parentId: fld_181407a9e8ab4a6fb4e691bff01fd3ca
-modified: 1615482891445
-created: 1615482329227
+parentId: fld_a38fad59a8f34fb081d718f17c2a8c8f
+modified: 1615871550518
+created: 1615871550518
 url: https://api.bantubeli.com/auth/login
-name: User
+name: Masuk
 description: ""
 method: POST
 body:
@@ -18,9 +18,9 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_777705f5c85141bdac8bd0129a2885c0
+    id: pair_db857bfebd674f2a9298ac5b43f574d5
 authentication: {}
-metaSortKey: -1615482329228
+metaSortKey: -1614584615807
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

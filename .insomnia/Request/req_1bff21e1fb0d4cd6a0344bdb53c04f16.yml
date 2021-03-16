@@ -1,0 +1,35 @@
+_id: req_1bff21e1fb0d4cd6a0344bdb53c04f16
+type: Request
+parentId: fld_d695f558710043548a2c687fa2634c99
+modified: 1615871550606
+created: 1615871550606
+url: https://api.bantubeli.com/profile/update
+name: Profile update
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Farhan Ismail Marjuki",
+    	"phone":"xxx",
+    	"email":"xxx",
+    	"address":"xxx",
+    	"latitude":"xxx",
+    	"longtitude":"xxx"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE1MzY1Njc3LCJuYmYiOjE2MTUzNjU2NzcsImp0aSI6InMyV1FmeWFUVDA3WGhQN3MiLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.U8Xm0SsiyT8zOurJhSZ5tsl_G9OgWqAkPmI01Dk6IlU
+metaSortKey: -1615278909820
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
