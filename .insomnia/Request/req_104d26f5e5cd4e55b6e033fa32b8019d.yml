@@ -1,0 +1,22 @@
+_id: req_104d26f5e5cd4e55b6e033fa32b8019d
+type: Request
+parentId: fld_3eada20440ac4225978cf7e4a91bd565
+modified: 1615948453331
+created: 1615948398147
+url: https://api.bantubeli.com/dl/region/province
+name: DatWil-Provinsi
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+metaSortKey: -1615948398147
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
