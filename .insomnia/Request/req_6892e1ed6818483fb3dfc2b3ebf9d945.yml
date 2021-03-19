@@ -1,7 +1,7 @@
 _id: req_6892e1ed6818483fb3dfc2b3ebf9d945
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1616123628118
+modified: 1616123705995
 created: 1616122875592
 url: https://api.bantubeli.com/dl/store/detail
 name: Store detail
@@ -25,6 +25,10 @@ parameters:
     value: "106.8666532"
     description: ""
     id: pair_c6f8715cde284285b1e723ac59a7e810
+  - name: search
+    value: Stick
+    description: ""
+    id: pair_97803f30ef9d4c3783d665d6b3cc78b0
 headers: []
 authentication:
   type: bearer
