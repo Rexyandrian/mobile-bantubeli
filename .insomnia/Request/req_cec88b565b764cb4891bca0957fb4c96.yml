@@ -1,30 +1,34 @@
-_id: req_6892e1ed6818483fb3dfc2b3ebf9d945
+_id: req_cec88b565b764cb4891bca0957fb4c96
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1616128024247
-created: 1616122875592
-url: https://api.bantubeli.com/dl/store/detail
-name: Store detail
+modified: 1616128591839
+created: 1616126229149
+url: https://api.bantubeli.com/13956/okey-stick-500-g-ul03933rvs
+name: Produk detail
 description: ""
 method: GET
 body: {}
 parameters:
   - name: store_id
-    value: "12904"
+    value: "13956"
     description: ""
     id: pair_901492bef52445af91806302274eacc4
+    disabled: true
   - name: limit_product
     value: "5"
     description: ""
     id: pair_67d81339fce5437b8c4d5d989683e00a
+    disabled: true
   - name: latitude
-    value: "-6.1884834"
+    value: "-6.226818"
     description: ""
     id: pair_ad496889c72c4fa1bda257323796c4d1
+    disabled: true
   - name: longtitude
-    value: "106.8227297"
+    value: "106.8666532"
     description: ""
     id: pair_c6f8715cde284285b1e723ac59a7e810
+    disabled: true
   - name: search
     value: Stick
     description: ""
@@ -34,7 +38,7 @@ headers: []
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MTIzNjExLCJuYmYiOjE2MTYxMjM2MTEsImp0aSI6IkpqZFFuUkJkZXFCTHhsa20iLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ._gy445MkgJKU7ZqX50m7gbzFJEeIxhYke25xFA_BnSs
-metaSortKey: -1616122875592
+metaSortKey: -1616122875642
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
