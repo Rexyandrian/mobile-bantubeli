@@ -1,0 +1,59 @@
+_id: req_e81aa13e32404813982668a07c61ef35
+type: Request
+parentId: fld_3eada20440ac4225978cf7e4a91bd565
+modified: 1616059589861
+created: 1615871558597
+url: https://api.bantubeli.com/dl/product/search
+name: Data produk
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: show_category
+    value: "1"
+    description: ""
+    id: pair_be66f788311147f78d78448786cd0a8b
+    disabled: false
+  - name: show_rating
+    value: "1"
+    description: ""
+    id: pair_c5de1a0e504343218dc673949ff869d5
+    disabled: false
+  - name: limit_store
+    value: "4"
+    description: ""
+    id: pair_c97eaab6029742ad9ddc5efc6a8950ce
+    disabled: false
+  - name: limit_store_product
+    value: "4"
+    description: ""
+    id: pair_7cd16cc9ae104d81b442bbd8484ea694
+    disabled: false
+  - name: latitude
+    value: "-6.188320078451162"
+    description: ""
+    id: pair_45884da56e984dff8d54888ececff6d9
+    disabled: false
+  - name: longtitude
+    value: "106.82264087450825"
+    description: ""
+    id: pair_cb38942e8bb542de99245e3cf1f29022
+    disabled: false
+  - name: search
+    value: sadaas
+    description: ""
+    id: pair_d12da0ee9cc74900b10e8e937d9916f4
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1615172764968.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

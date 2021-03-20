@@ -1,0 +1,24 @@
+_id: req_e842d2729be1461d85f8756e5ab5db7c
+type: Request
+parentId: fld_67ca0cdfdf5942668a5605aa272ee224
+modified: 1615871550598
+created: 1615871550598
+url: https://api.bantubeli.com/cashier/me
+name: Info
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: xxx
+  disabled: false
+metaSortKey: -1614584615957
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

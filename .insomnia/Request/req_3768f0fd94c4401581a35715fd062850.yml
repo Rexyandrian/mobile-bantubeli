@@ -1,0 +1,29 @@
+_id: req_3768f0fd94c4401581a35715fd062850
+type: Request
+parentId: fld_3eada20440ac4225978cf7e4a91bd565
+modified: 1615948827759
+created: 1615948742477
+url: https://api.bantubeli.com/dl/region/village
+name: DatWil-Kelurahan
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"district_id":"1906"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d098dcc3f89e4fd4bfc0005d3e2327cb
+authentication: {}
+metaSortKey: -1615948742477
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

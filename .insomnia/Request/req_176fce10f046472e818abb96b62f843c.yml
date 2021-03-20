@@ -1,0 +1,30 @@
+_id: req_176fce10f046472e818abb96b62f843c
+type: Request
+parentId: fld_67ca0cdfdf5942668a5605aa272ee224
+modified: 1615871550582
+created: 1615871550582
+url: https://api.bantubeli.com/cashier/login
+name: Masuk
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"rayen@gmail.com",
+    	"password":"123456789"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db857bfebd674f2a9298ac5b43f574d5
+authentication: {}
+metaSortKey: -1614584615807
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_0db1e3feeec84997a1639ab37fbdd129
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1615871543887
+created: 1615871543887
+url: https://api.bantubeli.com/testing
+name: Get jarak
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1615783803070
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
