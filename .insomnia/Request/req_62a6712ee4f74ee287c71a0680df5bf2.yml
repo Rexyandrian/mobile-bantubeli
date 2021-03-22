@@ -1,0 +1,27 @@
+_id: req_62a6712ee4f74ee287c71a0680df5bf2
+type: Request
+parentId: fld_88449f47f47340cdb671563a0f4c353e
+modified: 1616381488031
+created: 1616378164574
+url: https://api.bantubeli.com/cart
+name: Isi keranjang
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_153f27cfa72c4537b1ab6d5cd0692c57
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MzM3ODI2LCJuYmYiOjE2MTYzMzc4MjYsImp0aSI6Im42QmZ6ZDJWaWJTczJxOXgiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.r82uCJ0qQ5PVFdSgcSWF1C4i0FZxspvOBUgHGTOwiXk
+metaSortKey: -1616378164574
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

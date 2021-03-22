@@ -1,0 +1,46 @@
+_id: req_94207af216f1496f971bf387aca48034
+type: Request
+parentId: fld_88449f47f47340cdb671563a0f4c353e
+modified: 1616400723183
+created: 1616383754197
+url: https://api.bantubeli.com/cart
+name: Keranjang
+description: |-
+  ### CART
+  There's 4 fields are required :
+  1. product_id
+  2. store_id
+  3. type
+      1. increment : to adding product in your cart
+      2. decrement : to removing product in your cart
+  4. qty
+      1. min value 1
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"product_id":"5860",
+    	"qty":1,
+    	"type":"increment",
+    	"store_id":"12967"
+    }
+parameters:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_153f27cfa72c4537b1ab6d5cd0692c57
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MzM3ODI2LCJuYmYiOjE2MTYzMzc4MjYsImp0aSI6Im42QmZ6ZDJWaWJTczJxOXgiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.r82uCJ0qQ5PVFdSgcSWF1C4i0FZxspvOBUgHGTOwiXk
+metaSortKey: -1616250520108
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
