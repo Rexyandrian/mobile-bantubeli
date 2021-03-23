@@ -1,7 +1,7 @@
 _id: req_6892e1ed6818483fb3dfc2b3ebf9d945
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1616128024247
+modified: 1616384770702
 created: 1616122875592
 url: https://api.bantubeli.com/dl/store/detail
 name: Store detail
@@ -14,7 +14,7 @@ parameters:
     description: ""
     id: pair_901492bef52445af91806302274eacc4
   - name: limit_product
-    value: "5"
+    value: "20"
     description: ""
     id: pair_67d81339fce5437b8c4d5d989683e00a
   - name: latitude
@@ -33,8 +33,8 @@ parameters:
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MTIzNjExLCJuYmYiOjE2MTYxMjM2MTEsImp0aSI6IkpqZFFuUkJkZXFCTHhsa20iLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ._gy445MkgJKU7ZqX50m7gbzFJEeIxhYke25xFA_BnSs
-metaSortKey: -1616122875592
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MzM3ODI2LCJuYmYiOjE2MTYzMzc4MjYsImp0aSI6Im42QmZ6ZDJWaWJTczJxOXgiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.r82uCJ0qQ5PVFdSgcSWF1C4i0FZxspvOBUgHGTOwiXk
+metaSortKey: -1616035849477
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

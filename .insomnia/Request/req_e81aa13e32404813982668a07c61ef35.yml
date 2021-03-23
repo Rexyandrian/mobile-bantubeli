@@ -1,9 +1,9 @@
 _id: req_e81aa13e32404813982668a07c61ef35
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1616059589861
+modified: 1616388712668
 created: 1615871558597
-url: https://api.bantubeli.com/dl/product/search
+url: https://api.bantubeli.com/dl/product/discount
 name: Data produk
 description: ""
 method: GET
@@ -32,12 +32,12 @@ parameters:
     id: pair_7cd16cc9ae104d81b442bbd8484ea694
     disabled: false
   - name: latitude
-    value: "-6.188320078451162"
+    value: "-6.188284862877379"
     description: ""
     id: pair_45884da56e984dff8d54888ececff6d9
     disabled: false
   - name: longtitude
-    value: "106.82264087450825"
+    value: "106.82262846921707"
     description: ""
     id: pair_cb38942e8bb542de99245e3cf1f29022
     disabled: false
