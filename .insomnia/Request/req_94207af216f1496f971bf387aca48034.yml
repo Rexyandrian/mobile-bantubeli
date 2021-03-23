@@ -1,7 +1,7 @@
 _id: req_94207af216f1496f971bf387aca48034
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1616468575516
+modified: 1616469489392
 created: 1616383754197
 url: https://api.bantubeli.com/cart
 name: Keranjang
@@ -14,7 +14,7 @@ description: |-
       1. increment : to adding product in your cart
       2. decrement : to removing product in your cart
   4. qty
-      1. min value 
+      1. min value 1
   5. replace
       1. required when type not present 
       2. "Y/N" to confirm
@@ -23,10 +23,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"product_id":"396",
+    	"product_id":"402",
     	"qty":1,
-    	"replace":"Y",
-    	"store_id":"13952"
+    	"type":"increment",
+    	"store_id":"17916"
     }
 parameters:
   - name: ""
