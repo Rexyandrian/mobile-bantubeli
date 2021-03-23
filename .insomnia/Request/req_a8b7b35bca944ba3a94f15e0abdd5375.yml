@@ -1,0 +1,25 @@
+_id: req_a8b7b35bca944ba3a94f15e0abdd5375
+type: Request
+parentId: fld_88449f47f47340cdb671563a0f4c353e
+modified: 1616484395724
+created: 1616484395724
+url: ""
+name: Checkout
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1616484395724
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

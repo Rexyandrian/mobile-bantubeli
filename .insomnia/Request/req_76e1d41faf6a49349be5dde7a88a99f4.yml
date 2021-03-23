@@ -1,10 +1,10 @@
-_id: req_94207af216f1496f971bf387aca48034
+_id: req_76e1d41faf6a49349be5dde7a88a99f4
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1616482392264
-created: 1616383754197
+modified: 1616471635057
+created: 1616471630668
 url: https://api.bantubeli.com/cart
-name: Keranjang
+name: Hapus barang keranjang
 description: |-
   ### CART
   There's 4 fields are required :
@@ -18,15 +18,15 @@ description: |-
   5. replace
       1. required when type not present 
       2. "Y/N" to confirm
-method: POST
+method: DELETE
 body:
   mimeType: application/json
   text: |-
     {
-     "product_id":"5365",
-     "qty":1,
-     "replace":"Y",
-     "store_id":"12906"
+    	"product_id":"402",
+    	"qty":1,
+    	"type":"increment",
+    	"store_id":"17916"
     }
 parameters:
   - name: ""
@@ -38,8 +38,8 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MTIzNjExLCJuYmYiOjE2MTYxMjM2MTEsImp0aSI6IkpqZFFuUkJkZXFCTHhsa20iLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ._gy445MkgJKU7ZqX50m7gbzFJEeIxhYke25xFA_BnSs
-metaSortKey: -1616250520108
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MzM3ODI2LCJuYmYiOjE2MTYzMzc4MjYsImp0aSI6Im42QmZ6ZDJWaWJTczJxOXgiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.r82uCJ0qQ5PVFdSgcSWF1C4i0FZxspvOBUgHGTOwiXk
+metaSortKey: -1616186697875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
