@@ -1,9 +1,9 @@
 _id: req_e81aa13e32404813982668a07c61ef35
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1616388712668
+modified: 1616490217212
 created: 1615871558597
-url: https://api.bantubeli.com/dl/product/discount
+url: https://api.bantubeli.com/dl/product/home
 name: Data produk
 description: ""
 method: GET

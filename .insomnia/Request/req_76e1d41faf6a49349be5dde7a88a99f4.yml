@@ -1,7 +1,7 @@
 _id: req_76e1d41faf6a49349be5dde7a88a99f4
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1616471635057
+modified: 1616574710508
 created: 1616471630668
 url: https://api.bantubeli.com/cart
 name: Hapus barang keranjang
@@ -9,24 +9,20 @@ description: |-
   ### CART
   There's 4 fields are required :
   1. product_id
-  2. store_id
-  3. type
-      1. increment : to adding product in your cart
-      2. decrement : to removing product in your cart
-  4. qty
+      1. exists in cart
+      2. required with qty
+  2. qty
       1. min value 1
-  5. replace
-      1. required when type not present 
+      2. required with product_id
+  3. blank
+      1. required when product_id and qty not present 
       2. "Y/N" to confirm
 method: DELETE
 body:
   mimeType: application/json
   text: |-
     {
-    	"product_id":"402",
-    	"qty":1,
-    	"type":"increment",
-    	"store_id":"17916"
+    	"blank":"Y"
     }
 parameters:
   - name: ""
@@ -38,7 +34,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MzM3ODI2LCJuYmYiOjE2MTYzMzc4MjYsImp0aSI6Im42QmZ6ZDJWaWJTczJxOXgiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.r82uCJ0qQ5PVFdSgcSWF1C4i0FZxspvOBUgHGTOwiXk
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MTIzNjExLCJuYmYiOjE2MTYxMjM2MTEsImp0aSI6IkpqZFFuUkJkZXFCTHhsa20iLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ._gy445MkgJKU7ZqX50m7gbzFJEeIxhYke25xFA_BnSs
 metaSortKey: -1616186697875
 isPrivate: false
 settingStoreCookies: true
