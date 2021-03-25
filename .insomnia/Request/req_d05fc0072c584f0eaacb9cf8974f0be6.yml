@@ -1,0 +1,28 @@
+_id: req_d05fc0072c584f0eaacb9cf8974f0be6
+type: Request
+parentId: fld_a38fad59a8f34fb081d718f17c2a8c8f
+modified: 1616666378374
+created: 1616665726609
+url: https://api.bantubeli.com/auth/forgot
+name: Lupa sandi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"rexygarts@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1616665726609
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

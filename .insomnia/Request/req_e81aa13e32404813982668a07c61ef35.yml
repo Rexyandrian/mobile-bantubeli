@@ -1,7 +1,7 @@
 _id: req_e81aa13e32404813982668a07c61ef35
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1616490217212
+modified: 1616660521076
 created: 1615871558597
 url: https://api.bantubeli.com/dl/product/home
 name: Data produk
@@ -45,6 +45,7 @@ parameters:
     value: sadaas
     description: ""
     id: pair_d12da0ee9cc74900b10e8e937d9916f4
+    disabled: true
 headers:
   - name: Content-Type
     value: application/json
