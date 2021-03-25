@@ -1,0 +1,30 @@
+_id: req_2402998dadd0438c884c5a93ff94f2ce
+type: Request
+parentId: fld_88449f47f47340cdb671563a0f4c353e
+modified: 1616667022495
+created: 1616666964136
+url: https://api.bantubeli.com/dl/bag-list
+name: Data Tas Belanja
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"store_id":"12904"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MTIzNjExLCJuYmYiOjE2MTYxMjM2MTEsImp0aSI6IkpqZFFuUkJkZXFCTHhsa20iLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ._gy445MkgJKU7ZqX50m7gbzFJEeIxhYke25xFA_BnSs
+metaSortKey: -1616666964191
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
