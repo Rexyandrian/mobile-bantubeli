@@ -1,7 +1,7 @@
 _id: req_a8b7b35bca944ba3a94f15e0abdd5375
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1616648395979
+modified: 1616752499467
 created: 1616484395724
 url: https://api.bantubeli.com/checkout
 name: Checkout
@@ -13,27 +13,31 @@ body:
     {
     	"driver_note":"xxxx",
     	"user_id":"8",
+    	"ship_sender":"Rexy",
+    	"ship_province":"DKI",
+    	"ship_city":"JAKARTA UTARA",
+    	"ship_district":"MENTENG",
+    	"ship_village":"MENTENG",
+    	"ship_post":"11231",
     	"address":"xxxx",
     	"payment_method":"1",
+    	"store_id":"18904",
     	"total_price":99999,
     	"total_qty":9,
     	"product":[
     		{
-    			"store_id":"18904",
     			"product_id":"2007",
     			"qty":"2222",
     			"price":"66666",
     			"note":"xxxx"
     		},
     		{
-    			"store_id":"18904",
     			"product_id":"2007",
     			"qty":"2222",
     			"price":"66666",
     			"note":"xxxx"
     		},
     		{
-    			"store_id":"18904",
     			"product_id":"2007",
     			"qty":"2222",
     			"price":"66666",
