@@ -1,7 +1,7 @@
 _id: req_4d0b9fd22df1401e9acfe038aa985228
 type: Request
 parentId: fld_a38fad59a8f34fb081d718f17c2a8c8f
-modified: 1616733933573
+modified: 1617091058578
 created: 1615871550527
 url: https://api.bantubeli.com/auth/register
 name: Registrasi
@@ -9,21 +9,21 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"name":"Rexy Andriansyah",
-    	"province":"JAWA BARAT",
-    	"city":"BEKASI",
-    	"district":"BEKASI TIMUR",
-    	"village":"BEKASI JAYA",
-    	"post":"17112",
-    	"phone":"081234144114",
-    	"email":"rexygarts3@gmail.com",
-    	"longtitude":106.82278295412831,
-    	"latitude":-6.188473186469944,
-    	"address":"Bekasi",
-    	"password":"1234567890",
-    	"confirm_password":"1234567890"
+      "name": "Andika Andriana",
+      "email": "andika@mail.com",
+      "phone": "081234567891",
+      "province": "DKI JAKARTA",
+      "city": "JAKARTA SELATAN",
+      "district": "TEBET",
+      "village": "MANGGARAI",
+      "post": "12850",
+      "address": "Jl. Manggarai Utara 5 No.8B, RT.5/RW.1, Manggarai, Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12850, Indonesia",
+      "latitude": -6.213225,
+      "longtitude": 106.8537582,
+      "password": "123456789",
+      "confirm_password": "123456789"
     }
 parameters: []
 headers:

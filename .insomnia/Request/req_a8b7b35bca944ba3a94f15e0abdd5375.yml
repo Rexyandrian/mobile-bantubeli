@@ -1,7 +1,7 @@
 _id: req_a8b7b35bca944ba3a94f15e0abdd5375
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1616752499467
+modified: 1617075320331
 created: 1616484395724
 url: https://api.bantubeli.com/checkout
 name: Checkout
@@ -12,7 +12,6 @@ body:
   text: |-
     {
     	"driver_note":"xxxx",
-    	"user_id":"8",
     	"ship_sender":"Rexy",
     	"ship_province":"DKI",
     	"ship_city":"JAKARTA UTARA",
@@ -24,23 +23,25 @@ body:
     	"store_id":"18904",
     	"total_price":99999,
     	"total_qty":9,
+    	"id_bag":"6626",
+    	"qty_bag":999901,
     	"product":[
     		{
-    			"product_id":"2007",
-    			"qty":"2222",
-    			"price":"66666",
+    			"product_id":"2845",
+    			"qty":999901,
+    			"price":48000,
     			"note":"xxxx"
     		},
     		{
-    			"product_id":"2007",
-    			"qty":"2222",
-    			"price":"66666",
+    			"product_id":"2771",
+    			"qty":999901,
+    			"price":63500,
     			"note":"xxxx"
     		},
     		{
-    			"product_id":"2007",
-    			"qty":"2222",
-    			"price":"66666",
+    			"product_id":"2776",
+    			"qty":999901,
+    			"price":63500,
     			"note":"xxxx"
     		}
     	]
