@@ -1,42 +1,25 @@
 _id: req_1bff21e1fb0d4cd6a0344bdb53c04f16
 type: Request
 parentId: fld_a38fad59a8f34fb081d718f17c2a8c8f
-modified: 1616064791383
+modified: 1617158806372
 created: 1615871550606
 url: https://api.bantubeli.com/profile/update
 name: Profile update
 description: |-
   ### Fields are able to update :
-  1. name : *length : 8,50*
-  2. phone : 
-    1. length : 10,13
-    2. unique
-  3. email : 
-    1. length : 10,13
-    2. valid domian
-    3. unique
-  4. address :
-    1. max length : 250
-  5. latitude :
-    1. required with longtitude 
-    2. max length : 20
-  6. longtitude :
-    1. required with latitude
-    2. max length : 20
-  7. password :
-    1. must match with previous password
-    2. required with new_password and new_password_confirm
-    3. length 8,20
-  8. new_password :
-    1. required with new_password_confirm
-    2. length 8,20
-  9. new_password_confirm :
-    1. required with new_password
-    2. length 8,20
-    3. must match with new_password
-  10. photo :
-    1. image file type
-    2. Max file size 512
+  1. 'name'				=> 'required|max:50|min:8|bail'.
+  2. 'province'          => 'required|exists:data_provinsi,nama_provinsi'.
+  3. 'city'              => 'required|exists:data_kota,nama_kota'.
+  4. 'district'          => 'required|exists:data_kecamatan,nama_kecamatan'.
+  5. 'village'           => 'required|exists:data_desa,nama_desa'.
+  6. 'post'              => 'required|exists:data_post,kode_pos'.
+  7. 'phone'				=> 'required|unique:bb_users,phone|max:13|min:10|bail'.
+  8. 'email' 			=> 'required|unique:bb_users,email|max:30|email:rfc,dns|bail'.
+  9. 'address'			=> 'required|max:250|bail'.
+  10. 'latitude'          => 'required|numeric|bail'.
+  11. 'longtitude'        => 'required|numeric|bail'.
+  12. 'password'			=> 'required|min:8|max:30|bail',
+  13. 'confirm_password'	=> 'required|required_with:password|same:password'
 method: POST
 body:
   mimeType: multipart/form-data
@@ -45,14 +28,14 @@ body:
       value: ""
       id: pair_d0512af31a694027b19fbd0ab0a96f77
       type: file
-      fileName: C:\Users\RekapDigi02\Pictures\33.jpg
+      fileName: C:\Users\RekapDigi02\Pictures\photo_2021-03-22_00-26-06.jpg
 parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MDUzNzYyLCJuYmYiOjE2MTYwNTM3NjIsImp0aSI6ImFaNWFZWjQwb29PdFh5NDciLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.j953k0pIU8C7UvxSDUz0Yyk75Yj0aKfDJ_W1cpjV8hI
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MTIzNjExLCJuYmYiOjE2MTYxMjM2MTEsImp0aSI6IkpqZFFuUkJkZXFCTHhsa20iLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ._gy445MkgJKU7ZqX50m7gbzFJEeIxhYke25xFA_BnSs
 metaSortKey: -1614584616007
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_4d0b9fd22df1401e9acfe038aa985228
 type: Request
 parentId: fld_a38fad59a8f34fb081d718f17c2a8c8f
-modified: 1617091058578
+modified: 1617091938521
 created: 1615871550527
 url: https://api.bantubeli.com/auth/register
 name: Registrasi
@@ -12,8 +12,8 @@ body:
   text: >-
     {
       "name": "Andika Andriana",
-      "email": "andika@mail.com",
-      "phone": "081234567891",
+      "email": "andika1@mail.com",
+      "phone": "0812345678911",
       "province": "DKI JAKARTA",
       "city": "JAKARTA SELATAN",
       "district": "TEBET",
