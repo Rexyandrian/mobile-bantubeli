@@ -1,25 +1,36 @@
 _id: req_a8b7b35bca944ba3a94f15e0abdd5375
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1617075320331
+modified: 1617589612869
 created: 1616484395724
 url: https://api.bantubeli.com/checkout
 name: Checkout
-description: ""
+description: |-2
+      "driver_note"               => "required|string|max:250",
+      "address"                   => "required|string|max:250",
+      "payment_method"            => "required|exists:bb_bank,id",
+      "total_price"               => "required",
+      "total_qty"                 => "required",
+      "ship_long"                 => "required|numeric",
+      "ship_lat"                  => "required|numeric",
+      "store_id"                  => "required|exists:store,id",
+      'product'                   => "required|array",
+      "product.*.product_id"      => "required|exists:bb_products,id",
+      "product.*.qty"             => ["required","min:1"],
+      "product.*.price"           => "required|min:1",
+      "product.*.note"            => "nullable|max:250",
+      'id_bag'                    => ["required","exists:bb_products,id"],
+      "qty_bag"                   => ["required_with:id_bag","min:1"
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
     	"driver_note":"xxxx",
-    	"ship_sender":"Rexy",
-    	"ship_province":"DKI",
-    	"ship_city":"JAKARTA UTARA",
-    	"ship_district":"MENTENG",
-    	"ship_village":"MENTENG",
-    	"ship_post":"11231",
     	"address":"xxxx",
     	"payment_method":"1",
+    	"ship_long":"xxxx",
+    	"ship_lat":"xxxx",
     	"store_id":"18904",
     	"total_price":99999,
     	"total_qty":9,
