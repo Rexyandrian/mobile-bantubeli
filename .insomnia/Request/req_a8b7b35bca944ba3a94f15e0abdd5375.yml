@@ -1,7 +1,7 @@
 _id: req_a8b7b35bca944ba3a94f15e0abdd5375
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1617589612869
+modified: 1617589725352
 created: 1616484395724
 url: https://api.bantubeli.com/checkout
 name: Checkout
@@ -26,7 +26,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"driver_note":"xxxx",
+    	"driver_note":"xxxxx",
     	"address":"xxxx",
     	"payment_method":"1",
     	"ship_long":"xxxx",
