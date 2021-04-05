@@ -1,7 +1,7 @@
 _id: req_a8b7b35bca944ba3a94f15e0abdd5375
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1617589725352
+modified: 1617591964238
 created: 1616484395724
 url: https://api.bantubeli.com/checkout
 name: Checkout
@@ -26,33 +26,28 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"driver_note":"xxxxx",
-    	"address":"xxxx",
-    	"payment_method":"1",
-    	"ship_long":"xxxx",
-    	"ship_lat":"xxxx",
-    	"store_id":"18904",
-    	"total_price":99999,
-    	"total_qty":9,
-    	"id_bag":"6626",
-    	"qty_bag":999901,
+    	"driver_note":"Bekasi",
+    	"address":"Bekasi",
+    	"payment_id":"1",
+    	"ship_long":-6.227243,
+    	"ship_lat":106.86931,
+    	"store_id":2,
+    	"id_bag":"19852",
+    	"qty_bag":1,
     	"product":[
     		{
-    			"product_id":"2845",
-    			"qty":999901,
-    			"price":48000,
+    			"product_id":"632",
+    			"qty":1,
     			"note":"xxxx"
     		},
     		{
-    			"product_id":"2771",
-    			"qty":999901,
-    			"price":63500,
+    			"product_id":"12",
+    			"qty":1,
     			"note":"xxxx"
     		},
     		{
-    			"product_id":"2776",
-    			"qty":999901,
-    			"price":63500,
+    			"product_id":"1872",
+    			"qty":1,
     			"note":"xxxx"
     		}
     	]
@@ -63,7 +58,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MTIzNjExLCJuYmYiOjE2MTYxMjM2MTEsImp0aSI6IkpqZFFuUkJkZXFCTHhsa20iLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ._gy445MkgJKU7ZqX50m7gbzFJEeIxhYke25xFA_BnSs
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NTkxNDY3LCJuYmYiOjE2MTc1OTE0NjcsImp0aSI6IlRDVkV4eWtEUWloeXJWSFciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.u5QyB_mYWctIucQFkj5k4FUv7dmbNRTuvnwvSUuhotM
 metaSortKey: -1616484395724
 isPrivate: false
 settingStoreCookies: true

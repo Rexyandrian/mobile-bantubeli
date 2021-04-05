@@ -1,7 +1,7 @@
 _id: req_6534e0cc09f845db9a0bec498bdef8a0
 type: Request
 parentId: fld_a38fad59a8f34fb081d718f17c2a8c8f
-modified: 1617252627943
+modified: 1617591272269
 created: 1615871550518
 url: https://api.bantubeli.com/auth/login
 name: Masuk
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email":"andika@mail.com",
+    	"email":"farhan@email.com",
     	"password":"123456789"
     }
 parameters: []
