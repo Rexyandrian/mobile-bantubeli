@@ -1,12 +1,12 @@
 _id: req_f8a6ad5af5cd4abda18fa69ac3a64a49
 type: Request
 parentId: fld_4f9ac24ceaf74aa8b6d6af96165d2db4
-modified: 1617598105546
+modified: 1617605449446
 created: 1617597491351
 url: https://api.bantubeli.com/order
-name: Order
+name: Order list
 description: |-2
-      status : required_without:group
+      status : required_without:group|in:pending,waiting,success,failed
       group  : required_without:status|in:Y,N
 method: GET
 body:
