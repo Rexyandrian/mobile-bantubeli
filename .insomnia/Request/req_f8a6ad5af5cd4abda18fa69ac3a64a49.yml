@@ -1,0 +1,32 @@
+_id: req_f8a6ad5af5cd4abda18fa69ac3a64a49
+type: Request
+parentId: fld_4f9ac24ceaf74aa8b6d6af96165d2db4
+modified: 1617598105546
+created: 1617597491351
+url: https://api.bantubeli.com/order
+name: Order
+description: |-2
+      status : required_without:group
+      group  : required_without:status|in:Y,N
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"group":"Y"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NTkxNDY3LCJuYmYiOjE2MTc1OTE0NjcsImp0aSI6IlRDVkV4eWtEUWloeXJWSFciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.u5QyB_mYWctIucQFkj5k4FUv7dmbNRTuvnwvSUuhotM
+metaSortKey: -1617597491351
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
