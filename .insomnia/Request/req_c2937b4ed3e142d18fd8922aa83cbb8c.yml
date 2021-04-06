@@ -1,0 +1,30 @@
+_id: req_c2937b4ed3e142d18fd8922aa83cbb8c
+type: Request
+parentId: fld_ad8e694256844d0ab5ba5b822fb0f81b
+modified: 1617705676977
+created: 1617705244261
+url: https://api.bantubeli.com/support
+name: Support message
+description: |-2
+        "title"=>"required|max:200",
+        "description"=>'required'
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title":""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1617705244261
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
