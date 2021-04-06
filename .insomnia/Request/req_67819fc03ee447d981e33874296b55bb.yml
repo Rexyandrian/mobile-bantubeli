@@ -1,14 +1,14 @@
-_id: req_f8a6ad5af5cd4abda18fa69ac3a64a49
+_id: req_67819fc03ee447d981e33874296b55bb
 type: Request
 parentId: fld_4f9ac24ceaf74aa8b6d6af96165d2db4
-modified: 1617692911760
-created: 1617597491351
+modified: 1617693020218
+created: 1617692799060
 url: https://api.bantubeli.com/order
-name: Order list
+name: Order batal
 description: |-2
       status : required_without:group|in:pending,waiting,success,failed
       group  : required_without:status|in:Y,N
-method: GET
+method: DELETE
 body:
   mimeType: application/json
   text: |-
@@ -22,7 +22,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NjEwNjgyLCJuYmYiOjE2MTc2MTA2ODIsImp0aSI6IllZYVd2WE0xOGxaaXVpS2giLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.DxDfNfGKh5QZTwWUy0zU5fg8pCmaZgkHf8WGGf4QJfw
-metaSortKey: -1617597491351
+metaSortKey: -1617132227771
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
