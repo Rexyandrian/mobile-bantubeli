@@ -1,28 +1,33 @@
-_id: req_f8a6ad5af5cd4abda18fa69ac3a64a49
+_id: req_48dae44368264ecd8feff626a079918b
 type: Request
 parentId: fld_4f9ac24ceaf74aa8b6d6af96165d2db4
-modified: 1617702490127
-created: 1617597491351
+modified: 1617704016266
+created: 1617703992219
 url: https://api.bantubeli.com/order
-name: Order list
+name: Upload bukti pembayaran
 description: |-2
       status : required_without:group|in:pending,waiting,success,failed
       group  : required_without:status|in:Y,N
-method: GET
+method: POST
 body:
-  mimeType: application/json
-  text: |-
-    {
-    	"status":"pending"
-    }
+  mimeType: multipart/form-data
+  params:
+    - name: order_no
+      value: xxx
+      description: ""
+      id: pair_35f51d439e0b48f1b1562dc900844dda
+    - name: photo
+      value: ""
+      description: ""
+      id: pair_7fff57627e954bf4acac989aa1b9428c
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
+    value: multipart/form-data
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NjEwNjgyLCJuYmYiOjE2MTc2MTA2ODIsImp0aSI6IllZYVd2WE0xOGxaaXVpS2giLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.DxDfNfGKh5QZTwWUy0zU5fg8pCmaZgkHf8WGGf4QJfw
-metaSortKey: -1617597491351
+metaSortKey: -1617364859561
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
