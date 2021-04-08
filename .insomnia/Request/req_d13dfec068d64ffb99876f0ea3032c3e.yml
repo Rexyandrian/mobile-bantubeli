@@ -1,29 +1,23 @@
 _id: req_d13dfec068d64ffb99876f0ea3032c3e
 type: Request
 parentId: fld_178d4a8f354a47bc881a9054db767058
-modified: 1615871550552
+modified: 1617865832835
 created: 1615871550552
 url: https://api.bantubeli.com/driver/login
 name: Masuk
 description: ""
 method: POST
 body:
-  mimeType: multipart/form-data
-  params:
-    - name: email
-      value: satria@gmail.com
-      description: ""
-      id: pair_76600997d12a409f8f58329d27f235d6
-      disabled: false
-    - name: password
-      value: "123456789"
-      description: ""
-      id: pair_6e4b2f091a48487590b198b61424533a
-      disabled: false
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"driver_bbpfm2@bbfm2.com",
+    	"password":"123456789"
+    }
 parameters: []
 headers:
   - name: Content-Type
-    value: multipart/form-data
+    value: application/json
     id: pair_db857bfebd674f2a9298ac5b43f574d5
 authentication: {}
 metaSortKey: -1614584615807

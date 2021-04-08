@@ -1,0 +1,39 @@
+_id: req_2aac8154a8a547aca0ae0215292ad214
+type: Request
+parentId: fld_1df2fa9e395b4aca82dda5a5ec4dbbd1
+modified: 1617870128509
+created: 1617866483833
+url: https://api.bantubeli.com/driver/order
+name: Order list
+description: |-2
+          "status"=>"required_without:group|in:waiting,process,arrived",
+          "order_no"=>[
+              "required_without:status",
+              Rule::exists('bb_orders','order_number')->where(function($val){
+                  $val->where('status','>',2);
+                  $val->where('status','<',6);
+                  $val->where('driver_id',auth('driver')->user()->id);
+              })
+          ]
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status":"waiting"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RyaXZlclwvbG9naW4iLCJpYXQiOjE2MTc4NjU4MzMsIm5iZiI6MTYxNzg2NTgzMywianRpIjoiR2Z1MU5HVFVvZHNNamV2QyIsInN1YiI6MSwicHJ2IjoiOTE5YzMyNmQ0M2FiMTUxOWE4YmEzYjg1ODZiNjg3NTJlOGM4MzgwNyJ9.BtJZy7sDRCPuDj4Aa62T5vTKMbE4m_u_iW49NsCFnos
+metaSortKey: -1617866483884
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

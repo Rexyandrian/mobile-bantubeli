@@ -1,19 +1,17 @@
-_id: req_405b4118941240a4ad2d460972d685b0
+_id: req_e52d9e2f698844b695244647096ce866
 type: Request
-parentId: fld_61dbe14a125f45e68bed4f2b6d7bdfaa
-modified: 1617863794591
-created: 1617604024607
-url: https://api.bantubeli.com/cashier/order
-name: Order list
-description: >-2
-        "status"=>"required_without:group|in:pending,waiting,process,courier,send,arrived,success,failed",
-        "group"=>"required_without:status|in:Y,N"
-method: GET
+parentId: fld_1df2fa9e395b4aca82dda5a5ec4dbbd1
+modified: 1617870166883
+created: 1617869944356
+url: https://api.bantubeli.com/driver/order
+name: Sending Order
+description: '    order_no => "required"'
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"status":"process"
+    	"order_no":"3U9p1617851290"
     }
 parameters: []
 headers:
@@ -22,7 +20,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjE3ODUxNTkzLCJuYmYiOjE2MTc4NTE1OTMsImp0aSI6InBwY3pDZm51RkJyZ1pZbkwiLCJzdWIiOjEsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.CMc_1_QN11vH0ETzarLuKJnf7KiZE61ZiKW6Eca9ODY
-metaSortKey: -1617604024659
+metaSortKey: -1617866483834
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
