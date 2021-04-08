@@ -1,19 +1,17 @@
-_id: req_405b4118941240a4ad2d460972d685b0
+_id: req_c0f9426f2cf442bfbcf73cfb72cc0024
 type: Request
 parentId: fld_61dbe14a125f45e68bed4f2b6d7bdfaa
-modified: 1617854781448
-created: 1617604024607
+modified: 1617854804789
+created: 1617854694358
 url: https://api.bantubeli.com/cashier/order
-name: Order list
-description: >-2
-        "status"=>"required_without:group|in:pending,waiting,process,courier,send,arrived,success,failed",
-        "group"=>"required_without:status|in:Y,N"
-method: GET
+name: Packing Order
+description: ""
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"status":"process"
+    	"order_no":"3U9p1617851290"
     }
 parameters: []
 headers:
@@ -22,7 +20,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjE3ODUxNTkzLCJuYmYiOjE2MTc4NTE1OTMsImp0aSI6InBwY3pDZm51RkJyZ1pZbkwiLCJzdWIiOjEsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.CMc_1_QN11vH0ETzarLuKJnf7KiZE61ZiKW6Eca9ODY
-metaSortKey: -1617604024659
+metaSortKey: -1617854694358
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

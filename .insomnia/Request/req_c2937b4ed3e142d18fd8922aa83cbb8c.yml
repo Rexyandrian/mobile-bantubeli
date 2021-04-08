@@ -1,7 +1,7 @@
 _id: req_c2937b4ed3e142d18fd8922aa83cbb8c
 type: Request
 parentId: fld_ad8e694256844d0ab5ba5b822fb0f81b
-modified: 1617705676977
+modified: 1617705781077
 created: 1617705244261
 url: https://api.bantubeli.com/support
 name: Support message
@@ -13,13 +13,16 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"title":""
+    	"title":"Fitur menarik",
+    	"description":"Isi"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NjEwNjgyLCJuYmYiOjE2MTc2MTA2ODIsImp0aSI6IllZYVd2WE0xOGxaaXVpS2giLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.DxDfNfGKh5QZTwWUy0zU5fg8pCmaZgkHf8WGGf4QJfw
 metaSortKey: -1617705244261
 isPrivate: false
 settingStoreCookies: true

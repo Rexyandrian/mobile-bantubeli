@@ -1,7 +1,7 @@
 _id: req_2402998dadd0438c884c5a93ff94f2ce
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1617591619805
+modified: 1617766809790
 created: 1616666964136
 url: https://api.bantubeli.com/dl/bag-list
 name: Data Tas Belanja
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"store_id":2,
+    	"store_id":1087,
     	"qty":1
     }
 parameters: []

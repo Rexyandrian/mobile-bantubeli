@@ -1,7 +1,7 @@
 _id: req_a8b7b35bca944ba3a94f15e0abdd5375
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1617591964238
+modified: 1617767891597
 created: 1616484395724
 url: https://api.bantubeli.com/checkout
 name: Checkout
@@ -31,23 +31,15 @@ body:
     	"payment_id":"1",
     	"ship_long":-6.227243,
     	"ship_lat":106.86931,
-    	"store_id":2,
-    	"id_bag":"19852",
+    	"store_id":1087,
+    	"ship_zip":"17510",
+    	"id_bag":"19964",
     	"qty_bag":1,
     	"product":[
     		{
-    			"product_id":"632",
-    			"qty":1,
-    			"note":"xxxx"
-    		},
-    		{
-    			"product_id":"12",
-    			"qty":1,
-    			"note":"xxxx"
-    		},
-    		{
-    			"product_id":"1872",
-    			"qty":1,
+    			"product_id":"124",
+    			"price":66500,
+    			"qty":2,
     			"note":"xxxx"
     		}
     	]
@@ -58,7 +50,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NTkxNDY3LCJuYmYiOjE2MTc1OTE0NjcsImp0aSI6IlRDVkV4eWtEUWloeXJWSFciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.u5QyB_mYWctIucQFkj5k4FUv7dmbNRTuvnwvSUuhotM
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NzY2MzgwLCJuYmYiOjE2MTc3NjYzODAsImp0aSI6IjR3cTJFcjEwNW5vWENtc2kiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.gvfpOuoETdZ_d0n9SokXIxAhzHLz06ITKPzgMSrW0Jg
 metaSortKey: -1616484395724
 isPrivate: false
 settingStoreCookies: true
