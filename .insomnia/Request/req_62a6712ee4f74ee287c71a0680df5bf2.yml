@@ -1,7 +1,7 @@
 _id: req_62a6712ee4f74ee287c71a0680df5bf2
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1616557749434
+modified: 1617766777826
 created: 1616378164574
 url: https://api.bantubeli.com/cart
 name: Isi keranjang
@@ -9,14 +9,20 @@ description: ""
 method: GET
 body: {}
 parameters:
-  - name: ""
-    value: ""
+  - name: longtitude
+    value: "-6.236882015488212"
     description: ""
     id: pair_153f27cfa72c4537b1ab6d5cd0692c57
+    disabled: true
+  - name: latitude
+    value: "106.7479812113364"
+    description: ""
+    id: pair_7ad83a3e44204f5ab3b0840347ede047
+    disabled: true
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MTIzNjExLCJuYmYiOjE2MTYxMjM2MTEsImp0aSI6IkpqZFFuUkJkZXFCTHhsa20iLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ._gy445MkgJKU7ZqX50m7gbzFJEeIxhYke25xFA_BnSs
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NzY2MzgwLCJuYmYiOjE2MTc3NjYzODAsImp0aSI6IjR3cTJFcjEwNW5vWENtc2kiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.gvfpOuoETdZ_d0n9SokXIxAhzHLz06ITKPzgMSrW0Jg
 metaSortKey: -1616378164574
 isPrivate: false
 settingStoreCookies: true

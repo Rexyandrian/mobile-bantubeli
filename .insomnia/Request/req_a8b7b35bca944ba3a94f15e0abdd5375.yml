@@ -1,46 +1,45 @@
 _id: req_a8b7b35bca944ba3a94f15e0abdd5375
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1616752499467
+modified: 1617767891597
 created: 1616484395724
 url: https://api.bantubeli.com/checkout
 name: Checkout
-description: ""
+description: |-2
+      "driver_note"               => "required|string|max:250",
+      "address"                   => "required|string|max:250",
+      "payment_method"            => "required|exists:bb_bank,id",
+      "total_price"               => "required",
+      "total_qty"                 => "required",
+      "ship_long"                 => "required|numeric",
+      "ship_lat"                  => "required|numeric",
+      "store_id"                  => "required|exists:store,id",
+      'product'                   => "required|array",
+      "product.*.product_id"      => "required|exists:bb_products,id",
+      "product.*.qty"             => ["required","min:1"],
+      "product.*.price"           => "required|min:1",
+      "product.*.note"            => "nullable|max:250",
+      'id_bag'                    => ["required","exists:bb_products,id"],
+      "qty_bag"                   => ["required_with:id_bag","min:1"
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"driver_note":"xxxx",
-    	"user_id":"8",
-    	"ship_sender":"Rexy",
-    	"ship_province":"DKI",
-    	"ship_city":"JAKARTA UTARA",
-    	"ship_district":"MENTENG",
-    	"ship_village":"MENTENG",
-    	"ship_post":"11231",
-    	"address":"xxxx",
-    	"payment_method":"1",
-    	"store_id":"18904",
-    	"total_price":99999,
-    	"total_qty":9,
+    	"driver_note":"Bekasi",
+    	"address":"Bekasi",
+    	"payment_id":"1",
+    	"ship_long":-6.227243,
+    	"ship_lat":106.86931,
+    	"store_id":1087,
+    	"ship_zip":"17510",
+    	"id_bag":"19964",
+    	"qty_bag":1,
     	"product":[
     		{
-    			"product_id":"2007",
-    			"qty":"2222",
-    			"price":"66666",
-    			"note":"xxxx"
-    		},
-    		{
-    			"product_id":"2007",
-    			"qty":"2222",
-    			"price":"66666",
-    			"note":"xxxx"
-    		},
-    		{
-    			"product_id":"2007",
-    			"qty":"2222",
-    			"price":"66666",
+    			"product_id":"124",
+    			"price":66500,
+    			"qty":2,
     			"note":"xxxx"
     		}
     	]
@@ -51,7 +50,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MTIzNjExLCJuYmYiOjE2MTYxMjM2MTEsImp0aSI6IkpqZFFuUkJkZXFCTHhsa20iLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ._gy445MkgJKU7ZqX50m7gbzFJEeIxhYke25xFA_BnSs
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NzY2MzgwLCJuYmYiOjE2MTc3NjYzODAsImp0aSI6IjR3cTJFcjEwNW5vWENtc2kiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.gvfpOuoETdZ_d0n9SokXIxAhzHLz06ITKPzgMSrW0Jg
 metaSortKey: -1616484395724
 isPrivate: false
 settingStoreCookies: true

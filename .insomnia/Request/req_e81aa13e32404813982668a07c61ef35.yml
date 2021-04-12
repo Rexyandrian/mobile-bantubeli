@@ -1,7 +1,7 @@
 _id: req_e81aa13e32404813982668a07c61ef35
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1616660521076
+modified: 1617246560841
 created: 1615871558597
 url: https://api.bantubeli.com/dl/product/home
 name: Data produk
@@ -32,12 +32,12 @@ parameters:
     id: pair_7cd16cc9ae104d81b442bbd8484ea694
     disabled: false
   - name: latitude
-    value: "-6.188284862877379"
+    value: "-6.227243"
     description: ""
     id: pair_45884da56e984dff8d54888ececff6d9
     disabled: false
   - name: longtitude
-    value: "106.82262846921707"
+    value: "106.869310"
     description: ""
     id: pair_cb38942e8bb542de99245e3cf1f29022
     disabled: false

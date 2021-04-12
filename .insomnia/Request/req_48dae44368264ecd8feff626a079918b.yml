@@ -1,0 +1,39 @@
+_id: req_48dae44368264ecd8feff626a079918b
+type: Request
+parentId: fld_4f9ac24ceaf74aa8b6d6af96165d2db4
+modified: 1617784925995
+created: 1617703992219
+url: https://api.bantubeli.com/order
+name: Upload bukti pembayaran
+description: |-2
+      status : required_without:group|in:pending,waiting,success,failed
+      group  : required_without:status|in:Y,N
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: order_no
+      value: OR8X1617781799
+      description: ""
+      id: pair_35f51d439e0b48f1b1562dc900844dda
+    - name: photo
+      value: ""
+      description: ""
+      id: pair_7fff57627e954bf4acac989aa1b9428c
+      type: file
+      fileName: C:\Users\RekapDigi02\Pictures\faktur.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NzgxNjMwLCJuYmYiOjE2MTc3ODE2MzAsImp0aSI6IjVhaHR3Wm9ad2hRanllb0IiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.rEh2nXf_2S6OVudv0814tppxw8dgoINeVXOe-cY9qTE
+metaSortKey: -1617364859561
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

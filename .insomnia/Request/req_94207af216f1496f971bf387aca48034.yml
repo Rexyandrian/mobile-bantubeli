@@ -1,7 +1,7 @@
 _id: req_94207af216f1496f971bf387aca48034
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1616636449130
+modified: 1617767740252
 created: 1616383754197
 url: https://api.bantubeli.com/cart
 name: Keranjang
@@ -23,10 +23,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"product_id":"267",
-    	"qty":1,
+    	"product_id":"124",
     	"type":"increment",
-    	"store_id":"12904"
+    	"qty":1,
+    	"store_id":"1087"
     }
 parameters:
   - name: ""
@@ -38,7 +38,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE2MTIzNjExLCJuYmYiOjE2MTYxMjM2MTEsImp0aSI6IkpqZFFuUkJkZXFCTHhsa20iLCJzdWIiOjgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ._gy445MkgJKU7ZqX50m7gbzFJEeIxhYke25xFA_BnSs
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NzY2MzgwLCJuYmYiOjE2MTc3NjYzODAsImp0aSI6IjR3cTJFcjEwNW5vWENtc2kiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.gvfpOuoETdZ_d0n9SokXIxAhzHLz06ITKPzgMSrW0Jg
 metaSortKey: -1616250520108
 isPrivate: false
 settingStoreCookies: true
