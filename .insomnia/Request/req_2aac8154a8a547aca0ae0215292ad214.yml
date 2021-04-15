@@ -1,7 +1,7 @@
 _id: req_2aac8154a8a547aca0ae0215292ad214
 type: Request
 parentId: fld_1df2fa9e395b4aca82dda5a5ec4dbbd1
-modified: 1617870128509
+modified: 1618368222337
 created: 1617866483833
 url: https://api.bantubeli.com/driver/order
 name: Order list
@@ -20,7 +20,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"status":"waiting"
+    	"status":"process"
     }
 parameters: []
 headers:
