@@ -1,7 +1,7 @@
 _id: req_405b4118941240a4ad2d460972d685b0
 type: Request
 parentId: fld_61dbe14a125f45e68bed4f2b6d7bdfaa
-modified: 1618460373254
+modified: 1618460774531
 created: 1617604024607
 url: https://api.bantubeli.com/cashier/order
 name: Order list
@@ -13,7 +13,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"status":"pr"
+    	"status":"process"
     }
 parameters: []
 headers:
