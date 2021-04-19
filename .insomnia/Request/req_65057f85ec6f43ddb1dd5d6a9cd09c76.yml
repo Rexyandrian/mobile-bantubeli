@@ -1,0 +1,23 @@
+_id: req_65057f85ec6f43ddb1dd5d6a9cd09c76
+type: Request
+parentId: fld_61dbe14a125f45e68bed4f2b6d7bdfaa
+modified: 1618802132082
+created: 1618802035950
+url: https://api.bantubeli.com/cashier/order/status
+name: Status order count
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjE4MzgyMTk0LCJuYmYiOjE2MTgzODIxOTQsImp0aSI6IjRUWkpaVEN5bDlmdE9maWwiLCJzdWIiOjEsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.DMXnCX4As_T1wxtz2H45dAOgH5AqSKrf2SEv3pfAWAM
+metaSortKey: -1618802035950
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
