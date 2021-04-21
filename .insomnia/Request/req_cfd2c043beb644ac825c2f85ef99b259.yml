@@ -1,9 +1,9 @@
 _id: req_cfd2c043beb644ac825c2f85ef99b259
 type: Request
 parentId: fld_ee153469b61249b49c1dcbdf3a450129
-modified: 1618996706610
+modified: 1618999638995
 created: 1618996538284
-url: https://api.bantubeli.com/notification/read
+url: https://api.bantubeli.com/notification/delete
 name: Delete Notification
 description: >-2
          'id'=>['required_without:read',Rule::exists('bb_notification','id')->where(function($query){
@@ -15,7 +15,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"all":"all"
+    	"delete":true
     }
 parameters: []
 headers:
