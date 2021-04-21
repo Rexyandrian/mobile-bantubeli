@@ -1,0 +1,23 @@
+_id: req_f46f1b6792494b41bb2643c7e59f8eae
+type: Request
+parentId: fld_ee153469b61249b49c1dcbdf3a450129
+modified: 1618996704039
+created: 1618993412854
+url: https://api.bantubeli.com/notification
+name: Notification list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE4MTk5ODMwLCJuYmYiOjE2MTgxOTk4MzAsImp0aSI6Im9RS2xPakhCa3g1UEI4eXIiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.5mIVqV8vBKsmfWuY-GbcFVjSNUG5Jef_2yn2__Lts5o
+metaSortKey: -1617705894467
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
