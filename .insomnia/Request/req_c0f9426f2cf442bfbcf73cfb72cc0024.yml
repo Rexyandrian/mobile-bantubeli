@@ -1,7 +1,7 @@
 _id: req_c0f9426f2cf442bfbcf73cfb72cc0024
 type: Request
 parentId: fld_61dbe14a125f45e68bed4f2b6d7bdfaa
-modified: 1618387307430
+modified: 1618807611934
 created: 1617854694358
 url: https://api.bantubeli.com/cashier/order
 name: Packing Order
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"order_no":"aCDl1618281752"
+    	"order_no":"wftp1618557906"
     }
 parameters: []
 headers:

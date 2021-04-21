@@ -1,21 +1,12 @@
-_id: req_2aac8154a8a547aca0ae0215292ad214
+_id: req_3d514f9a49444c41a9d2c87a4092a2f3
 type: Request
 parentId: fld_1df2fa9e395b4aca82dda5a5ec4dbbd1
-modified: 1618988093330
-created: 1617866483833
-url: https://api.bantubeli.com/driver/order
-name: Order list
-description: |-2
-          "status"=>"required_without:group|in:waiting,process,arrived",
-          "order_no"=>[
-              "required_without:status",
-              Rule::exists('bb_orders','order_number')->where(function($val){
-                  $val->where('status','>',2);
-                  $val->where('status','<',6);
-                  $val->where('driver_id',auth('driver')->user()->id);
-              })
-          ]
-method: GET
+modified: 1618988724967
+created: 1618988652161
+url: https://api.bantubeli.com/driver/arrived
+name: Arrived Order
+description: '    order_no => "required"'
+method: POST
 body:
   mimeType: application/json
   text: |-
@@ -29,7 +20,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RyaXZlclwvbG9naW4iLCJpYXQiOjE2MTg5ODczMzQsIm5iZiI6MTYxODk4NzMzNCwianRpIjoiZ1hGTk5vZHFoSmEwUUthVSIsInN1YiI6MSwicHJ2IjoiOTE5YzMyNmQ0M2FiMTUxOWE4YmEzYjg1ODZiNjg3NTJlOGM4MzgwNyJ9.gRovRGd_H58f9g2OSVRH2wJJBHSlSAqSRL9ww4UUOXs
-metaSortKey: -1617866483884
+metaSortKey: -1617860589096
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
