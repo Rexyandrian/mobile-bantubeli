@@ -1,9 +1,9 @@
 _id: req_c0c8e239e66f4944b34616d4ddbb274e
 type: Request
 parentId: fld_1df2fa9e395b4aca82dda5a5ec4dbbd1
-modified: 1618989160696
+modified: 1619072295084
 created: 1618989158352
-url: https://api.bantubeli.com/cashier/order/status
+url: https://api.bantubeli.com/driver/order/status
 name: Status order count
 description: ""
 method: GET
