@@ -1,10 +1,10 @@
-_id: req_3203f52fc5d544948b0b0fdc6aa39f7d
+_id: req_f46f1b6792494b41bb2643c7e59f8eae
 type: Request
-parentId: fld_a38fad59a8f34fb081d718f17c2a8c8f
-modified: 1618214669597
-created: 1615871550538
-url: https://api.bantubeli.com/auth/me
-name: Info
+parentId: fld_ee153469b61249b49c1dcbdf3a450129
+modified: 1618996704039
+created: 1618993412854
+url: https://api.bantubeli.com/notification
+name: Notification list
 description: ""
 method: GET
 body: {}
@@ -13,8 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE4MTk5ODMwLCJuYmYiOjE2MTgxOTk4MzAsImp0aSI6Im9RS2xPakhCa3g1UEI4eXIiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.5mIVqV8vBKsmfWuY-GbcFVjSNUG5Jef_2yn2__Lts5o
-  disabled: false
-metaSortKey: -1614584615957
+metaSortKey: -1617705894467
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

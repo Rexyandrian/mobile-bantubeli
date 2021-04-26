@@ -1,20 +1,26 @@
-_id: req_3203f52fc5d544948b0b0fdc6aa39f7d
+_id: req_6c49f1c1cffa482e8db791d20be7c62f
 type: Request
-parentId: fld_a38fad59a8f34fb081d718f17c2a8c8f
-modified: 1618214669597
-created: 1615871550538
-url: https://api.bantubeli.com/auth/me
-name: Info
-description: ""
-method: GET
-body: {}
+parentId: fld_4f9ac24ceaf74aa8b6d6af96165d2db4
+modified: 1618199910600
+created: 1618199167260
+url: https://api.bantubeli.com/order-finish
+name: Selesai penerimaan
+description: '    order_no => "exists, must be arrived" '
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"order_no" : "6CXx1618194550"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE4MTk5ODMwLCJuYmYiOjE2MTgxOTk4MzAsImp0aSI6Im9RS2xPakhCa3g1UEI4eXIiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.5mIVqV8vBKsmfWuY-GbcFVjSNUG5Jef_2yn2__Lts5o
-  disabled: false
-metaSortKey: -1614584615957
+metaSortKey: -1617248543666
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

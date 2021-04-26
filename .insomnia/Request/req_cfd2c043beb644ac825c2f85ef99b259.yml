@@ -1,0 +1,34 @@
+_id: req_cfd2c043beb644ac825c2f85ef99b259
+type: Request
+parentId: fld_ee153469b61249b49c1dcbdf3a450129
+modified: 1618999638995
+created: 1618996538284
+url: https://api.bantubeli.com/notification/delete
+name: Delete Notification
+description: >-2
+         'id'=>['required_without:read',Rule::exists('bb_notification','id')->where(function($query){
+                        $query->where('user_id',auth('api')->user()->id); 
+                    })],
+          'delete'=>"in:true"
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"delete":true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE4MTk5ODMwLCJuYmYiOjE2MTgxOTk4MzAsImp0aSI6Im9RS2xPakhCa3g1UEI4eXIiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.5mIVqV8vBKsmfWuY-GbcFVjSNUG5Jef_2yn2__Lts5o
+metaSortKey: -1617705894567
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

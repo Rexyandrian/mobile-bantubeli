@@ -1,7 +1,7 @@
 _id: req_f414b24bad3b4c8a972e6ef5a320e0db
 type: Request
 parentId: fld_178d4a8f354a47bc881a9054db767058
-modified: 1615871550566
+modified: 1618212738899
 created: 1615871550566
 url: https://api.bantubeli.com/driver/logout
 name: Keluar
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RyaXZlclwvbG9naW4iLCJpYXQiOjE2MTQ3NjIyODgsIm5iZiI6MTYxNDc2MjI4OCwianRpIjoiWTlNVFM2aE9PT1gzQXFPSiIsInN1YiI6MSwicHJ2IjoiOTE5YzMyNmQ0M2FiMTUxOWE4YmEzYjg1ODZiNjg3NTJlOGM4MzgwNyJ9.4c0bQsWt4TGPPdv2HNKkO7GrDHzyZg64-OFMnN5EJD0
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RyaXZlclwvbG9naW4iLCJpYXQiOjE2MTgyMTI3MTUsIm5iZiI6MTYxODIxMjcxNSwianRpIjoiUW92aE5KM01qTzdvQnVtVSIsInN1YiI6MSwicHJ2IjoiOTE5YzMyNmQ0M2FiMTUxOWE4YmEzYjg1ODZiNjg3NTJlOGM4MzgwNyJ9.ntzMhWlD2JObtCELLBUjT2Q2R4V6Yuv6Tn2tAMJoh9s
 metaSortKey: -1614584615907
 isPrivate: false
 settingStoreCookies: true

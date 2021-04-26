@@ -1,26 +1,19 @@
-_id: req_c0f9426f2cf442bfbcf73cfb72cc0024
+_id: req_c0c8e239e66f4944b34616d4ddbb274e
 type: Request
-parentId: fld_61dbe14a125f45e68bed4f2b6d7bdfaa
-modified: 1618807611934
-created: 1617854694358
-url: https://api.bantubeli.com/cashier/order
-name: Packing Order
+parentId: fld_1df2fa9e395b4aca82dda5a5ec4dbbd1
+modified: 1619072295084
+created: 1618989158352
+url: https://api.bantubeli.com/driver/order/status
+name: Status order count
 description: ""
-method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"order_no":"wftp1618557906"
-    }
+method: GET
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
+headers: []
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjE4MzgyMTk0LCJuYmYiOjE2MTgzODIxOTQsImp0aSI6IjRUWkpaVEN5bDlmdE9maWwiLCJzdWIiOjEsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.DMXnCX4As_T1wxtz2H45dAOgH5AqSKrf2SEv3pfAWAM
-metaSortKey: -1617854694358
+metaSortKey: -1617866483859
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

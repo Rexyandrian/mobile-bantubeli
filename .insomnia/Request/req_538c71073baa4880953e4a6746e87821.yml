@@ -1,9 +1,9 @@
 _id: req_538c71073baa4880953e4a6746e87821
 type: Request
 parentId: fld_ad8e694256844d0ab5ba5b822fb0f81b
-modified: 1617705904770
+modified: 1618999807895
 created: 1617705894372
-url: https://api.bantubeli.com/support
+url: https://api.bantubeli.com/dl/support
 name: List support message
 description: ""
 method: GET
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NjEwNjgyLCJuYmYiOjE2MTc2MTA2ODIsImp0aSI6IllZYVd2WE0xOGxaaXVpS2giLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.DxDfNfGKh5QZTwWUy0zU5fg8pCmaZgkHf8WGGf4QJfw
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3OTU2OTY5LCJuYmYiOjE2MTc5NTY5NjksImp0aSI6InkycEtDeGJZNG5uQllZcE8iLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Co2PsK_Z-jutZ6mn4i6jleG3vQTr_KUu9PniMX2r0yI
 metaSortKey: -1617705894417
 isPrivate: false
 settingStoreCookies: true
