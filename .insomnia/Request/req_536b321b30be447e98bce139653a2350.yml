@@ -1,25 +1,21 @@
-_id: req_3768f0fd94c4401581a35715fd062850
+_id: req_536b321b30be447e98bce139653a2350
 type: Request
-parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1619082258832
-created: 1615948742477
-url: https://api.bantubeli.com/dl/region/village
-name: DatWil-Kelurahan
+parentId: fld_916dd4450ae34216b36db7a0be84ca44
+modified: 1619413109446
+created: 1619413078520
+url: https://api.bantubeli.com/wishlist/remove
+name: Remove wish list
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"district_id":"1969"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_d098dcc3f89e4fd4bfc0005d3e2327cb
 authentication: {}
-metaSortKey: -1615948742477
+metaSortKey: -1619413078520
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

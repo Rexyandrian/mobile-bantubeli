@@ -1,25 +1,21 @@
-_id: req_3768f0fd94c4401581a35715fd062850
+_id: req_cd622ec8f6de4511a44aab345cacaa6d
 type: Request
-parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1619082258832
-created: 1615948742477
-url: https://api.bantubeli.com/dl/region/village
-name: DatWil-Kelurahan
+parentId: fld_b695dfa9fb7e4bed9399a75aee3f0206
+modified: 1619000050769
+created: 1619000031766
+url: https://api.bantubeli.com/review
+name: Add review
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"district_id":"1969"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_d098dcc3f89e4fd4bfc0005d3e2327cb
 authentication: {}
-metaSortKey: -1615948742477
+metaSortKey: -1619000031766
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

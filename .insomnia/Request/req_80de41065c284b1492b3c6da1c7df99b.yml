@@ -1,0 +1,34 @@
+_id: req_80de41065c284b1492b3c6da1c7df99b
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1619507315003
+created: 1619497679453
+url: https://fcm.googleapis.com/fcm/send
+name: Send push notification
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"registration_ids":["du7CBZ7tRuCTvocxTuA-Ca:APA91bG3oHNwyrK9NyqGiLjZMTCIT6jDa8tB1_9pYc1ODNi8kVk7psjZ0HlED_StuWrEsKSP1JsGMIweNiVkCxPxdWgEcBwBVbimm07dS51iia79AftX9djDx-8xksvAlTKtyyhaOmf4"],
+    	"notification": {
+    			"title": "Judul Notifikasi",
+    			"body": "Isi Notifikasi"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: key=AAAAJ8E6Em4:APA91bGx738xV2nsZPGBpwqlSQ8CVKC_8W06ZhxbJVG_cWwFr1haVjMFQF_L_u2U4hTVSw2viUHpUezK8rMszIPqBBw2AksfUdcTE7KSsMVn7UfU5zcHM4R2lm-fPvOC-4h7UpaNek1Z
+authentication: {}
+metaSortKey: -1619497679453
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

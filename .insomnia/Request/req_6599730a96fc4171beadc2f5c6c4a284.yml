@@ -1,26 +1,19 @@
-_id: req_6c49f1c1cffa482e8db791d20be7c62f
+_id: req_6599730a96fc4171beadc2f5c6c4a284
 type: Request
-parentId: fld_4f9ac24ceaf74aa8b6d6af96165d2db4
-modified: 1619145662509
-created: 1618199167260
-url: https://api.bantubeli.com/order-finish
-name: Selesai penerimaan
-description: '    order_no => "exists, must be arrived" '
-method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"order_no" : "3n9K1619144347"
-    }
+parentId: fld_916dd4450ae34216b36db7a0be84ca44
+modified: 1619413124441
+created: 1619413048504
+url: https://api.bantubeli.com/wishlist
+name: List wish list
+description: ""
+method: GET
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
+headers: []
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE4MTk5ODMwLCJuYmYiOjE2MTgxOTk4MzAsImp0aSI6Im9RS2xPakhCa3g1UEI4eXIiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.5mIVqV8vBKsmfWuY-GbcFVjSNUG5Jef_2yn2__Lts5o
-metaSortKey: -1617248543666
+metaSortKey: -1619413048504
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

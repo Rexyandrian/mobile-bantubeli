@@ -1,26 +1,19 @@
-_id: req_e52d9e2f698844b695244647096ce866
+_id: req_3789cce866b549e79d57630432574653
 type: Request
-parentId: fld_1df2fa9e395b4aca82dda5a5ec4dbbd1
-modified: 1619408749565
-created: 1617869944356
-url: https://api.bantubeli.com/driver/order
-name: Sending Order
-description: '    order_no => "required"'
-method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"order_no":"jNuF1619405389"
-    }
+parentId: fld_0b2921b0a9504b9a976391ed3a6f0c3a
+modified: 1619597759224
+created: 1619597688460
+url: https://api.bantubeli.com/driver/notification
+name: Notification list
+description: ""
+method: GET
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
+headers: []
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RyaXZlclwvbG9naW4iLCJpYXQiOjE2MTg5ODczMzQsIm5iZiI6MTYxODk4NzMzNCwianRpIjoiZ1hGTk5vZHFoSmEwUUthVSIsInN1YiI6MSwicHJ2IjoiOTE5YzMyNmQ0M2FiMTUxOWE4YmEzYjg1ODZiNjg3NTJlOGM4MzgwNyJ9.gRovRGd_H58f9g2OSVRH2wJJBHSlSAqSRL9ww4UUOXs
-metaSortKey: -1617866483834
+metaSortKey: -1619597459803
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_176fce10f046472e818abb96b62f843c
 type: Request
 parentId: fld_67ca0cdfdf5942668a5605aa272ee224
-modified: 1617604759931
+modified: 1619158550158
 created: 1615871550582
 url: https://api.bantubeli.com/cashier/login
 name: Masuk
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"email":"kasir_bbfm2@bbfm2.com",
-      "password":"123456789"
+      "password":"1234567891"
     }
 parameters: []
 headers:
