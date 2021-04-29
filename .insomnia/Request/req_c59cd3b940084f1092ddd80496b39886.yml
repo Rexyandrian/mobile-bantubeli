@@ -1,15 +1,16 @@
 _id: req_c59cd3b940084f1092ddd80496b39886
 type: Request
 parentId: fld_0b0e541c84d9415ab8727a94b0786052
-modified: 1619597674986
+modified: 1619662785456
 created: 1619597472936
 url: https://api.bantubeli.com/cashier/notification/read
 name: Read Notification
-description: >-2
-              'id'=>['required_without:read',Rule::exists('bb_notification','id')->where(function($query){
-                  $query->where('user_id',auth('api')->user()->id); 
-              })],
-              'read'=>"in:all"
+description: |-
+  1. read single notification
+         'id' = 9999
+              
+  2. read all notifications
+         'read' = "all"
 method: POST
 body:
   mimeType: application/json

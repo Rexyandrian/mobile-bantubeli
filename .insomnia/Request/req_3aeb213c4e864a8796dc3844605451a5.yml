@@ -1,15 +1,16 @@
 _id: req_3aeb213c4e864a8796dc3844605451a5
 type: Request
 parentId: fld_0b2921b0a9504b9a976391ed3a6f0c3a
-modified: 1619597755561
+modified: 1619662815984
 created: 1619597688485
 url: https://api.bantubeli.com/driver/notification/read
 name: Read Notification
-description: >-2
-              'id'=>['required_without:read',Rule::exists('bb_notification','id')->where(function($query){
-                  $query->where('user_id',auth('api')->user()->id); 
-              })],
-              'read'=>"in:all"
+description: |-
+  1. read single notification
+         'id' = 9999
+              
+  2. read all notifications
+         'read' = "all"
 method: POST
 body:
   mimeType: application/json

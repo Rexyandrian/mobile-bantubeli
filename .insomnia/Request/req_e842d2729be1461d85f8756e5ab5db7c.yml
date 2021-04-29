@@ -1,12 +1,12 @@
 _id: req_e842d2729be1461d85f8756e5ab5db7c
 type: Request
 parentId: fld_67ca0cdfdf5942668a5605aa272ee224
-modified: 1618197509491
+modified: 1619597838601
 created: 1615871550598
 url: https://api.bantubeli.com/cashier/me
 name: Info
 description: ""
-method: POST
+method: GET
 body: {}
 parameters: []
 headers: []

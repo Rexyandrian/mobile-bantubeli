@@ -1,7 +1,7 @@
 _id: req_6599730a96fc4171beadc2f5c6c4a284
 type: Request
 parentId: fld_916dd4450ae34216b36db7a0be84ca44
-modified: 1619413124441
+modified: 1619600228959
 created: 1619413048504
 url: https://api.bantubeli.com/wishlist
 name: List wish list
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE4MTk5ODMwLCJuYmYiOjE2MTgxOTk4MzAsImp0aSI6Im9RS2xPakhCa3g1UEI4eXIiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.5mIVqV8vBKsmfWuY-GbcFVjSNUG5Jef_2yn2__Lts5o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NjAwMjA2LCJuYmYiOjE2MTk2MDAyMDYsImp0aSI6Ik45QTNVT2dhQVNnODdBUXMiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.XPk7hA5gaXjvY9UOZf85NXRZ8w-fbsQcbygWHz-V-eQ
 metaSortKey: -1619413048504
 isPrivate: false
 settingStoreCookies: true
