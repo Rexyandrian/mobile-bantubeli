@@ -1,7 +1,7 @@
 _id: req_1bff21e1fb0d4cd6a0344bdb53c04f16
 type: Request
-parentId: fld_a38fad59a8f34fb081d718f17c2a8c8f
-modified: 1617690338092
+parentId: fld_c6159657bf8149199773e5b95b547dff
+modified: 1619682878323
 created: 1615871550606
 url: https://api.bantubeli.com/profile/update
 name: Profile update
@@ -52,7 +52,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NjAzNzAwLCJuYmYiOjE2MTc2MDM3MDAsImp0aSI6IlRPWHdTeTU2ekFqa2NQNTYiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.q3rHeVAGV3N3rFcOn9gYi5kEKQR5knpBKy-puwANuIY
-metaSortKey: -1614584616007
+metaSortKey: -1616665726559
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

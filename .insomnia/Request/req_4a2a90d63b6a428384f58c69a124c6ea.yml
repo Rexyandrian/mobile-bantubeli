@@ -1,7 +1,7 @@
 _id: req_4a2a90d63b6a428384f58c69a124c6ea
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1618462387862
+modified: 1619671007390
 created: 1618462381346
 url: https://api.bantubeli.com/privacy
 name: privacy
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1618462381346
+metaSortKey: -1619066691164
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

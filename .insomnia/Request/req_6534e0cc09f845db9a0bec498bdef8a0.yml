@@ -1,7 +1,7 @@
 _id: req_6534e0cc09f845db9a0bec498bdef8a0
 type: Request
-parentId: fld_a38fad59a8f34fb081d718f17c2a8c8f
-modified: 1619600215831
+parentId: fld_c6159657bf8149199773e5b95b547dff
+modified: 1619682896567
 created: 1615871550518
 url: https://api.bantubeli.com/auth/login
 name: Masuk
@@ -9,10 +9,11 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"email":"christineolivia9@gmail.com",
-    	"password":"123456789"
+    	"email":"michael@gmail.com",
+    	"password":"123456789",
+    	"device_token":"du7CBZ7tRuCTvocxTuA-Ca:APA91bG3oHNwyrK9NyqGiLjZMTCIT6jDa8tB1_9pYc1ODNi8kVk7psjZ0HlED_StuWrEsKSP1JsGMIweNiVkCxPxdWgEcBwBVbimm07dS51iia79AftX9djDx-8xksvAlTKtyyhaOmf4"
     }
 parameters: []
 headers:
@@ -20,7 +21,7 @@ headers:
     value: application/json
     id: pair_db857bfebd674f2a9298ac5b43f574d5
 authentication: {}
-metaSortKey: -1614584615807
+metaSortKey: -1616665726359
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

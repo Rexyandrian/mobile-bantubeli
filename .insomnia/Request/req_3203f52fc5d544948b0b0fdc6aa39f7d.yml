@@ -1,7 +1,7 @@
 _id: req_3203f52fc5d544948b0b0fdc6aa39f7d
 type: Request
-parentId: fld_a38fad59a8f34fb081d718f17c2a8c8f
-modified: 1618214669597
+parentId: fld_c6159657bf8149199773e5b95b547dff
+modified: 1619682881147
 created: 1615871550538
 url: https://api.bantubeli.com/auth/me
 name: Info
@@ -12,9 +12,9 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE4MTk5ODMwLCJuYmYiOjE2MTgxOTk4MzAsImp0aSI6Im9RS2xPakhCa3g1UEI4eXIiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.5mIVqV8vBKsmfWuY-GbcFVjSNUG5Jef_2yn2__Lts5o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NjcyNTU2LCJuYmYiOjE2MTk2NzI1NTYsImp0aSI6Ik5WcEtTem40eGRuVHl1VDUiLCJzdWIiOjcyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.JS98HAo0N0o6gSUQejlqqxLMNR_2Ytl8qIWzNGC6764
   disabled: false
-metaSortKey: -1614584615957
+metaSortKey: -1616665726509
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

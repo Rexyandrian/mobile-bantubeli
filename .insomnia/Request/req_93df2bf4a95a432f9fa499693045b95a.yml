@@ -1,7 +1,7 @@
 _id: req_93df2bf4a95a432f9fa499693045b95a
 type: Request
 parentId: fld_916dd4450ae34216b36db7a0be84ca44
-modified: 1619666845694
+modified: 1619667652111
 created: 1619413059810
 url: https://api.bantubeli.com/wishlist
 name: Post wish list
@@ -33,7 +33,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"product_id":"30392"
+    	"product_id":"1252"
     }
 parameters: []
 headers:

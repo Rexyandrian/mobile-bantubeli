@@ -1,7 +1,7 @@
 _id: req_33067f3fa3d64f5786da13f208ca8447
 type: Request
 parentId: fld_b695dfa9fb7e4bed9399a75aee3f0206
-modified: 1619000086520
+modified: 1619685287518
 created: 1619000082597
 url: https://api.bantubeli.com/review
 name: List review
@@ -9,12 +9,17 @@ description: ""
 method: GET
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"product_id" : 632
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3MjQ2NDM0LCJuYmYiOjE2MTcyNDY0MzQsImp0aSI6IlNGWXFMQ2dXRGgxSzdGVUgiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.S4AqHeFSsUTPth8o-grU7-vyDh-mzSUnPuH0v3QFwNA
 metaSortKey: -1618901033858
 isPrivate: false
 settingStoreCookies: true
