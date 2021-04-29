@@ -1,10 +1,10 @@
 _id: req_93df2bf4a95a432f9fa499693045b95a
 type: Request
 parentId: fld_916dd4450ae34216b36db7a0be84ca44
-modified: 1619666117961
+modified: 1619666845694
 created: 1619413059810
 url: https://api.bantubeli.com/wishlist
-name: Add wish list
+name: Post wish list
 description: |+
   atribut yang dibutuhkan
   "product_id" : xxxx
@@ -13,15 +13,20 @@ description: |+
         
           "status": true,
           "data": true,
-          "message": "Success"
+          "message": "Berhasil menambahkan"
+       
+  2. response tes produk sebelumnya telah ditambahkan menjadi terhapus
         
+          "status": true,
+          "data": true,
+          "message": "Berhasil menghapus"
+       
+  3. response tes produk tidak ditemukan
 
-  2. response tes produk sebelumnya telah ditambahkan
-        
           "status": false,
           "data": null,
-          "message": "Telah ditambahkan kedalam wishlist"
-        
+          "message": "Produk tidak tersedia"
+
    
 method: POST
 body:
