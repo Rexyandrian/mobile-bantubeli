@@ -1,7 +1,7 @@
 _id: req_62a6712ee4f74ee287c71a0680df5bf2
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1617935661818
+modified: 1619593975502
 created: 1616378164574
 url: https://api.bantubeli.com/cart
 name: Isi keranjang
@@ -22,7 +22,7 @@ parameters:
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3OTM1NTQzLCJuYmYiOjE2MTc5MzU1NDMsImp0aSI6IkZzeTBPbW54ZVlicXFiVVoiLCJzdWIiOjE0LCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.r-UTIGMOoWup1v-mldEhcTQ4iJDRRQu6WepULRy834s
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NTgyNzc2LCJuYmYiOjE2MTk1ODI3NzYsImp0aSI6IlZhVjdJZmxPVElPaTM2ZkciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e1GXs-MF4feZJh7hGDvT42YPf9Nx7TKjCuikQ9eGO8
 metaSortKey: -1616378164574
 isPrivate: false
 settingStoreCookies: true

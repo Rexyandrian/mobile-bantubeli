@@ -1,20 +1,31 @@
-_id: req_e842d2729be1461d85f8756e5ab5db7c
+_id: req_aa267362bc534575b8798d9925e0ecd0
 type: Request
-parentId: fld_67ca0cdfdf5942668a5605aa272ee224
-modified: 1619597838601
-created: 1615871550598
-url: https://api.bantubeli.com/cashier/me
-name: Info
-description: ""
-method: GET
-body: {}
+parentId: fld_0b0e541c84d9415ab8727a94b0786052
+modified: 1619662859856
+created: 1619597479181
+url: https://api.bantubeli.com/cashier/notification/delete
+name: Delete Notification
+description: |-
+  1. delete single notification
+         'id' = 9999
+              
+  2. delete all notifications
+         'delete' = true
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"delete":true
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjE4MTk3NDkzLCJuYmYiOjE2MTgxOTc0OTMsImp0aSI6Ilp4YnJTVjRoSzVxS2dIQmIiLCJzdWIiOjEsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.hwr3uGeeybk2kFA_ixlMmN4iv66qyCtOSNd4teHmDA8
-  disabled: false
-metaSortKey: -1614584615957
+metaSortKey: -1619597459778
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

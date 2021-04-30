@@ -1,9 +1,9 @@
-_id: req_4a2a90d63b6a428384f58c69a124c6ea
+_id: req_3de6c510fd4f4b7a9331748f929a57e4
 type: Request
-parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1619671007390
-created: 1618462381346
-url: https://api.bantubeli.com/privacy
+parentId: fld_ae1a0f19afb242be98d11e88f9d74ce1
+modified: 1619671039790
+created: 1619671000982
+url: https://api.bantubeli.com/ios/privacy
 name: privacy
 description: ""
 method: GET
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1619066691164
+metaSortKey: -1619671000982
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

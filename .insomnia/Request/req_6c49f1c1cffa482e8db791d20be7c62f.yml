@@ -1,7 +1,7 @@
 _id: req_6c49f1c1cffa482e8db791d20be7c62f
 type: Request
 parentId: fld_4f9ac24ceaf74aa8b6d6af96165d2db4
-modified: 1618199910600
+modified: 1619145662509
 created: 1618199167260
 url: https://api.bantubeli.com/order-finish
 name: Selesai penerimaan
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"order_no" : "6CXx1618194550"
+    	"order_no" : "3n9K1619144347"
     }
 parameters: []
 headers:

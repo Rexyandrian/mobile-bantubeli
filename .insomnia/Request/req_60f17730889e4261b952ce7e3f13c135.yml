@@ -1,7 +1,7 @@
 _id: req_60f17730889e4261b952ce7e3f13c135
 type: Request
-parentId: fld_178d4a8f354a47bc881a9054db767058
-modified: 1615871550559
+parentId: fld_a968d6dc33454860b275f9279dd9c632
+modified: 1619682928752
 created: 1615871550559
 url: https://api.bantubeli.com/driver/register
 name: Registrasi
@@ -24,7 +24,7 @@ headers:
     value: application/json
     id: pair_668bb2ac9d8646d29ccde0fc89aff4d2
 authentication: {}
-metaSortKey: -1614584615857
+metaSortKey: -1618774689795.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

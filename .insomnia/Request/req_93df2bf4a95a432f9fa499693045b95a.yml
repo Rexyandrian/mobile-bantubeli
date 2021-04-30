@@ -1,0 +1,52 @@
+_id: req_93df2bf4a95a432f9fa499693045b95a
+type: Request
+parentId: fld_916dd4450ae34216b36db7a0be84ca44
+modified: 1619667652111
+created: 1619413059810
+url: https://api.bantubeli.com/wishlist
+name: Post wish list
+description: |+
+  atribut yang dibutuhkan
+  "product_id" : xxxx
+
+  1. response tes produk berhasil di tambahkan
+        
+          "status": true,
+          "data": true,
+          "message": "Berhasil menambahkan"
+       
+  2. response tes produk sebelumnya telah ditambahkan menjadi terhapus
+        
+          "status": true,
+          "data": true,
+          "message": "Berhasil menghapus"
+       
+  3. response tes produk tidak ditemukan
+
+          "status": false,
+          "data": null,
+          "message": "Produk tidak tersedia"
+
+   
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"product_id":"1252"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NTgyNzc2LCJuYmYiOjE2MTk1ODI3NzYsImp0aSI6IlZhVjdJZmxPVElPaTM2ZkciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e1GXs-MF4feZJh7hGDvT42YPf9Nx7TKjCuikQ9eGO8
+metaSortKey: -1619413059810
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
