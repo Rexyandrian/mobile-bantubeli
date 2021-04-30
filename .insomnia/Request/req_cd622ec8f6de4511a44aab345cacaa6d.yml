@@ -1,7 +1,7 @@
 _id: req_cd622ec8f6de4511a44aab345cacaa6d
 type: Request
 parentId: fld_b695dfa9fb7e4bed9399a75aee3f0206
-modified: 1619685238584
+modified: 1619685681734
 created: 1619000031766
 url: https://api.bantubeli.com/review
 name: Add review
@@ -13,7 +13,7 @@ body:
     {
     	"product_id":632,
     	"review_id":22,
-    	"reply":"Mutu terjaga dengan baik"
+    	"reply":"Kualitas terbaik"
     }
 parameters: []
 headers:
