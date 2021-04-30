@@ -1,10 +1,10 @@
-_id: req_cd622ec8f6de4511a44aab345cacaa6d
+_id: req_2828ac4697744da5a057bc4ff33ef5bc
 type: Request
 parentId: fld_b695dfa9fb7e4bed9399a75aee3f0206
-modified: 1619773336300
-created: 1619000031766
+modified: 1619773313779
+created: 1619749718118
 url: https://api.bantubeli.com/review
-name: Add review
+name: Edit review
 description: |-
   #### attribut yang diperlukan :
     - review_id : Id review harus merupakan produk yang telah dibeli
@@ -51,10 +51,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"product_id":632,
-    	"review_id":22,
-    	"reply":"Kualitas terbaik",
-    	"rating":4
+    	"review_id": "22",
+    	"product_id": "632",
+    	"reply": "Kualitas pesanan terjaga baik..",
+    	"rating": "4"
     }
 parameters: []
 headers:
@@ -63,7 +63,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3MjQ2NDM0LCJuYmYiOjE2MTcyNDY0MzQsImp0aSI6IlNGWXFMQ2dXRGgxSzdGVUgiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.S4AqHeFSsUTPth8o-grU7-vyDh-mzSUnPuH0v3QFwNA
-metaSortKey: -1619000031766
+metaSortKey: -1619749718118
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

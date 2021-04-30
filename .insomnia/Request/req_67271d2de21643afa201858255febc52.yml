@@ -1,9 +1,9 @@
 _id: req_67271d2de21643afa201858255febc52
 type: Request
-parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1619746299825
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1619768746668
 created: 1619746299825
-url: ""
+url: https://api.bantubeli.com/testing/akronim-nominal
 name: My Request
 description: ""
 method: GET
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1619746299825
+metaSortKey: -1615783803020
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
