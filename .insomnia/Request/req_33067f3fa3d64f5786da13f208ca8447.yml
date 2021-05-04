@@ -1,7 +1,7 @@
 _id: req_33067f3fa3d64f5786da13f208ca8447
 type: Request
 parentId: fld_b695dfa9fb7e4bed9399a75aee3f0206
-modified: 1619772063957
+modified: 1620111450847
 created: 1619000082597
 url: https://api.bantubeli.com/review
 name: List review
@@ -9,6 +9,7 @@ description: >
   #### attribut yang diperlukan :
     - product_id : Harus merupakan produk yang telah dibeli
     - limit : dengan minimal 5 data
+    - on_rating *(opsional)* : untuk mendapatkan hasil berdasarkan rating antar 1 hingga 5
 
     
   #### sampel :
@@ -23,44 +24,38 @@ description: >
         "message":"Ulasan tidak ditemukan"
       }
   #### respon berhasil :
-   *Jika belum membeli produk maka your_review bernilai **null** *
-   
-       {
-        "status": true,
-        "data": {
-          "your_review": {
-            "id": "22",
-            "user_id": "11",
-            "product_id": "632",
-            "store_id": "2",
-            "review": "Kualitas pesanan terjaga baik..",
-            "rating": 4,
-            "review_date": "2021-04-30 09:36:45",
-            "buyer_name": "Farhan Ismail",
-            "buyer_photo": "https:\/\/www.bantubeli.com\/assets\/bin\/USER\/11\/1618806695_11.jpg",
-            "product_name": "FIESTA Golden Spicy Wing 500 g",
-            "reply": []
-          },
-          "review": [
-            {
-              "id": "23",
-              "user_id": "82",
-              "product_id": "632",
-              "store_id": "2",
-              "review": "Bagus",
-              "rating": 4,
-              "review_date": "2021-04-30 10:18:46",
-              "buyer_name": "Michael Panjul",
-              "buyer_photo": null,
-              "product_name": "FIESTA Golden Spicy Wing 500 g",
-              "reply": []
-            }
-          ]
+      {
+      "status": true,
+      "data": {
+        "is_buy": false,
+        "is_review": false,
+        "rating": {
+          "count": 2,
+          "average": 4.5,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 1
         },
-        "message": "Success"
+        "review": [
+          {
+            "id": "2",
+            "user_id": "12",
+            "product_id": "12",
+            "store_id": "2",
+            "review": "Pengiriman cepat",
+            "rating": 5,
+            "review_date": "Hari ini",
+            "buyer_name": "Andika Andriana",
+            "product_name": "CP Fillet Mitra 1 Kg",
+            "reply": null
+          },
+          ...
+        ]
+      },
+      "message": "Success"
       }
-
-      
   #### respon balasan ulasan :
       {
         ....,
@@ -80,8 +75,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"product_id" : 632,
-    	"limit":5
+    	"product_id" : 12,
+    	"limit":5,
+    	"on_rating":4
     }
 parameters: []
 headers:
@@ -89,7 +85,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3MjQ2NDM0LCJuYmYiOjE2MTcyNDY0MzQsImp0aSI6IlNGWXFMQ2dXRGgxSzdGVUgiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.S4AqHeFSsUTPth8o-grU7-vyDh-mzSUnPuH0v3QFwNA
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjIwMTEwNzE5LCJuYmYiOjE2MjAxMTA3MTksImp0aSI6IlZUbXp1ZjlHNVI4bURTcjUiLCJzdWIiOjMxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.qOH3uOLjXtJRFxZK2_vwkQyauH6SFfMoOEAODn2fV4U
 metaSortKey: -1618901033858
 isPrivate: false
 settingStoreCookies: true
