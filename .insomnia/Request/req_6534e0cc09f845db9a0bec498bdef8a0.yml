@@ -1,7 +1,7 @@
 _id: req_6534e0cc09f845db9a0bec498bdef8a0
 type: Request
 parentId: fld_c6159657bf8149199773e5b95b547dff
-modified: 1620110717869
+modified: 1620188289834
 created: 1615871550518
 url: https://api.bantubeli.com/auth/login
 name: Masuk
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"email":"lede@rapdig.co.id",
+    	"email":"farhan@email.com",
     	"password":"123456789",
     	"device_token":"du7CBZ7tRuCTvocxTuA-Ca:APA91bG3oHNwyrK9NyqGiLjZMTCIT6jDa8tB1_9pYc1ODNi8kVk7psjZ0HlED_StuWrEsKSP1JsGMIweNiVkCxPxdWgEcBwBVbimm07dS51iia79AftX9djDx-8xksvAlTKtyyhaOmf4"
     }

@@ -1,7 +1,7 @@
 _id: req_405b4118941240a4ad2d460972d685b0
 type: Request
 parentId: fld_61dbe14a125f45e68bed4f2b6d7bdfaa
-modified: 1619757326866
+modified: 1620202411069
 created: 1617604024607
 url: https://api.bantubeli.com/cashier/order
 name: Order list
@@ -13,7 +13,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"order_no":"x5mw1619406029"
+    	"status":"success"
     }
 parameters: []
 headers:
@@ -21,7 +21,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjE4MzgyMTk0LCJuYmYiOjE2MTgzODIxOTQsImp0aSI6IjRUWkpaVEN5bDlmdE9maWwiLCJzdWIiOjEsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.DMXnCX4As_T1wxtz2H45dAOgH5AqSKrf2SEv3pfAWAM
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjIwMjAwOTg1LCJuYmYiOjE2MjAyMDA5ODUsImp0aSI6Im55OFlLOGxuek4wNWxjWG4iLCJzdWIiOjMsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ._CU_-ah0QuqI_7f3fS_zaE8KAo97FExC_cFbWLckUfw
 metaSortKey: -1617604024659
 isPrivate: false
 settingStoreCookies: true

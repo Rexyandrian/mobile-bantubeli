@@ -1,25 +1,26 @@
-_id: req_9d27b24c2af24fa68033e6062b8611da
+_id: req_c5a72a6b00e54ecd9d8e70cdb6087143
 type: Request
-parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1620116503922
-created: 1615948673992
-url: https://api.bantubeli.com/dl/region/district
-name: DatWil-Kecamatan
+parentId: fld_162bfd84ffd246d3ac8dab9ab1527b8e
+modified: 1620274282343
+created: 1620268679209
+url: https://api.bantubeli.com/dev/notification-fire/cashier
+name: Cashier Notification
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"city_id":"155"
+    	"cashier_id":3,
+    	"judul":"tes",
+    	"isi":"halo"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_b3f1fe6019e843aca78c34e42a7228e0
 authentication: {}
-metaSortKey: -1615948673992
+metaSortKey: -1620268679209
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

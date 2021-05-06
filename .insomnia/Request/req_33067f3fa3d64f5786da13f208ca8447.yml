@@ -1,7 +1,7 @@
 _id: req_33067f3fa3d64f5786da13f208ca8447
 type: Request
 parentId: fld_b695dfa9fb7e4bed9399a75aee3f0206
-modified: 1620111450847
+modified: 1620185351216
 created: 1619000082597
 url: https://api.bantubeli.com/review
 name: List review
@@ -75,9 +75,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"product_id" : 12,
-    	"limit":5,
-    	"on_rating":4
+    	"product_id" : 632,
+    	"limit":5
     }
 parameters: []
 headers:
