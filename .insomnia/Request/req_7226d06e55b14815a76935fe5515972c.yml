@@ -1,0 +1,35 @@
+_id: req_7226d06e55b14815a76935fe5515972c
+type: Request
+parentId: fld_23f616cdb1f44891abbc291c83cb3a21
+modified: 1620636853254
+created: 1620636510752
+url: https://api.bantubeli.com/dev/cashier/notification/read
+name: Read Notification
+description: |-
+  1. read single notification
+         'id' = 9999
+              
+  2. read all notifications
+         'read' = "all"
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"read":"all"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjE4MTk3NDkzLCJuYmYiOjE2MTgxOTc0OTMsImp0aSI6Ilp4YnJTVjRoSzVxS2dIQmIiLCJzdWIiOjEsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.hwr3uGeeybk2kFA_ixlMmN4iv66qyCtOSNd4teHmDA8
+metaSortKey: -1619597459753
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

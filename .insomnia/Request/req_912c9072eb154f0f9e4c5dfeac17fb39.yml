@@ -1,0 +1,45 @@
+_id: req_912c9072eb154f0f9e4c5dfeac17fb39
+type: Request
+parentId: fld_572b46dcbe7a40b585dcd8d9b89ebba7
+modified: 1620637100254
+created: 1620636510559
+url: https://api.bantubeli.com/dev/cart
+name: Hapus barang keranjang
+description: |-
+  ### CART
+  There's 4 fields are required :
+  1. product_id
+      1. exists in cart
+      2. required with qty
+  2. qty
+      1. min value 1
+      2. required with product_id
+  3. blank
+      1. required when product_id and qty not present 
+      2. "Y/N" to confirm
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"blank":"Y"
+    }
+parameters:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_153f27cfa72c4537b1ab6d5cd0692c57
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NzY2MzgwLCJuYmYiOjE2MTc3NjYzODAsImp0aSI6IjR3cTJFcjEwNW5vWENtc2kiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.gvfpOuoETdZ_d0n9SokXIxAhzHLz06ITKPzgMSrW0Jg
+metaSortKey: -1616186697875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

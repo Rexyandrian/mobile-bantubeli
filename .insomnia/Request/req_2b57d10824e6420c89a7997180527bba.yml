@@ -1,0 +1,29 @@
+_id: req_2b57d10824e6420c89a7997180527bba
+type: Request
+parentId: fld_c139818d2ce348d39bb5aff348c31a1c
+modified: 1620637181736
+created: 1620636510512
+url: https://api.bantubeli.com/dev/dl/region/district
+name: DatWil-Kecamatan
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"city_id":"155"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b3f1fe6019e843aca78c34e42a7228e0
+authentication: {}
+metaSortKey: -1615948673992
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

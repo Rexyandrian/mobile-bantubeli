@@ -1,0 +1,32 @@
+_id: req_df0be3f5f5434d47a883edac07c1a72f
+type: Request
+parentId: fld_5838edc9bf174a7fa6dbc39e1b0b8777
+modified: 1620636869169
+created: 1620636510732
+url: https://api.bantubeli.com/dev/cashier/order
+name: Order list
+description: |-2
+        "status"=>"in:process,courier,send,arrived,success,failed",
+        "group"=>"required_without:status|in:Y,N"
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status":"success"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjIwMjAwOTg1LCJuYmYiOjE2MjAyMDA5ODUsImp0aSI6Im55OFlLOGxuek4wNWxjWG4iLCJzdWIiOjMsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ._CU_-ah0QuqI_7f3fS_zaE8KAo97FExC_cFbWLckUfw
+metaSortKey: -1617604024659
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

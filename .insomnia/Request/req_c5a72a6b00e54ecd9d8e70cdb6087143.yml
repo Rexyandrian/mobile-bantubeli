@@ -1,7 +1,7 @@
 _id: req_c5a72a6b00e54ecd9d8e70cdb6087143
 type: Request
-parentId: fld_162bfd84ffd246d3ac8dab9ab1527b8e
-modified: 1620274282343
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1620636576660
 created: 1620268679209
 url: https://api.bantubeli.com/dev/notification-fire/cashier
 name: Cashier Notification
@@ -20,7 +20,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1620268679209
+metaSortKey: -1620633848454.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

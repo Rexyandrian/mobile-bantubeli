@@ -1,0 +1,21 @@
+_id: req_fd9733b53ee44cc0a3f3bf38a42b2eb7
+type: Request
+parentId: fld_0c1b0401d5974958be95b62de1314c15
+modified: 1620636774853
+created: 1620636677074
+url: read the docs
+name: Release note
+description: "### Good job guys."
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1620636677122
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_03e07b464e4d4661b0d309eb54007e03
+type: Request
+parentId: fld_16514a7c316043d5a7508c79dfc4de54
+modified: 1620636880916
+created: 1620636510664
+url: https://api.bantubeli.com/dev/auth/register
+name: Registrasi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "name": "Farhan Ismail",
+      "email": "farhan@email.com",
+      "phone": "0812345678911",
+      "province": "DKI JAKARTA",
+      "city": "JAKARTA TIMUR",
+      "district": "JATINEGARA",
+      "village": "BIDARACINA",
+      "post": "13330",
+      "address": "Jl. Pedati 1, RT.3/RW.10, Bidara Cina, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330",
+      "latitude":  -6.227243,
+      "longtitude": 106.869310,
+      "password": "123456789",
+      "confirm_password": "123456789"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_668bb2ac9d8646d29ccde0fc89aff4d2
+authentication: {}
+metaSortKey: -1616665726409
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

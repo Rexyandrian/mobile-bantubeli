@@ -1,0 +1,43 @@
+_id: req_6d537cbd3c1f490d99b36b5bdd90e53d
+type: Request
+parentId: fld_c139818d2ce348d39bb5aff348c31a1c
+modified: 1620637211852
+created: 1620636510498
+url: https://api.bantubeli.com/dev/dl/region/province
+name: Data wilayah
+description: |-
+  Region:
+  province,city,district,village,postal
+method: GET
+body: {}
+parameters:
+  - name: province_id
+    value: "1"
+    description: ""
+    id: pair_ad3e8946d82842c9ad901ce3dafb76a8
+    disabled: true
+  - name: city_id
+    value: "1"
+    description: ""
+    id: pair_0c7d41b9f0724e61bb7f7f73ea8a2df7
+    disabled: true
+  - name: village_id
+    value: "1"
+    description: ""
+    id: pair_e3b28c52f6474556ac3101c286aadd24
+    disabled: true
+  - name: district_id
+    value: "1"
+    description: ""
+    id: pair_aa6212acc25243f1b5c7816aae3cb74c
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1615172764956
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

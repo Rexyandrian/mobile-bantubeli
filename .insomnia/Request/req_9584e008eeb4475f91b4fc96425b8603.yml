@@ -1,0 +1,38 @@
+_id: req_9584e008eeb4475f91b4fc96425b8603
+type: Request
+parentId: fld_c139818d2ce348d39bb5aff348c31a1c
+modified: 1620637161318
+created: 1620636510524
+url: https://api.bantubeli.com/dev/dl/store
+name: Data Store
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: latitude
+    value: "-6.270221033552741"
+    description: ""
+    id: pair_26ce1dc215e04452b76b240748fdceb8
+  - name: longtitude
+    value: "107.0224447176664"
+    description: ""
+    id: pair_703f0e488a7f4bb18316194cc7d6a225
+  - name: limit_store
+    value: "3"
+    description: ""
+    id: pair_d16a3fe801e747fa8939e4e352b9000e
+  - name: search
+    value: tebet
+    description: ""
+    id: pair_098ca7172a29441a99c6a2d728359dad
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1616122875617
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

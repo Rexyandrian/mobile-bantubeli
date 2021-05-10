@@ -1,9 +1,9 @@
 _id: req_67271d2de21643afa201858255febc52
 type: Request
 parentId: fld_6a822299b7c94af5b776b35130683746
-modified: 1619768746668
+modified: 1620632477003
 created: 1619746299825
-url: https://api.bantubeli.com/testing/akronim-nominal
+url: https://api.bantubeli.com/dev/rexy
 name: My Request
 description: ""
 method: GET

@@ -1,0 +1,34 @@
+_id: req_6f13dc32794949909f4146fbba239c4f
+type: Request
+parentId: fld_2c3ba0044e99435c9ee85e72b999495f
+modified: 1620636633684
+created: 1620636510793
+url: https://api.bantubeli.com/dev/driver/register
+name: Registrasi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Rexy Andriansyah",
+    	"phone":"081234144114",
+    	"email":"rexygarts3@gmail.com",
+    	"address":"Bekasi",
+    	"password":"1234567890",
+    	"confirm_password":"1234567890"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_668bb2ac9d8646d29ccde0fc89aff4d2
+authentication: {}
+metaSortKey: -1618774689795.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

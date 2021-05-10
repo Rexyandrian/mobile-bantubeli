@@ -1,0 +1,25 @@
+_id: req_c827618bdfab4665976a1427a3425567
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1620631886696
+created: 1620631766721
+url: http://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&sensor=false
+name: Get administration
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: key=AAAAufba8kQ:APA91bF6gsL5B3ChSU_zCC9CGIrAev8j0_kE-X9jJE9d-O3IoTt-4pjy_qQhrMLHeAo1eVUAKdRl3DCVG8XZsY_x8-WfyNR-Cb4xxgXLpgSnWAKhhDn1G8neotKwyCVpF-HzaCMmTSoM
+authentication: {}
+metaSortKey: -1620631766721
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

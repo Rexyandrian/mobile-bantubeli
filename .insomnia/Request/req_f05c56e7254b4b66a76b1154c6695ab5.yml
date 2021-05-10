@@ -1,0 +1,35 @@
+_id: req_f05c56e7254b4b66a76b1154c6695ab5
+type: Request
+parentId: fld_23f616cdb1f44891abbc291c83cb3a21
+modified: 1620636847868
+created: 1620636510755
+url: https://api.bantubeli.com/dev/cashier/notification/delete
+name: Delete Notification
+description: |-
+  1. delete single notification
+         'id' = 9999
+              
+  2. delete all notifications
+         'delete' = true
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"delete":true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjE4MTk3NDkzLCJuYmYiOjE2MTgxOTc0OTMsImp0aSI6Ilp4YnJTVjRoSzVxS2dIQmIiLCJzdWIiOjEsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.hwr3uGeeybk2kFA_ixlMmN4iv66qyCtOSNd4teHmDA8
+metaSortKey: -1619597459778
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

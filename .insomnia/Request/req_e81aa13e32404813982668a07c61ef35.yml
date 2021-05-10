@@ -1,7 +1,7 @@
 _id: req_e81aa13e32404813982668a07c61ef35
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1620183386179
+modified: 1620633741589
 created: 1615871558597
 url: https://api.bantubeli.com/dl/product/nugget
 name: Data produk
@@ -35,12 +35,12 @@ parameters:
     value: "-6.270221033552741"
     description: ""
     id: pair_45884da56e984dff8d54888ececff6d9
-    disabled: true
+    disabled: false
   - name: longtitude
     value: "107.0224447176664"
     description: ""
     id: pair_cb38942e8bb542de99245e3cf1f29022
-    disabled: true
+    disabled: false
   - name: search
     value: sadaas
     description: ""
@@ -55,19 +55,19 @@ parameters:
     value: "-6.188271230243793"
     description: ""
     id: pair_adbea320e30745c7aef9b4b9e2bbae0c
-    disabled: false
+    disabled: true
   - name: longtitude
     value: "106.82264245559702"
     description: ""
     id: pair_9328c8dfb78c49cdac801872d2ebd3f8
-    disabled: false
+    disabled: true
 headers:
   - name: Content-Type
     value: application/json
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NTgyNzc2LCJuYmYiOjE2MTk1ODI3NzYsImp0aSI6IlZhVjdJZmxPVElPaTM2ZkciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e1GXs-MF4feZJh7hGDvT42YPf9Nx7TKjCuikQ9eGO8
-metaSortKey: -1615172764968.5
+metaSortKey: -1616122875629.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

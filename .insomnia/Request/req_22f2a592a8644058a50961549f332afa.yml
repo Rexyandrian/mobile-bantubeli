@@ -1,0 +1,23 @@
+_id: req_22f2a592a8644058a50961549f332afa
+type: Request
+parentId: fld_fb4220d8ea6d420eae20b7604936a9aa
+modified: 1620636832312
+created: 1620636510718
+url: https://api.bantubeli.com/dev/cashier/logout
+name: Keluar
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjIwMjg2Mjk2LCJuYmYiOjE2MjAyODYyOTYsImp0aSI6IjVZZjVneEpnbGNaT2cwUDEiLCJzdWIiOjMsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.BxKeA0nN1dOft9KGvBg3AdCyiCPFy933YnKT-JTw6mg
+metaSortKey: -1614584615907
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

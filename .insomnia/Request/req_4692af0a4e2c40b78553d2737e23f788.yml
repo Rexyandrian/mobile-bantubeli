@@ -1,0 +1,77 @@
+_id: req_4692af0a4e2c40b78553d2737e23f788
+type: Request
+parentId: fld_c139818d2ce348d39bb5aff348c31a1c
+modified: 1620637155874
+created: 1620636510500
+url: https://api.bantubeli.com/dev/dl/product/nugget
+name: Data produk
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: show_category
+    value: "1"
+    description: ""
+    id: pair_be66f788311147f78d78448786cd0a8b
+    disabled: false
+  - name: show_rating
+    value: "1"
+    description: ""
+    id: pair_c5de1a0e504343218dc673949ff869d5
+    disabled: false
+  - name: limit_store
+    value: "4"
+    description: ""
+    id: pair_c97eaab6029742ad9ddc5efc6a8950ce
+    disabled: false
+  - name: limit_store_product
+    value: "4"
+    description: ""
+    id: pair_7cd16cc9ae104d81b442bbd8484ea694
+    disabled: false
+  - name: latitude
+    value: "-6.270221033552741"
+    description: ""
+    id: pair_45884da56e984dff8d54888ececff6d9
+    disabled: false
+  - name: longtitude
+    value: "107.0224447176664"
+    description: ""
+    id: pair_cb38942e8bb542de99245e3cf1f29022
+    disabled: false
+  - name: search
+    value: sadaas
+    description: ""
+    id: pair_d12da0ee9cc74900b10e8e937d9916f4
+    disabled: true
+  - name: store_id
+    value: ""
+    description: ""
+    id: pair_f4183264655c4df8bef847ae8a6dbd03
+    disabled: true
+  - name: latitude
+    value: "-6.188271230243793"
+    description: ""
+    id: pair_adbea320e30745c7aef9b4b9e2bbae0c
+    disabled: true
+  - name: longtitude
+    value: "106.82264245559702"
+    description: ""
+    id: pair_9328c8dfb78c49cdac801872d2ebd3f8
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NTgyNzc2LCJuYmYiOjE2MTk1ODI3NzYsImp0aSI6IlZhVjdJZmxPVElPaTM2ZkciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e1GXs-MF4feZJh7hGDvT42YPf9Nx7TKjCuikQ9eGO8
+metaSortKey: -1616122875629.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
