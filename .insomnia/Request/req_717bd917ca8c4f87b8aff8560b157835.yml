@@ -1,0 +1,29 @@
+_id: req_717bd917ca8c4f87b8aff8560b157835
+type: Request
+parentId: fld_c139818d2ce348d39bb5aff348c31a1c
+modified: 1621338604353
+created: 1621338427529
+url: https://api.bantubeli.com/dev/dl/product/find
+name: Suggestion search
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: keyword
+    value: nugget
+    description: ""
+    id: pair_4f88f1aca9044936b1718b9bd9c35ca3
+  - name: limit
+    value: "2"
+    description: ""
+    id: pair_1c2368e8289f4e91817f467450bd9928
+headers: []
+authentication: {}
+metaSortKey: -1616122875635.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
