@@ -1,11 +1,239 @@
 _id: req_e81aa13e32404813982668a07c61ef35
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1620633741589
+modified: 1621320317102
 created: 1615871558597
-url: https://api.bantubeli.com/dl/product/nugget
+url: https://api.bantubeli.com/dl/product/search
 name: Data produk
-description: ""
+description: "## Usage
+
+
+  https://api.bantubeli.com/dl/product/{section}
+
+
+  >**Section** :\ 
+
+
+  - all
+
+  - home
+
+  - featured
+
+  - trending
+
+  - hot
+
+  - discount
+
+  - category slug *(example : nugget )*
+
+
+  >**query attributes** :
+
+
+  - Required attribute(s):
+
+  \  - limit_store : numeric
+
+  \  - limit_store_product : numeric
+
+
+  - Optional attributes :
+
+  \  - filter : popularity, date, price_min & price_max
+
+  \  - search : string
+
+  \  - show_category : boolean
+
+  \  - show_rating : boolean
+
+  \  - zip_code : numeric
+
+
+  - group attribute(s) :
+
+  \  - latitude & longtitude
+
+
+  - Addon attribute(s) :
+
+  \  - filter :\ 
+
+  \      - filter_min : numeric, min 0
+
+  \      - filter_max : numeric, max 99999999
+
+  \     \ 
+
+  \  \ 
+
+  \  \ 
+
+  \  \ 
+
+  >   \ 
+
+  > Success response :
+
+  >\ 
+
+  - attributes used :
+
+
+  > raw :\ 
+
+  `https://api.bantubeli.com/dl/product/search?show_category=1&show_rating=1&\
+  limit_store=4&limit_store_product=4&latitude=-6.270221033552741&longtitude=10\
+  7.0224447176664&search=ayam&zip_code=17510&filter=price_max&filter_max=13000&\
+  filter_min=0`
+
+
+  \  - show_category=1
+
+  \  - show_rating=1
+
+  \  - limit_store=1
+
+  \  - limit_store_product=4
+
+  \  - latitude=-6.270221033552741
+
+  \  - longtitude=107.0224447176664
+
+  \  - search=ayam
+
+  \  - zip_code=17510
+
+  \  - filter=price_max
+
+  \  - filter_max=13000
+
+  \  - filter_min=0
+
+  \  .
+
+  \   \ 
+
+  \ \ 
+
+  \        {
+
+  \        \"status\": true,
+
+  \        \"data\": [
+
+  \          {
+
+  \            \"id\": \"1\",
+
+  \            \"name\": \"Prima Freshmart\",
+
+  \            \"created_at\": \"2021-03-31 17:36:19\",
+
+  \            \"updated_at\": \"2021-03-31 17:36:24\",
+
+  \            \"code\": \"PFM\",
+
+  \            \"img\":
+  \"https:\\/\\/www.bantubeli.com\\/assets\\/store\\/images\\/group\\/pfm.png\",
+
+  \            \"store\": [
+
+  \            store\": [
+
+  \          {
+
+  \            \"rn\": \"1\",
+
+  \            \"rns\": \"249\",
+
+  \            \"id\": \"2077\",
+
+  \            \"phone\": \"08176021542\",
+
+  \            \"province\": \"JAWA BARAT\",
+
+  \            \"city\": \"BEKASI\",
+
+  \            \"kecamatan\": \"RAWALUMBU\",
+
+  \            \"kelurahan\": \"PENGASINAN\",
+
+  \            \"status\": \"active\",
+
+  \            \"metas\": null,
+
+  \            \"name\": \"PRIMA FRESHMART PONDOK HIJAU PERMAI\",
+
+  \            \"address\": \"PONDOK HIJAU PERMAI BLOK D 1 NO 11 RT. 002, RW.
+  011\",
+
+  \            \"zip\": \"17115\",
+
+  \            \"groups_code\": \"PFM\",
+
+  \            \"cash\": \"0\",
+
+  \            \"logo\":
+  \"https:\\/\\/www.bantubeli.com\\/assets\\/store\\/images\\/group\\/pfm.png\",
+
+  \            \"jarak\": 1.35,
+
+  \            \"product_count\": 5,
+
+  \            \"product\": [
+
+  \              {
+
+  \                \"id\": \"27459\",
+
+  \                \"name\": \"FIESTA Bakso Ayam Special 100 g\",
+
+  \                \"sku\": \"FST-BAS100g\",
+
+  \                \"type\": \"1\",
+
+  \                \"store_id\": \"2077\",
+
+  \                \"category_id\": \"19\",
+
+  \               }
+
+  \               ....
+
+  \               \"brand\": {
+
+  \                  \"title\": \"Fiesta\",
+
+  \                  \"img\":
+  \"https:\\/\\/www.bantubeli.com\\/assets\\/images\\/logos\\/brand\\/fiesta-lo\
+  go.jpg\"
+
+  \                },
+
+  \                \"category\": {
+
+  \                  \"name\": \"Bakso\",
+
+  \                  \"slug\": \"bakso\"
+
+  \                },
+
+  \                \"category_by_store\": null,
+
+  \                \"jumlah_beli\": 0
+
+  \             ]
+
+  \           }
+
+  \           ...
+
+  \        }
+
+  \        "
 method: GET
 body:
   mimeType: application/json
@@ -42,10 +270,10 @@ parameters:
     id: pair_cb38942e8bb542de99245e3cf1f29022
     disabled: false
   - name: search
-    value: sadaas
+    value: ayam
     description: ""
     id: pair_d12da0ee9cc74900b10e8e937d9916f4
-    disabled: true
+    disabled: false
   - name: store_id
     value: ""
     description: ""
@@ -61,6 +289,34 @@ parameters:
     description: ""
     id: pair_9328c8dfb78c49cdac801872d2ebd3f8
     disabled: true
+  - name: zip_code
+    value: "17510"
+    description: ""
+    id: pair_2971a0c76c024cdaab13a777aa1c0473
+    disabled: false
+  - name: filter
+    value: price_max
+    description: ""
+    id: pair_1961db214de54bf6b4243466f41ffcef
+  - name: filter_max
+    value: "13000"
+    description: ""
+    id: pair_47c47bd797cb436ea833afbf744954e2
+    disabled: false
+  - name: filter_min
+    value: "0"
+    description: ""
+    id: pair_3c5a3c342bce4675aa7633b55a0990c5
+    disabled: false
+  - name: sort_by
+    value: desc
+    description: ""
+    id: pair_a095b271bbd0490f99537820c00a9d7b
+    disabled: true
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_a401d6d897cc40b3844b9e2814ecb0dc
 headers:
   - name: Content-Type
     value: application/json

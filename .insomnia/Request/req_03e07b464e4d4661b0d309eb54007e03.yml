@@ -1,7 +1,7 @@
 _id: req_03e07b464e4d4661b0d309eb54007e03
 type: Request
 parentId: fld_16514a7c316043d5a7508c79dfc4de54
-modified: 1620636880916
+modified: 1620707874479
 created: 1620636510664
 url: https://api.bantubeli.com/dev/auth/register
 name: Registrasi
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: >-
     {
-      "name": "Farhan Ismail",
-      "email": "farhan@email.com",
-      "phone": "0812345678911",
+      "name": "Rexy Andriansyah",
+      "email": "rexiandrinsyah@gmail.com",
+      "phone": "9999999999",
       "province": "DKI JAKARTA",
       "city": "JAKARTA TIMUR",
       "district": "JATINEGARA",

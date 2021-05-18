@@ -1,7 +1,7 @@
 _id: req_c2937b4ed3e142d18fd8922aa83cbb8c
 type: Request
 parentId: fld_ad8e694256844d0ab5ba5b822fb0f81b
-modified: 1617705781077
+modified: 1620700981254
 created: 1617705244261
 url: https://api.bantubeli.com/support
 name: Support message
@@ -13,7 +13,6 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"title":"Fitur menarik",
     	"description":"Isi"
     }
 parameters: []

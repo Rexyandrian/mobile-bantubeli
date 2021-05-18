@@ -1,9 +1,9 @@
 _id: req_4692af0a4e2c40b78553d2737e23f788
 type: Request
 parentId: fld_c139818d2ce348d39bb5aff348c31a1c
-modified: 1620637155874
+modified: 1621307824906
 created: 1620636510500
-url: https://api.bantubeli.com/dev/dl/product/nugget
+url: https://api.bantubeli.com/dev/dl/product/search
 name: Data produk
 description: ""
 method: GET
@@ -35,14 +35,14 @@ parameters:
     value: "-6.270221033552741"
     description: ""
     id: pair_45884da56e984dff8d54888ececff6d9
-    disabled: false
+    disabled: true
   - name: longtitude
     value: "107.0224447176664"
     description: ""
     id: pair_cb38942e8bb542de99245e3cf1f29022
-    disabled: false
+    disabled: true
   - name: search
-    value: sadaas
+    value: ayam
     description: ""
     id: pair_d12da0ee9cc74900b10e8e937d9916f4
     disabled: true
@@ -55,12 +55,32 @@ parameters:
     value: "-6.188271230243793"
     description: ""
     id: pair_adbea320e30745c7aef9b4b9e2bbae0c
-    disabled: true
+    disabled: false
   - name: longtitude
     value: "106.82264245559702"
     description: ""
     id: pair_9328c8dfb78c49cdac801872d2ebd3f8
-    disabled: true
+    disabled: false
+  - name: zip_code
+    value: "10350"
+    description: ""
+    id: pair_3982821633ce49548fb9df73883aea3b
+  - name: show_category
+    value: "1"
+    description: ""
+    id: pair_2330d41e89354d0c8a9246d9d06da408
+  - name: show_rating
+    value: "1"
+    description: ""
+    id: pair_878f0cabaf6e4c969563e49313434b5c
+  - name: filter
+    value: price
+    description: ""
+    id: pair_980425bdc28b4b3dbd4d4b4f47c11c25
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_47d34d6398b94543bf97bb7c49604a0f
 headers:
   - name: Content-Type
     value: application/json
