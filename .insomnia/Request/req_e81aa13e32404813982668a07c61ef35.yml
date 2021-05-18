@@ -1,7 +1,7 @@
 _id: req_e81aa13e32404813982668a07c61ef35
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1621320317102
+modified: 1621320796174
 created: 1615871558597
 url: https://api.bantubeli.com/dl/product/search
 name: Data produk
@@ -59,11 +59,17 @@ description: "## Usage
 
   - Addon attribute(s) :
 
-  \  - filter :\ 
+  \  - filter (only price) :\ 
 
   \      - filter_min : numeric, min 0
 
   \      - filter_max : numeric, max 99999999
+
+  \     \ 
+
+  \  - filter :
+
+  \      - sort_by : asc, desc
 
   \     \ 
 
@@ -295,28 +301,29 @@ parameters:
     id: pair_2971a0c76c024cdaab13a777aa1c0473
     disabled: false
   - name: filter
-    value: price_max
+    value: date
     description: ""
     id: pair_1961db214de54bf6b4243466f41ffcef
   - name: filter_max
     value: "13000"
     description: ""
     id: pair_47c47bd797cb436ea833afbf744954e2
-    disabled: false
+    disabled: true
   - name: filter_min
     value: "0"
     description: ""
     id: pair_3c5a3c342bce4675aa7633b55a0990c5
-    disabled: false
+    disabled: true
   - name: sort_by
     value: desc
     description: ""
     id: pair_a095b271bbd0490f99537820c00a9d7b
-    disabled: true
+    disabled: false
   - name: ""
     value: ""
     description: ""
     id: pair_a401d6d897cc40b3844b9e2814ecb0dc
+    disabled: true
 headers:
   - name: Content-Type
     value: application/json
