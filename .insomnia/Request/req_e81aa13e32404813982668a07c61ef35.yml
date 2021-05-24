@@ -1,9 +1,9 @@
 _id: req_e81aa13e32404813982668a07c61ef35
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1621338515033
+modified: 1621418864221
 created: 1615871558597
-url: https://api.bantubeli.com/dl/product/home
+url: https://api.bantubeli.com/dl/product/ayam
 name: Data produk
 description: "## Usage
 
@@ -289,7 +289,7 @@ parameters:
     value: "10350"
     description: ""
     id: pair_f4183264655c4df8bef847ae8a6dbd03
-    disabled: false
+    disabled: true
   - name: latitude
     value: "-6.188271230243793"
     description: ""
@@ -315,10 +315,15 @@ parameters:
     description: ""
     id: pair_3c5a3c342bce4675aa7633b55a0990c5
     disabled: true
-  - name: ""
-    value: ""
+  - name: latitude
+    value: "37.785834"
     description: ""
     id: pair_a401d6d897cc40b3844b9e2814ecb0dc
+    disabled: true
+  - name: longtitude
+    value: "-122.406417"
+    description: ""
+    id: pair_028dc4252bbc45eda6b944326291e9f0
     disabled: true
 headers:
   - name: Content-Type

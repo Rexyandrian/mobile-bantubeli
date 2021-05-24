@@ -1,7 +1,7 @@
 _id: req_1d86c28b46b640d4b400ccbd204c3eb2
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1618796102723
+modified: 1621495492986
 created: 1615950376684
 url: https://api.bantubeli.com/dl/store
 name: Data Store
@@ -13,10 +13,12 @@ parameters:
     value: "-6.270221033552741"
     description: ""
     id: pair_26ce1dc215e04452b76b240748fdceb8
+    disabled: true
   - name: longtitude
     value: "107.0224447176664"
     description: ""
     id: pair_703f0e488a7f4bb18316194cc7d6a225
+    disabled: true
   - name: limit_store
     value: "3"
     description: ""
@@ -26,6 +28,14 @@ parameters:
     description: ""
     id: pair_098ca7172a29441a99c6a2d728359dad
     disabled: true
+  - name: latitude
+    value: "37.785834"
+    description: ""
+    id: pair_95efdd15f67644c3906009ab33e310af
+  - name: longtitude
+    value: "-122.406417"
+    description: ""
+    id: pair_d7f133d790824a19adcd1529683a803a
 headers: []
 authentication: {}
 metaSortKey: -1616122875617

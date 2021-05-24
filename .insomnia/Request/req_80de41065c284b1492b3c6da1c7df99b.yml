@@ -1,7 +1,7 @@
 _id: req_80de41065c284b1492b3c6da1c7df99b
 type: Request
 parentId: fld_6a822299b7c94af5b776b35130683746
-modified: 1620631818286
+modified: 1621569055790
 created: 1619497679453
 url: https://fcm.googleapis.com/fcm/send
 name: Send push notification
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"registration_ids":["fwC47BuoQGWZVoNIdao6ad:APA91bFf5Nar3aMYSxmfBNc6Nt0rA089d-0xRUQvShd1lsbslFJsTpIzQ2vG1jbRprAsp8GyczY4drIqjfYTX-j15awCxLs5JPihwviMD8e-6XlF7QhBj8NZpNAby321zzF5ub8oUqGe"],
+    	"registration_ids":["eCcMMdF0QdmCH0jD81qgt4:APA91bEs7-rkBz5gBwgvPWEov7STcVjOr7HpNTfelOun0our1BTkFG3kwVXnp4bwmWsNHm4G6RvBhMPCl2mQLUKCaWEJjHH7vW6PdJfMSXN6-LXvNw2YApwGJrS_rXo77Qm9SJ0Ne_S_"],
     	"notification": {
     			"title": "Judul Notifikasi",
     			"body": "Isi Notifikasi"
@@ -22,7 +22,7 @@ headers:
   - name: Content-Type
     value: application/json
   - name: Authorization
-    value: key=AAAAufba8kQ:APA91bF6gsL5B3ChSU_zCC9CGIrAev8j0_kE-X9jJE9d-O3IoTt-4pjy_qQhrMLHeAo1eVUAKdRl3DCVG8XZsY_x8-WfyNR-Cb4xxgXLpgSnWAKhhDn1G8neotKwyCVpF-HzaCMmTSoM
+    value: key=AAAAJ8E6Em4:APA91bGx738xV2nsZPGBpwqlSQ8CVKC_8W06ZhxbJVG_cWwFr1haVjMFQF_L_u2U4hTVSw2viUHpUezK8rMszIPqBBw2AksfUdcTE7KSsMVn7UfU5zcHM4R2lm-fPvOC-4h7UpaNek1Z
 authentication: {}
 metaSortKey: -1619497679453
 isPrivate: false

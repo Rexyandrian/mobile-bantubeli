@@ -1,7 +1,7 @@
 _id: req_d13dfec068d64ffb99876f0ea3032c3e
 type: Request
 parentId: fld_a968d6dc33454860b275f9279dd9c632
-modified: 1620634237814
+modified: 1621496437921
 created: 1615871550552
 url: https://api.bantubeli.com/driver/login
 name: Masuk
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email":"andriansyah4029@bantubeli.com",
+    	"email":"rexy@bbpfm.com",
     	"password":"123456789"
     }
 parameters: []

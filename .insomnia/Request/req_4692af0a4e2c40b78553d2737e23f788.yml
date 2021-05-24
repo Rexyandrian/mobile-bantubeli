@@ -1,9 +1,9 @@
 _id: req_4692af0a4e2c40b78553d2737e23f788
 type: Request
 parentId: fld_c139818d2ce348d39bb5aff348c31a1c
-modified: 1621328967402
+modified: 1621405838537
 created: 1620636510500
-url: https://api.bantubeli.com/dev/dl/product/search
+url: https://api.bantubeli.com/dev/dl/product/home
 name: Data produk
 description: ""
 method: GET
@@ -22,7 +22,7 @@ parameters:
     id: pair_c5de1a0e504343218dc673949ff869d5
     disabled: false
   - name: limit_store
-    value: "4"
+    value: "10"
     description: ""
     id: pair_c97eaab6029742ad9ddc5efc6a8950ce
     disabled: false
@@ -77,16 +77,17 @@ parameters:
     value: date
     description: ""
     id: pair_980425bdc28b4b3dbd4d4b4f47c11c25
+    disabled: true
   - name: filter_min
     value: "0"
     description: ""
     id: pair_47d34d6398b94543bf97bb7c49604a0f
-    disabled: false
+    disabled: true
   - name: filter_max
     value: "999999"
     description: ""
     id: pair_4cd14168740149dfab53a4dd886055bc
-    disabled: false
+    disabled: true
 headers:
   - name: Content-Type
     value: application/json
