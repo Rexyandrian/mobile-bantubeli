@@ -1,7 +1,7 @@
 _id: req_2a249b58067f4aa99186d7635689e73f
 type: Request
 parentId: fld_67ca0cdfdf5942668a5605aa272ee224
-modified: 1618196098153
+modified: 1620286348065
 created: 1615871550593
 url: https://api.bantubeli.com/cashier/logout
 name: Keluar
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjE3ODUxNTkzLCJuYmYiOjE2MTc4NTE1OTMsImp0aSI6InBwY3pDZm51RkJyZ1pZbkwiLCJzdWIiOjEsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.CMc_1_QN11vH0ETzarLuKJnf7KiZE61ZiKW6Eca9ODY
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjIwMjg2Mjk2LCJuYmYiOjE2MjAyODYyOTYsImp0aSI6IjVZZjVneEpnbGNaT2cwUDEiLCJzdWIiOjMsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.BxKeA0nN1dOft9KGvBg3AdCyiCPFy933YnKT-JTw6mg
 metaSortKey: -1614584615907
 isPrivate: false
 settingStoreCookies: true

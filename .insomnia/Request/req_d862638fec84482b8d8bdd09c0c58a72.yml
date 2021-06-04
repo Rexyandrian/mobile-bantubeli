@@ -1,0 +1,23 @@
+_id: req_d862638fec84482b8d8bdd09c0c58a72
+type: Request
+parentId: fld_c139818d2ce348d39bb5aff348c31a1c
+modified: 1620637206530
+created: 1620636510489
+url: https://api.bantubeli.com/dev/dl/bank-list
+name: Payment support
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3MjUyNjMwLCJuYmYiOjE2MTcyNTI2MzAsImp0aSI6IkdjWXZVWDFzS0tMdndpS1IiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.538ubHhAHXtWBnjVY8IGVQ1SOAMMvdrpYDwj-Okupbw
+metaSortKey: -1615172764981
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

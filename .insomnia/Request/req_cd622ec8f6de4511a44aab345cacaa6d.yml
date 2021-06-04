@@ -1,19 +1,64 @@
 _id: req_cd622ec8f6de4511a44aab345cacaa6d
 type: Request
 parentId: fld_b695dfa9fb7e4bed9399a75aee3f0206
-modified: 1619685681734
+modified: 1620114828239
 created: 1619000031766
 url: https://api.bantubeli.com/review
 name: Add review
-description: ""
+description: |-
+  #### attribut yang diperlukan 
+    - product_id: Produk yang telah dibeli
+    - reply : maksimal panjang penulisan 200 karakter
+    - rating : minimal 1 dan maksimal 5
+
+  #### sampel :
+      {
+        "product_id": "632",
+        "reply": "Kualitas pesanan terjaga baik..",
+        "rating": "4"
+      }
+  #### respon produk belum dibeli :
+      {
+        "status":false,
+        "data":null,
+        "message":"Harus memesan produk telebih dahulu"
+      }
+  #### respon batasan pada maksimal :
+      {
+        "status":false,
+        "data":null,
+        "message":"Mencapai batas maksimal 200 karakter"
+      }
+  #### respon berhasil :
+   
+       {
+        "status": true,
+        "data": true,
+        "message": "Success"
+      }
+
+  #### respon gagal :
+   
+       {
+        "status": false,
+        "data": null,
+        "message": "Failed"
+      }
+      
+  #### respon telah terdapat ulasan
+      {
+        "status": false,
+        "data": null,
+        "message": "Telah memberikan ulasan"
+      }
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"product_id":632,
-    	"review_id":22,
-    	"reply":"Kualitas terbaik"
+    	"product_id":12,
+    	"reply":"Pengiriman cepat",
+    	"rating":5
     }
 parameters: []
 headers:
@@ -21,7 +66,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3MjQ2NDM0LCJuYmYiOjE2MTcyNDY0MzQsImp0aSI6IlNGWXFMQ2dXRGgxSzdGVUgiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.S4AqHeFSsUTPth8o-grU7-vyDh-mzSUnPuH0v3QFwNA
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjIwMDI0NjIxLCJuYmYiOjE2MjAwMjQ2MjEsImp0aSI6IktYVVV1WW1IemFJeHhvdXciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.dj6L44oyFZxVq64VyT0N17rSTXDbNwkMymKXX0-AfxU
 metaSortKey: -1619000031766
 isPrivate: false
 settingStoreCookies: true

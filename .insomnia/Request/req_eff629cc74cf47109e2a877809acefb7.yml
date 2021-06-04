@@ -1,0 +1,24 @@
+_id: req_eff629cc74cf47109e2a877809acefb7
+type: Request
+parentId: fld_16514a7c316043d5a7508c79dfc4de54
+modified: 1620636925783
+created: 1620636510673
+url: https://api.bantubeli.com/dev/auth/me
+name: Info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjIwMTg3OTU0LCJuYmYiOjE2MjAxODc5NTQsImp0aSI6IlNFRmFabzFXakg2dXFHQWgiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.An3r6LaSJsOkAZIetcwy9ZJVFDselCbNyxppp3hI_Kc
+  disabled: false
+metaSortKey: -1616665726509
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

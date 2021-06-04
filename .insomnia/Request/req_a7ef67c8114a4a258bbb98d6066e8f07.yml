@@ -1,0 +1,21 @@
+_id: req_a7ef67c8114a4a258bbb98d6066e8f07
+type: Request
+parentId: fld_c139818d2ce348d39bb5aff348c31a1c
+modified: 1620637216682
+created: 1620636510487
+url: https://api.bantubeli.com/dev/banners
+name: Banner 1
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1615172764931
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

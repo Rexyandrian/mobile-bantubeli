@@ -1,0 +1,21 @@
+_id: req_7ecf92b5c288472f80240a9640b2e052
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1620636185947
+created: 1620635930188
+url: https://maps.googleapis.com/maps/api/geocode/json?latlng=-6.270221033552741,107.0224447176664&result_type=postal_code&key=AIzaSyCLd3sdO2m1gwR0o1xz0ZpVkR4A53-tMMU
+name: Gmap lot lang
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1620635930188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

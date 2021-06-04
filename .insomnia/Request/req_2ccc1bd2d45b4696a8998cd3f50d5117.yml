@@ -1,0 +1,29 @@
+_id: req_2ccc1bd2d45b4696a8998cd3f50d5117
+type: Request
+parentId: fld_c139818d2ce348d39bb5aff348c31a1c
+modified: 1620637188886
+created: 1620636510507
+url: https://api.bantubeli.com/dev/dl/region/city
+name: DatWil-Kota
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"province_id":"11"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_219413b2f302491a8b6b368e0870b1e5
+authentication: {}
+metaSortKey: -1615948445307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

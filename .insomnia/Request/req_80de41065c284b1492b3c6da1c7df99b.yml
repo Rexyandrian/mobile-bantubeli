@@ -1,7 +1,7 @@
 _id: req_80de41065c284b1492b3c6da1c7df99b
 type: Request
 parentId: fld_6a822299b7c94af5b776b35130683746
-modified: 1619507315003
+modified: 1621569055790
 created: 1619497679453
 url: https://fcm.googleapis.com/fcm/send
 name: Send push notification
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"registration_ids":["du7CBZ7tRuCTvocxTuA-Ca:APA91bG3oHNwyrK9NyqGiLjZMTCIT6jDa8tB1_9pYc1ODNi8kVk7psjZ0HlED_StuWrEsKSP1JsGMIweNiVkCxPxdWgEcBwBVbimm07dS51iia79AftX9djDx-8xksvAlTKtyyhaOmf4"],
+    	"registration_ids":["eCcMMdF0QdmCH0jD81qgt4:APA91bEs7-rkBz5gBwgvPWEov7STcVjOr7HpNTfelOun0our1BTkFG3kwVXnp4bwmWsNHm4G6RvBhMPCl2mQLUKCaWEJjHH7vW6PdJfMSXN6-LXvNw2YApwGJrS_rXo77Qm9SJ0Ne_S_"],
     	"notification": {
     			"title": "Judul Notifikasi",
     			"body": "Isi Notifikasi"

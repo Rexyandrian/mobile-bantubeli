@@ -1,0 +1,28 @@
+_id: req_7491de84a98d4c7db4d3a1d70e88f0d3
+type: Request
+parentId: fld_16514a7c316043d5a7508c79dfc4de54
+modified: 1620636933015
+created: 1620636510669
+url: https://api.bantubeli.com/dev/auth/logout
+name: Keluar
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e6f75541a1f2428c8f6973d9cb54726a
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE1ODc1NzY3LCJuYmYiOjE2MTU4NzU3NjcsImp0aSI6InRwNlVRUHBldURmeHBzU1kiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.L4VfZWumiVA8nWNBpUpcmod5bnoD2IS1t5cqVCRMN5U
+metaSortKey: -1616665726459
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

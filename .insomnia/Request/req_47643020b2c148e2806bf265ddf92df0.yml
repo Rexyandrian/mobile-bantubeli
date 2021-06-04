@@ -1,0 +1,30 @@
+_id: req_47643020b2c148e2806bf265ddf92df0
+type: Request
+parentId: fld_bdda38b579c64ccda008ac5d4cf4389e
+modified: 1620636818623
+created: 1620636510768
+url: https://api.bantubeli.com/dev/driver/order
+name: Sending Order
+description: '    order_no => "required"'
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"order_no":"jNuF1619405389"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RyaXZlclwvbG9naW4iLCJpYXQiOjE2MTg5ODczMzQsIm5iZiI6MTYxODk4NzMzNCwianRpIjoiZ1hGTk5vZHFoSmEwUUthVSIsInN1YiI6MSwicHJ2IjoiOTE5YzMyNmQ0M2FiMTUxOWE4YmEzYjg1ODZiNjg3NTJlOGM4MzgwNyJ9.gRovRGd_H58f9g2OSVRH2wJJBHSlSAqSRL9ww4UUOXs
+metaSortKey: -1617866483834
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

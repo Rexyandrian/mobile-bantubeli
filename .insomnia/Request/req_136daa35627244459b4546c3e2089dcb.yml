@@ -1,0 +1,23 @@
+_id: req_136daa35627244459b4546c3e2089dcb
+type: Request
+parentId: fld_23f616cdb1f44891abbc291c83cb3a21
+modified: 1620636844429
+created: 1620636510748
+url: https://api.bantubeli.com/dev/cashier/notification
+name: Notification list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjE4MTk3NDkzLCJuYmYiOjE2MTgxOTc0OTMsImp0aSI6Ilp4YnJTVjRoSzVxS2dIQmIiLCJzdWIiOjEsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.hwr3uGeeybk2kFA_ixlMmN4iv66qyCtOSNd4teHmDA8
+metaSortKey: -1619597459803
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_5a98eb08f61b49009f2270dc6789e4b9
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1621233190792
+created: 1621233177931
+url: https://api.bantubeli.com/testing/order/detail
+name: Order detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1621233177931
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

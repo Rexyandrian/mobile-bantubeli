@@ -1,0 +1,58 @@
+_id: req_826d5bbcb0e24299a4a4c594b9176834
+type: Request
+parentId: fld_94678a5325de487c8a0451d373ea82fc
+modified: 1620111564106
+created: 1619772795346
+url: https://api.bantubeli.com/review
+name: Hapus review
+description: |-
+  #### attribut yang diperlukan :
+    - review_id : Id review harus merupakan produk yang telah dibeli
+    
+  #### sampel :
+      { 
+        "review_id" : 632
+      }
+  #### respon tidak ditemukan ulasan :
+      {
+        "status":false,
+        "data":null,
+        "message":"Ulasan tidak ditemukan"
+      }
+  #### respon berhasil :
+   
+       {
+        "status": true,
+        "data": true,
+        "message": "Success"
+      }
+
+  #### respon gagal :
+   
+       {
+        "status": false,
+        "data": null,
+        "message": "Failed"
+      }
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"review_id" : 22
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3MjQ2NDM0LCJuYmYiOjE2MTcyNDY0MzQsImp0aSI6IlNGWXFMQ2dXRGgxSzdGVUgiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.S4AqHeFSsUTPth8o-grU7-vyDh-mzSUnPuH0v3QFwNA
+metaSortKey: -1618950532812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

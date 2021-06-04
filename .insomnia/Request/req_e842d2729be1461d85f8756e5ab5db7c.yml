@@ -1,7 +1,7 @@
 _id: req_e842d2729be1461d85f8756e5ab5db7c
 type: Request
 parentId: fld_67ca0cdfdf5942668a5605aa272ee224
-modified: 1619597838601
+modified: 1620287308386
 created: 1615871550598
 url: https://api.bantubeli.com/cashier/me
 name: Info
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjE4MTk3NDkzLCJuYmYiOjE2MTgxOTc0OTMsImp0aSI6Ilp4YnJTVjRoSzVxS2dIQmIiLCJzdWIiOjEsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.hwr3uGeeybk2kFA_ixlMmN4iv66qyCtOSNd4teHmDA8
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjIwMjg3Mjk4LCJuYmYiOjE2MjAyODcyOTgsImp0aSI6ImVLMkJobjVUUE9mbkF5OHYiLCJzdWIiOjMsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.U90ujT7IqzuHUg9ddyxoVR5ZuLHjIKGI8Am9RUoeiL8
   disabled: false
 metaSortKey: -1614584615957
 isPrivate: false

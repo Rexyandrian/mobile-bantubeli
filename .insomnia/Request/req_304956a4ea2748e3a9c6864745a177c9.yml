@@ -1,0 +1,30 @@
+_id: req_304956a4ea2748e3a9c6864745a177c9
+type: Request
+parentId: fld_2c3ba0044e99435c9ee85e72b999495f
+modified: 1620636637300
+created: 1620636510790
+url: https://api.bantubeli.com/dev/driver/login
+name: Masuk
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"andriansyah4029@bantubeli.com",
+    	"password":"123456789"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db857bfebd674f2a9298ac5b43f574d5
+authentication: {}
+metaSortKey: -1618774689745.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
