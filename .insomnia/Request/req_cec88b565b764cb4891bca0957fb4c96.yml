@@ -1,15 +1,33 @@
 _id: req_cec88b565b764cb4891bca0957fb4c96
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1620108550370
+modified: 1622713111818
 created: 1616126229149
 url: https://api.bantubeli.com/d/2/cp-fillet-mitra-1-kg-tdt123vn
 name: Produk detail
 description: ""
 method: GET
-body: {}
-parameters: []
-headers: []
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"latitude":-6.188271230243793,
+    	"longitude":106.82264245559702
+    }
+parameters:
+  - name: latitude
+    value: "-6.188271230243793"
+    description: ""
+    id: pair_dc1368ef8e7e4ee8b47fcf0950e838da
+    disabled: false
+  - name: longitude
+    value: "106.82264245559702"
+    description: ""
+    id: pair_f03c056bd7594bf08f3e9a2deb1e66a5
+    disabled: false
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NTgyNzc2LCJuYmYiOjE2MTk1ODI3NzYsImp0aSI6IlZhVjdJZmxPVElPaTM2ZkciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e1GXs-MF4feZJh7hGDvT42YPf9Nx7TKjCuikQ9eGO8

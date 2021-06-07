@@ -1,7 +1,7 @@
 _id: req_80de41065c284b1492b3c6da1c7df99b
 type: Request
 parentId: fld_6a822299b7c94af5b776b35130683746
-modified: 1621569055790
+modified: 1622175883324
 created: 1619497679453
 url: https://fcm.googleapis.com/fcm/send
 name: Send push notification
@@ -9,13 +9,11 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"registration_ids":["eCcMMdF0QdmCH0jD81qgt4:APA91bEs7-rkBz5gBwgvPWEov7STcVjOr7HpNTfelOun0our1BTkFG3kwVXnp4bwmWsNHm4G6RvBhMPCl2mQLUKCaWEJjHH7vW6PdJfMSXN6-LXvNw2YApwGJrS_rXo77Qm9SJ0Ne_S_"],
-    	"notification": {
-    			"title": "Judul Notifikasi",
-    			"body": "Isi Notifikasi"
-    	}
+    	"to":"b2107c1246c655fb805d7797f77f0bbe7db7b354b8f1751eefe12b78b7039fea",
+    	"priority": "high",
+    	"data": {"title": "The Title","body": "Hellof!", "sound": "default"}
     }
 parameters: []
 headers:

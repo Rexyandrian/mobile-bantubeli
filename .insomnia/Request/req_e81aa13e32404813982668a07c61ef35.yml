@@ -1,7 +1,7 @@
 _id: req_e81aa13e32404813982668a07c61ef35
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1621418864221
+modified: 1622795693751
 created: 1615871558597
 url: https://api.bantubeli.com/dl/product/ayam
 name: Data produk
@@ -254,14 +254,14 @@ parameters:
     value: "1"
     description: ""
     id: pair_c5de1a0e504343218dc673949ff869d5
-    disabled: false
+    disabled: true
   - name: limit_store
-    value: "4"
+    value: "1"
     description: ""
     id: pair_c97eaab6029742ad9ddc5efc6a8950ce
     disabled: false
   - name: limit_store_product
-    value: "4"
+    value: "25"
     description: ""
     id: pair_7cd16cc9ae104d81b442bbd8484ea694
     disabled: false
@@ -325,6 +325,10 @@ parameters:
     description: ""
     id: pair_028dc4252bbc45eda6b944326291e9f0
     disabled: true
+  - name: pastel
+    value: "true"
+    description: ""
+    id: pair_ce1f0958745b4d7b8c7aaf0d6084d8bc
 headers:
   - name: Content-Type
     value: application/json

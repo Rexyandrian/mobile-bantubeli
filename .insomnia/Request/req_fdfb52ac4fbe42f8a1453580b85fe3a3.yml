@@ -1,0 +1,37 @@
+_id: req_fdfb52ac4fbe42f8a1453580b85fe3a3
+type: Request
+parentId: fld_c6159657bf8149199773e5b95b547dff
+modified: 1623063573114
+created: 1623063388299
+url: https://api.bantubeli.com/auth/google_regis
+name: Google register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"",
+    	"phone":"",
+    	"email":"",
+    	"address":"",
+    	"password":"",
+    	"confirm_password":"",
+    	"longitude":"",
+    	"latitude":"",
+    	"device_token":"",
+    	"platform":"android"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1623063388299
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
