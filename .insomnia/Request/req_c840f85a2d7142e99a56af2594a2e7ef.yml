@@ -1,7 +1,7 @@
 _id: req_c840f85a2d7142e99a56af2594a2e7ef
 type: Request
 parentId: fld_c6159657bf8149199773e5b95b547dff
-modified: 1623121711803
+modified: 1623298056731
 created: 1623059752451
 url: https://api.bantubeli.com/auth/exists
 name: Check exists and login
@@ -11,7 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email":"farhan@email.com"
+    	"email":"farhan@email.com",
+    	"device_token":"yyy",
+    	"platform":"android"
     }
 parameters: []
 headers:
