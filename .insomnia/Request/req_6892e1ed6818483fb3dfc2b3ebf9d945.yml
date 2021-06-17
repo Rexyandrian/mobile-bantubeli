@@ -1,7 +1,7 @@
 _id: req_6892e1ed6818483fb3dfc2b3ebf9d945
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1618796222175
+modified: 1622794820241
 created: 1616122875592
 url: https://api.bantubeli.com/dl/store/detail
 name: Store detail
@@ -10,7 +10,7 @@ method: GET
 body: {}
 parameters:
   - name: store_id
-    value: "2077"
+    value: "2"
     description: ""
     id: pair_901492bef52445af91806302274eacc4
     disabled: false

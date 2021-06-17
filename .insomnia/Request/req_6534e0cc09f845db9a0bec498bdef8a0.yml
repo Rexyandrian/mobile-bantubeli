@@ -1,7 +1,7 @@
 _id: req_6534e0cc09f845db9a0bec498bdef8a0
 type: Request
 parentId: fld_c6159657bf8149199773e5b95b547dff
-modified: 1621827824437
+modified: 1623121812976
 created: 1615871550518
 url: https://api.bantubeli.com/auth/login
 name: Masuk
@@ -9,11 +9,12 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"email":"rexygarts3@gmail.com",	
+    	"email":"farhan@email.com",
     	"password":"123456789",
-    	"device_token":"xxx"
+    	"device_token":"du7CBZ7tRuCTvocxTuA-Ca:APA91bG3oHNwyrK9NyqGiLjZMTCIT6jDa8tB1_9pYc1ODNi8kVk7psjZ0HlED_StuWrEsKSP1JsGMIweNiVkCxPxdWgEcBwBVbimm07dS51iia79AftX9djDx-8xksvAlTKtyyhaOmf42",
+    	"platform":"ios"
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_0236160bbd3947818ca26112af6fde66
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1620189996117
+modified: 1623121541094
 created: 1615871558584
 url: https://api.bantubeli.com/dl/product/category
 name: Product Category
@@ -24,6 +24,10 @@ parameters:
     description: ""
     id: pair_d138bfedd28240aea087264bf89ffcbf
     disabled: false
+  - name: pastel
+    value: "true"
+    description: ""
+    id: pair_0953de9830d64780ac92e4e4eaf86d34
 headers: []
 authentication: {}
 metaSortKey: -1615173654078
