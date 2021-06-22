@@ -1,0 +1,44 @@
+_id: req_bbda5730d2764e5799f9ba55945e44f6
+type: Request
+parentId: fld_22c9746bf3be468fa37a157cc10d0af4
+modified: 1624328807676
+created: 1624328600663
+url: https://api.bantubeli.com/quick-buy
+name: Quick Buy
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"driver_note":"Bekasi",
+    	"address":"Bekasi",
+    	"payment_id":"2",
+    	"ship_long":106.82264245559702,
+    	"ship_lat":-6.188271230243793,
+    	"store_id":47,
+    	"ship_zip":"17510",
+    	"product":[
+    		{
+    			"product_id":"124",
+    			"price":66500,
+    			"qty":1,
+    			"note":"xxxx"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjI0MjY4NTEzLCJuYmYiOjE2MjQyNjg1MTMsImp0aSI6InFtMHVxQjVlRVdDSkNiOVYiLCJzdWIiOjE2NiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.SZralSpz65iqjvDXoj4qHnXxH80P-VrYynUlF91z-JM
+metaSortKey: -1624328600663
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
