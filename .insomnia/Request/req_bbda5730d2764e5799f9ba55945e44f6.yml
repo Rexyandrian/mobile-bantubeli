@@ -1,7 +1,7 @@
 _id: req_bbda5730d2764e5799f9ba55945e44f6
 type: Request
 parentId: fld_22c9746bf3be468fa37a157cc10d0af4
-modified: 1624328807676
+modified: 1624338109309
 created: 1624328600663
 url: https://api.bantubeli.com/quick-buy
 name: Quick Buy
@@ -19,6 +19,12 @@ body:
     	"store_id":47,
     	"ship_zip":"17510",
     	"product":[
+    		{
+    			"product_id":"124",
+    			"price":66500,
+    			"qty":1,
+    			"note":"xxxx"
+    		},
     		{
     			"product_id":"124",
     			"price":66500,
