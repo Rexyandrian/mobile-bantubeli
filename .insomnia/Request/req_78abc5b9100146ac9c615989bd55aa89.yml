@@ -1,0 +1,30 @@
+_id: req_78abc5b9100146ac9c615989bd55aa89
+type: Request
+parentId: fld_4f9ac24ceaf74aa8b6d6af96165d2db4
+modified: 1625224732970
+created: 1625224550214
+url: https://api.bantubeli.com/order-invoice
+name: Invoice
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"order_no":"4mwK1625033092"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjIwMDI0NjIxLCJuYmYiOjE2MjAwMjQ2MjEsImp0aSI6IktYVVV1WW1IemFJeHhvdXciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.dj6L44oyFZxVq64VyT0N17rSTXDbNwkMymKXX0-AfxU
+metaSortKey: -1625224550214
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

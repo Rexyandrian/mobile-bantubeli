@@ -1,0 +1,23 @@
+_id: req_51f96d4a94e547b0a2ff75d079b809a5
+type: Request
+parentId: fld_3eada20440ac4225978cf7e4a91bd565
+modified: 1624447956075
+created: 1624447832133
+url: https://api.bantubeli.com/dl/delivery
+name: Delivery List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjIxNTgwNDQ2LCJuYmYiOjE2MjE1ODA0NDYsImp0aSI6ImZtbnhzV0tWa240RlBVbTkiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.EM5unXjTH8q3tQE1xIvLb6oIMGG-6wgiVem9Y1-Lbsc
+metaSortKey: -1624447832133
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

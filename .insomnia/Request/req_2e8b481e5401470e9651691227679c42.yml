@@ -1,0 +1,28 @@
+_id: req_2e8b481e5401470e9651691227679c42
+type: Request
+parentId: fld_3eada20440ac4225978cf7e4a91bd565
+modified: 1624353149449
+created: 1624353084609
+url: https://api.bantubeli.com/dl/product/home
+name: Single Row Data Produk
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: show_category
+    value: "1"
+    description: ""
+    id: pair_48a7d1f4afea40939be86462fa341e62
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NTgyNzc2LCJuYmYiOjE2MTk1ODI3NzYsImp0aSI6IlZhVjdJZmxPVElPaTM2ZkciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e1GXs-MF4feZJh7hGDvT42YPf9Nx7TKjCuikQ9eGO8
+metaSortKey: -1624353084671
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_d5c0db8a337d4fb6b3ffcc759524dcaf
+type: Request
+parentId: fld_22c9746bf3be468fa37a157cc10d0af4
+modified: 1624269689642
+created: 1624267921577
+url: https://api.bantubeli.com/quick-buy
+name: Quick Buy
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"store_id":"2",
+    	"product_id":18612
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjI0MjY4NTEzLCJuYmYiOjE2MjQyNjg1MTMsImp0aSI6InFtMHVxQjVlRVdDSkNiOVYiLCJzdWIiOjE2NiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.SZralSpz65iqjvDXoj4qHnXxH80P-VrYynUlF91z-JM
+metaSortKey: -1624267921578
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
