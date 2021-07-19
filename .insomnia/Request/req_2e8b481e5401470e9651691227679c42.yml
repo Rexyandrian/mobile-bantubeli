@@ -1,7 +1,7 @@
 _id: req_2e8b481e5401470e9651691227679c42
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1624353149449
+modified: 1625995400299
 created: 1624353084609
 url: https://api.bantubeli.com/dl/product/home
 name: Single Row Data Produk
@@ -13,7 +13,19 @@ parameters:
     value: "1"
     description: ""
     id: pair_48a7d1f4afea40939be86462fa341e62
-    disabled: true
+    disabled: false
+  - name: limit_store_product
+    value: "10"
+    description: ""
+    id: pair_d5df4c0859094373b943341f675e650b
+  - name: limit_store
+    value: "1"
+    description: ""
+    id: pair_7b3e619f651849a9858f6b8a0a91f5f9
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_9f323ccf56d94518aa8d491196782dfb
 headers: []
 authentication:
   type: bearer

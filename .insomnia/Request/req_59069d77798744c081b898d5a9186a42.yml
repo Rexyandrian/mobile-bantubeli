@@ -1,9 +1,9 @@
 _id: req_59069d77798744c081b898d5a9186a42
 type: Request
 parentId: fld_c139818d2ce348d39bb5aff348c31a1c
-modified: 1622794808021
+modified: 1626339937079
 created: 1620636510527
-url: https://api.bantubeli.com/dev/dl/store/detail
+url: https://api.bantubeli.com/dl/store/info
 name: Store detail
 description: ""
 method: GET
@@ -15,7 +15,7 @@ parameters:
     id: pair_901492bef52445af91806302274eacc4
     disabled: false
   - name: limit_product
-    value: "20"
+    value: "8"
     description: ""
     id: pair_67d81339fce5437b8c4d5d989683e00a
   - name: latitude
@@ -27,10 +27,14 @@ parameters:
     description: ""
     id: pair_c6f8715cde284285b1e723ac59a7e810
   - name: search
-    value: Stick-6.188447
+    value: stick
     description: ""
     id: pair_97803f30ef9d4c3783d665d6b3cc78b0
-    disabled: true
+    disabled: false
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_2e90a2a924cf41d4b3e1436a329d55e5
 headers: []
 authentication:
   type: bearer

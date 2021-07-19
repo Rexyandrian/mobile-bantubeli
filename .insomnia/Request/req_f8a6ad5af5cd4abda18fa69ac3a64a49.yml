@@ -1,7 +1,7 @@
 _id: req_f8a6ad5af5cd4abda18fa69ac3a64a49
 type: Request
 parentId: fld_4f9ac24ceaf74aa8b6d6af96165d2db4
-modified: 1621233163156
+modified: 1625558141280
 created: 1617597491351
 url: https://api.bantubeli.com/order
 name: Order list
@@ -13,7 +13,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"order_no":"KJgv1620634724"
+    	"status":"waiting"
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_62a6712ee4f74ee287c71a0680df5bf2
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1619593975502
+modified: 1625557417516
 created: 1616378164574
 url: https://api.bantubeli.com/cart
 name: Isi keranjang
@@ -19,6 +19,10 @@ parameters:
     description: ""
     id: pair_7ad83a3e44204f5ab3b0840347ede047
     disabled: true
+  - name: mode_group
+    value: "1"
+    description: ""
+    id: pair_4c4109bb64b24713a5ee3e02cfec6688
 headers: []
 authentication:
   type: bearer
