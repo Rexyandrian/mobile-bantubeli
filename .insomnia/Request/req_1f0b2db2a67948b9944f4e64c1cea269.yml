@@ -1,0 +1,37 @@
+_id: req_1f0b2db2a67948b9944f4e64c1cea269
+type: Request
+parentId: fld_16514a7c316043d5a7508c79dfc4de54
+modified: 1626150478938
+created: 1626150428852
+url: https://api.bantubeli.com/dev/auth/apple_regis
+name: Apple Id Regis
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "Rekapdigi",
+    	"email": "rekapdigi08@gmail.com",
+    	"phone": "087886791501",
+    	"address": "Jl. H. Nasin No.43, RT.7/RW.1, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640, Indonesia",
+    	"latitude": -6.218508192993207,
+    	"longtitude": 106.7331289127469,
+    	"password": "123456789",
+    	"confirm_password": "123456789",
+    	"device_token": "dUSaApPp9kVgi946OuoGnN:APA91bGlaSfhDzUo-1M4z_QJB0zll8dgVq9G4a3VUgxWGY3kZGYjtdw-Rv8sWKGVfhWNtsdkEj6rlMC-qHCod4x0dGbruZconwa26cp8pGvF661_yyfWyj4bjQgiNPVBnK6bGy_BAw2y",
+    	"platform": "ios"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626150428856
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

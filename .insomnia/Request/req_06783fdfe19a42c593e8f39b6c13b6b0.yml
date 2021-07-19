@@ -1,0 +1,31 @@
+_id: req_06783fdfe19a42c593e8f39b6c13b6b0
+type: Request
+parentId: fld_a904368bb0bd435e8b1f44fd246bec97
+modified: 1626402814228
+created: 1626167043775
+url: https://merchant-api-sandbox.shipper.id/v3/location/areas
+name: Get Area
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: page
+    value: "700"
+    description: ""
+    id: pair_bdc0db5bb1d3449aaea8728933116448
+headers:
+  - name: X-API-Key
+    value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626167043775
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

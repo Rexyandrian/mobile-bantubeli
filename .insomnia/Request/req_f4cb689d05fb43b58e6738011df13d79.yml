@@ -1,0 +1,25 @@
+_id: req_f4cb689d05fb43b58e6738011df13d79
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1626411028521
+created: 1626156616565
+url: https://api.bantubeli.com/dev/shipping/province-list
+name: Data Provinsi Negara
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: name
+    value: jawa barat
+    description: ""
+    id: pair_242b59466c314ce69e51a1966322b002
+headers: []
+authentication: {}
+metaSortKey: -1626090091986.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

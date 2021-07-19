@@ -1,0 +1,31 @@
+_id: req_0dce464f67d147c7b1fcb128dffc1d26
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1626422576969
+created: 1626408179503
+url: https://api.bantubeli.com/dev/shipping/suburb-list
+name: Data Kecamatan
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: name
+    value: tambun selatan
+    description: ""
+    id: pair_242b59466c314ce69e51a1966322b002
+    disabled: false
+  - name: city_id
+    value: "78"
+    description: ""
+    id: pair_1f01b87db8e740818d49b4bc75d10f67
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1626084111481.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

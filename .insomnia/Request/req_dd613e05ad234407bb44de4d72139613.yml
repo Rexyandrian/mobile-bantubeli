@@ -1,0 +1,39 @@
+_id: req_dd613e05ad234407bb44de4d72139613
+type: Request
+parentId: fld_a904368bb0bd435e8b1f44fd246bec97
+modified: 1626155875303
+created: 1626155730653
+url: https://merchant-api-sandbox.shipper.id/v3/location/countries
+name: Data Negara
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "2"
+    description: ""
+    id: pair_66f2115003aa4fd78b9fab6bccfd10ea
+    disabled: true
+  - name: page
+    value: "4"
+    description: ""
+    id: pair_0db0ee9b9c4e48d3940cb1370b017c11
+    disabled: true
+  - name: country_id
+    value: "228"
+    description: ""
+    id: pair_f36d027f357e49e4a850ee27ab6d8c77
+headers:
+  - name: X-API-Key
+    value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+  - name: "`"
+    value: ""
+authentication: {}
+metaSortKey: -1626114014006
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

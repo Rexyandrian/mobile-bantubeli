@@ -1,0 +1,31 @@
+_id: req_b1e9754b69bb47a6acd353a22682f69b
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1626422676154
+created: 1626408853214
+url: https://api.bantubeli.com/dev/shipping/area-list
+name: Area ID
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: suburban_id
+    value: "1273"
+    description: ""
+    id: pair_1737225d4ded46309db2e84ca7bf30aa
+    disabled: false
+  - name: name
+    value: "17512"
+    description: ""
+    id: pair_0423afb84d8442d0b1edec012116cae8
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1626084111431.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

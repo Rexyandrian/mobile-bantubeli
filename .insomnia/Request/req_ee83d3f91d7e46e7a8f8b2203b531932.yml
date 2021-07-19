@@ -1,0 +1,21 @@
+_id: req_ee83d3f91d7e46e7a8f8b2203b531932
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1625301380271
+created: 1625301378461
+url: https://api.bantubeli.com/generate-store-driver-cashier
+name: Generate Store Cashier & Driver
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1625301378461
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

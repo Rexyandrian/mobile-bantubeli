@@ -1,0 +1,32 @@
+_id: req_3e00e1cde7fb44a7818237c65650cd01
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1626346664532
+created: 1626346596889
+url: https://appleid.apple.com/auth/token
+name: Login Apple
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	 'grant_type' : 'authorization_code',
+        'code' : $_POST['code'],
+        'redirect_uri' : "https://m.bantubeli.com",
+        'client_id': $client_id,
+        'client_secret' : $client_secret,
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626346596889
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

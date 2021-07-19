@@ -1,0 +1,30 @@
+_id: req_35e7993b2ec04e65bbc74091bd34500a
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1626412583311
+created: 1626406766733
+url: https://api.bantubeli.com/dev/shipping/city-list
+name: Data Kota
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: name
+    value: bekasi
+    description: ""
+    id: pair_242b59466c314ce69e51a1966322b002
+    disabled: false
+  - name: province_id
+    value: "9"
+    description: ""
+    id: pair_1f01b87db8e740818d49b4bc75d10f67
+headers: []
+authentication: {}
+metaSortKey: -1626086104983.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
