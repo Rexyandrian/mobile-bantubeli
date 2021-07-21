@@ -1,0 +1,29 @@
+_id: req_5bd2230706564507b30def55e921831a
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1626807477186
+created: 1626717621079
+url: https://api.bantubeli.com/dev/shipping/order
+name: List Order
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_330bc68f55cb427aa645e5870d105c7f
+  - name: limit
+    value: "20"
+    description: ""
+    id: pair_24f571e5100c44969a6d881f3d3478de
+headers: []
+authentication: {}
+metaSortKey: -1626704305397.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

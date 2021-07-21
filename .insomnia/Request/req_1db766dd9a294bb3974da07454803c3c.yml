@@ -1,0 +1,29 @@
+_id: req_1db766dd9a294bb3974da07454803c3c
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1626809797185
+created: 1626806364591
+url: https://api.bantubeli.com/dev/shipping/order
+name: Cancel Order
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"order_code":"217JG2YGJR8V8",
+    	"reason":"oh kitu"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626806364591
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

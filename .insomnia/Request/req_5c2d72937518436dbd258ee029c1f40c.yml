@@ -1,0 +1,29 @@
+_id: req_5c2d72937518436dbd258ee029c1f40c
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1626815707042
+created: 1626807384272
+url: https://api.bantubeli.com/dev/shipping/order
+name: Detail Order
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: order_code
+    value: 217R8382JEXGE
+    description: ""
+    id: pair_cac953df5bc8430eaad04716c14be9a1
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626807384368
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
