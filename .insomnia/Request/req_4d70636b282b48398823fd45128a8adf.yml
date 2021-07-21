@@ -1,0 +1,29 @@
+_id: req_4d70636b282b48398823fd45128a8adf
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1626856367017
+created: 1626853029967
+url: https://api.bantubeli.com/dev/shipping/pickup-order
+name: Pickup Order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"courier_id":58,
+    	"order_code":"217R8382JEXGE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626853029967
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
