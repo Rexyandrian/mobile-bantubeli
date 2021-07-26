@@ -1,0 +1,30 @@
+_id: req_61d8d6dbedd54ad7af78f81f9775323b
+type: Request
+parentId: fld_75ea32d3480f40d8a332b4070380b902
+modified: 1627308501293
+created: 1627308434838
+url: https://api.bantubeli.com/v1/driver/login
+name: Masuk
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"rexy@bbpfm.com",
+    	"password":"123456789"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db857bfebd674f2a9298ac5b43f574d5
+authentication: {}
+metaSortKey: -1618774689745.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_042423c367104a61a6d8a0baedc7b5b5
+type: Request
+parentId: fld_014434dd593a4b5d91ed46e17551735e
+modified: 1627308532068
+created: 1627308434823
+url: https://api.bantubeli.com/v1/driver/notification/read
+name: Read Notification
+description: |-
+  1. read single notification
+         'id' = 9999
+              
+  2. read all notifications
+         'read' = "all"
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"read":"all"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RyaXZlclwvbG9naW4iLCJpYXQiOjE2MTg5ODczMzQsIm5iZiI6MTYxODk4NzMzNCwianRpIjoiZ1hGTk5vZHFoSmEwUUthVSIsInN1YiI6MSwicHJ2IjoiOTE5YzMyNmQ0M2FiMTUxOWE4YmEzYjg1ODZiNjg3NTJlOGM4MzgwNyJ9.gRovRGd_H58f9g2OSVRH2wJJBHSlSAqSRL9ww4UUOXs
+metaSortKey: -1619597459753
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

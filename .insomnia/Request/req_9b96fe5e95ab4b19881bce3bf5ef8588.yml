@@ -1,0 +1,24 @@
+_id: req_9b96fe5e95ab4b19881bce3bf5ef8588
+type: Request
+parentId: fld_32d5875b8c5248d7a1a20e5069ff3168
+modified: 1627308714920
+created: 1627308434768
+url: https://api.bantubeli.com/v1/cashier/me
+name: Info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjIwMjg3Mjk4LCJuYmYiOjE2MjAyODcyOTgsImp0aSI6ImVLMkJobjVUUE9mbkF5OHYiLCJzdWIiOjMsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.U90ujT7IqzuHUg9ddyxoVR5ZuLHjIKGI8Am9RUoeiL8
+  disabled: false
+metaSortKey: -1614584615957
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

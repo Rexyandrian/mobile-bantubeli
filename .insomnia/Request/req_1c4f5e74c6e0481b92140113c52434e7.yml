@@ -1,0 +1,26 @@
+_id: req_1c4f5e74c6e0481b92140113c52434e7
+type: Request
+parentId: fld_81d7bf3209d242d88b0a71b035eea41e
+modified: 1627298050261
+created: 1627015115251
+url: https://sandbox-id.xfers.com/api/v4/payments
+name: list payment
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic
+      dGVzdF9lY2MzYWJjMzQ0ZjFhMzE5MTI4MTgzYzNhMjRmNTE0MjpjYjAzY2E2OS00YzE4LTRiNTQtYTVhZi0yZTZiZjBjNDI3Zjg=
+  - name: content-type
+    value: application/vnd.api+json
+authentication: {}
+metaSortKey: -1627015115251
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

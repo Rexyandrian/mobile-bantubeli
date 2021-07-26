@@ -1,0 +1,62 @@
+_id: req_6138d387003e4d7ea2575065e566d65f
+type: Request
+parentId: fld_fc5083e065c0496e9b3e107fc45bbee3
+modified: 1627309122495
+created: 1627308434721
+url: https://api.bantubeli.com/v1/profile/update
+name: Profile update
+description: >-
+  ### Fields are able to update :
+
+  1. 'name'				=> 'required|max:50|min:8|bail'.
+
+  2. 'province'          => 'required|exists:data_provinsi,nama_provinsi'.
+
+  3. 'city'              => 'required|exists:data_kota,nama_kota'.
+
+  4. 'district'          => 'required|exists:data_kecamatan,nama_kecamatan'.
+
+  5. 'village'           => 'required|exists:data_desa,nama_desa'.
+
+  6. 'post'              => 'required|exists:data_post,kode_pos'.
+
+  7. 'phone'				=> 'required|unique:bb_users,phone|max:13|min:10|bail'.
+
+  8. 'email' 			=> 'required|unique:bb_users,email|max:30|email:rfc,dns|bail'.
+
+  9. 'address'			=> 'required|max:250|bail'.
+
+  10. 'latitude'          => 'required|numeric|bail'.
+
+  11. 'longtitude'        => 'required|numeric|bail'.
+
+  12. 'password'              => 'bail|max:20|min:8|password:api',
+
+  13. 'new_password'          => 'bail|max:20|min:8|required_with:password',
+
+  14. 'new_password_confirm'  => 'bail|required_with:new_password|same:new_password',
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: photo
+      value: ""
+      id: pair_450e34b3bf6242dbafaace2d59341e65
+      type: text
+      multiline: false
+      fileName: C:\Users\RekapDigi02\Pictures\khoir.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NjAzNzAwLCJuYmYiOjE2MTc2MDM3MDAsImp0aSI6IlRPWHdTeTU2ekFqa2NQNTYiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.q3rHeVAGV3N3rFcOn9gYi5kEKQR5knpBKy-puwANuIY
+metaSortKey: -1616665726559
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

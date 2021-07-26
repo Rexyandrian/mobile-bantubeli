@@ -1,0 +1,25 @@
+_id: req_2eb03f7b9ac143c4abef4da3fa67c620
+type: Request
+parentId: fld_81d7bf3209d242d88b0a71b035eea41e
+modified: 1627015038241
+created: 1627015036343
+url: https://sandbox-id.xfers.com/api/v4/disbursements
+name: post distrub
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1627015036343
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

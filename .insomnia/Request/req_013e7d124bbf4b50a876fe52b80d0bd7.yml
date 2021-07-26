@@ -1,0 +1,26 @@
+_id: req_013e7d124bbf4b50a876fe52b80d0bd7
+type: Request
+parentId: fld_81d7bf3209d242d88b0a71b035eea41e
+modified: 1627014923898
+created: 1627013886284
+url: https://sandbox-id.xfers.com/api/v4/disbursements
+name: Disbursement
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic
+      dGVzdF9lY2MzYWJjMzQ0ZjFhMzE5MTI4MTgzYzNhMjRmNTE0MjpjYjAzY2E2OS00YzE4LTRiNTQtYTVhZi0yZTZiZjBjNDI3Zjg=
+  - name: content-type
+    value: application/vnd.api+json
+authentication: {}
+metaSortKey: -1627013886285
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_6e43f9a5c327467fb958bb6f3ebaf083
+type: Request
+parentId: fld_c5e5c2d60ca440349f0db7d80eed9a69
+modified: 1627309404282
+created: 1627308434606
+url: https://api.bantubeli.com/v1/cart/count
+name: Jumlah isi keranjang
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_153f27cfa72c4537b1ab6d5cd0692c57
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3MjQ2NzE2LCJuYmYiOjE2MTcyNDY3MTYsImp0aSI6InJhZmN0MTJzMXpFemZYeUYiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.ImvP1tHBixNAv4PeQm5y-F9frKwAULGClrBjUhnRK80
+metaSortKey: -1616314342341
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

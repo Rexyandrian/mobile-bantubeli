@@ -1,0 +1,96 @@
+_id: req_d416ce20754d4a8292bcf66be1c767df
+type: Request
+parentId: fld_fbbc358b42f945c9bb41169605a82fef
+modified: 1627309213161
+created: 1627308434703
+url: https://api.bantubeli.com/v1/review
+name: List review
+description: >
+  #### attribut yang diperlukan :
+    - product_id : Harus merupakan produk yang telah dibeli
+    - limit : dengan minimal 5 data
+    - on_rating *(opsional)* : untuk mendapatkan hasil berdasarkan rating antar 1 hingga 5
+
+
+    
+  #### sampel :
+      { 
+        "product_id" : 632,
+        "limit":5
+      }
+  #### respon tidak ditemukan ulasan :
+      {
+        "status":false,
+        "data":null,
+        "message":"Ulasan tidak ditemukan"
+      }
+  #### respon berhasil :
+      {
+      "status": true,
+      "data": {
+        "is_buy": false,
+        "is_review": false,
+        "rating": {
+          "count": 2,
+          "average": 4.5,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 1
+        },
+        "review": [
+          {
+            "id": "2",
+            "user_id": "12",
+            "product_id": "12",
+            "store_id": "2",
+            "review": "Pengiriman cepat",
+            "rating": 5,
+            "review_date": "Hari ini",
+            "buyer_name": "Andika Andriana",
+            "product_name": "CP Fillet Mitra 1 Kg",
+            "reply": null
+          },
+          ...
+        ]
+      },
+      "message": "Success"
+      }
+  #### respon balasan ulasan :
+      {
+        ....,
+        "reply": {
+          "id": "8",
+          "review_id": "22",
+          "store_id": "2",
+          "replies": "Terima kasih atas ulasannya semoga puas dengan pelayanan kami",
+          "created_at": "2021-04-30 13:10:00",
+          "updated_at": "2021-04-30 13:44:00",
+          "store_name": "PRIMA FRESHMART KEBON KACANG",
+          "store_logo": "https:\/\/www.bantubeli.com\/assets\/store\/images\/group\/pfm.png"
+        }
+      }
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"product_id" : 632,
+    	"limit":5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjIwMTEwNzE5LCJuYmYiOjE2MjAxMTA3MTksImp0aSI6IlZUbXp1ZjlHNVI4bURTcjUiLCJzdWIiOjMxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.qOH3uOLjXtJRFxZK2_vwkQyauH6SFfMoOEAODn2fV4U
+metaSortKey: -1618901033858
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

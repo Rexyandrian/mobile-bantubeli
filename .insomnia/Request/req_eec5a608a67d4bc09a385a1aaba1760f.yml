@@ -1,0 +1,88 @@
+_id: req_eec5a608a67d4bc09a385a1aaba1760f
+type: Request
+parentId: fld_5a916bd19df240bca727d4c63796934a
+modified: 1627309465233
+created: 1627308434563
+url: https://api.bantubeli.com/v1/dl/bank-list
+name: Bank
+description: >+
+  >**query attributes** :
+
+
+  - Optional attribute(s):
+    - group : in Y or N
+
+  > Sample response in group :
+
+      
+        {
+          "status": true,
+          "data": {
+            "debit": [
+              {
+                "id": "2",
+                "name": "Mandiri",
+                "rekening": "121 000 121 9009",
+                "rekening_name": "PT Radigi Sinergi Utama",
+                "logo": "https:\/\/www.bantubeli.com\/assets\/images\/logos\/logo-bank-mandiri.png",
+                "status": true
+              },
+              {
+                "name": "BCA",
+                "rekening": "121 000 121 9009",
+                "rekening_name": "PT Radigi Sinergi Utama",
+                "logo": "https:\/\/www.bantubeli.com\/assets\/images\/logos\/BCA.png",
+                "status": false
+              },
+              ...
+            ],
+            "va": [
+              {
+                "name": "Mandiri Virtual Account",
+                "rekening": "121 000 121 9009",
+                "rekening_name": "PT Radigi Sinergi Utama",
+                "logo": "https:\/\/www.bantubeli.com\/assets\/images\/logos\/logo-bank-mandiri.png",
+                "status": false
+              },
+              {
+                "name": "BCA Virtual Account",
+                "rekening": "121 000 121 9009",
+                "rekening_name": "PT Radigi Sinergi Utama",
+                "logo": "https:\/\/www.bantubeli.com\/assets\/images\/logos\/BCA.png",
+                "status": false
+              },
+              ...
+            ],
+            "instant": [
+              {
+                "name": "GoPay",
+                "rekening": "121 000 121 9009",
+                "rekening_name": "PT Radigi Sinergi Utama",
+                "logo": "https:\/\/www.bantubeli.com\/assets\/images\/logos\/logo-gopay.png",
+                "status": false
+              }
+            ]
+          },
+          "message": "Success"
+        }
+      
+method: GET
+body: {}
+parameters:
+  - name: group
+    value: Y
+    description: ""
+    id: pair_d0bf5acc6aa74f84839dc7be1228b13d
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjIxNTgwNDQ2LCJuYmYiOjE2MjE1ODA0NDYsImp0aSI6ImZtbnhzV0tWa240RlBVbTkiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.EM5unXjTH8q3tQE1xIvLb6oIMGG-6wgiVem9Y1-Lbsc
+metaSortKey: -1621836688979
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

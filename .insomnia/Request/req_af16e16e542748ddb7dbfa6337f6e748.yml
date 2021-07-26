@@ -1,0 +1,26 @@
+_id: req_af16e16e542748ddb7dbfa6337f6e748
+type: Request
+parentId: fld_5a916bd19df240bca727d4c63796934a
+modified: 1627309451805
+created: 1627308434570
+url: https://api.bantubeli.com/v1/dl/brand
+name: Brand list
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: brand_id
+    value: "2"
+    description: ""
+    id: pair_811283f6d2034d4885c228edf7ce689b
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1624362302711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,45 @@
+_id: req_7ff1fe9829a44cb39ca19ce69043f3d3
+type: Request
+parentId: fld_5a916bd19df240bca727d4c63796934a
+modified: 1627309534973
+created: 1627308434540
+url: https://api.bantubeli.com/v1/dl/store/detail
+name: Store detail
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: store_id
+    value: "2"
+    description: ""
+    id: pair_901492bef52445af91806302274eacc4
+    disabled: false
+  - name: limit_product
+    value: "20"
+    description: ""
+    id: pair_67d81339fce5437b8c4d5d989683e00a
+  - name: latitude
+    value: "-6.270221033552741"
+    description: ""
+    id: pair_ad496889c72c4fa1bda257323796c4d1
+  - name: longtitude
+    value: "107.0224447176664"
+    description: ""
+    id: pair_c6f8715cde284285b1e723ac59a7e810
+  - name: search
+    value: Stick-6.188447
+    description: ""
+    id: pair_97803f30ef9d4c3783d665d6b3cc78b0
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3MjQ2NzE2LCJuYmYiOjE2MTcyNDY3MTYsImp0aSI6InJhZmN0MTJzMXpFemZYeUYiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.ImvP1tHBixNAv4PeQm5y-F9frKwAULGClrBjUhnRK80
+metaSortKey: -1616035849477
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

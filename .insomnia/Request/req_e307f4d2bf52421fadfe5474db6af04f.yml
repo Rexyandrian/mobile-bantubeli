@@ -1,0 +1,30 @@
+_id: req_e307f4d2bf52421fadfe5474db6af04f
+type: Request
+parentId: fld_4e98aeeb0b8841548e1d70af882a1fb8
+modified: 1627308655860
+created: 1627308434811
+url: https://api.bantubeli.com/v1/driver/arrived
+name: Arrived Order
+description: '    order_no => "required"'
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"order_no":"hgNv1619159853"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RyaXZlclwvbG9naW4iLCJpYXQiOjE2MTg5ODczMzQsIm5iZiI6MTYxODk4NzMzNCwianRpIjoiZ1hGTk5vZHFoSmEwUUthVSIsInN1YiI6MSwicHJ2IjoiOTE5YzMyNmQ0M2FiMTUxOWE4YmEzYjg1ODZiNjg3NTJlOGM4MzgwNyJ9.gRovRGd_H58f9g2OSVRH2wJJBHSlSAqSRL9ww4UUOXs
+metaSortKey: -1617860589096
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
