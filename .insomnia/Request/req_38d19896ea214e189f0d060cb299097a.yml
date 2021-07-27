@@ -1,7 +1,7 @@
 _id: req_38d19896ea214e189f0d060cb299097a
 type: Request
 parentId: fld_c5e5c2d60ca440349f0db7d80eed9a69
-modified: 1627309386240
+modified: 1627356756328
 created: 1627308434603
 url: https://api.bantubeli.com/v1/checkout
 name: Checkout
@@ -33,8 +33,6 @@ body:
     	"ship_lat":106.86931,
     	"store_id":1087,
     	"ship_zip":"17510",
-    	"id_bag":"19964",
-    	"qty_bag":1,
     	"product":[
     		{
     			"product_id":"124",

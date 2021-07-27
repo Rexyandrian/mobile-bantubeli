@@ -1,24 +1,25 @@
-_id: req_3e00e1cde7fb44a7818237c65650cd01
+_id: req_b537bcf6c2a84950a7c3b029de70212c
 type: Request
-parentId: fld_6a822299b7c94af5b776b35130683746
-modified: 1627024425498
-created: 1626346596889
-url: https://api.bantubeli.com/auth/apple_exists
-name: Login Apple
+parentId: fld_2669878b28ce48d5be8a65fbb7d617c3
+modified: 1627311300423
+created: 1627311215485
+url: https://api.bantubeli.com/v1/auth/login
+name: User Login
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
-    	"email":"rekapdigi08@gmail.com"
+    	"email":"rexygarts@gmail.com",
+    	"password":"123456789"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1626346596889
+metaSortKey: -1627311215485
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_e3ede8b966c244cb85432ac18d453da1
 type: Request
 parentId: fld_572b46dcbe7a40b585dcd8d9b89ebba7
-modified: 1620637089425
+modified: 1627373639338
 created: 1620636510550
 url: https://api.bantubeli.com/dev/cart
 name: Isi keranjang
@@ -9,15 +9,30 @@ description: ""
 method: GET
 body: {}
 parameters:
-  - name: longtitude
+  - name: latitude
     value: "-6.236882015488212"
     description: ""
     id: pair_153f27cfa72c4537b1ab6d5cd0692c57
-    disabled: true
-  - name: latitude
+    disabled: false
+  - name: longtitude
     value: "106.7479812113364"
     description: ""
     id: pair_7ad83a3e44204f5ab3b0840347ede047
+    disabled: false
+  - name: sid
+    value: "15"
+    description: ""
+    id: pair_0659dfd635834755870dd67dabed757f
+    disabled: false
+  - name: latitude
+    value: "-6.1510614906680985"
+    description: ""
+    id: pair_e36fac58423c4e289f003b152abc467a
+    disabled: true
+  - name: longtitude
+    value: "106.87662444931189"
+    description: ""
+    id: pair_b687dfb9ed4046cdaa8de7ff4b52a120
     disabled: true
 headers: []
 authentication:

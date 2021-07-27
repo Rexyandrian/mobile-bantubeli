@@ -1,7 +1,7 @@
 _id: req_6ba58526690f42679e9c435cecf7d947
 type: Request
 parentId: fld_a904368bb0bd435e8b1f44fd246bec97
-modified: 1626815748016
+modified: 1626844499867
 created: 1626815089067
 url: https://merchant-api-sandbox.shipper.id/v3/order/217R8382JEXGE
 name: update order
@@ -9,7 +9,7 @@ description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: >-
+  text: >
     {
       "consignee": {
         "name": "Farhan Ismail",
