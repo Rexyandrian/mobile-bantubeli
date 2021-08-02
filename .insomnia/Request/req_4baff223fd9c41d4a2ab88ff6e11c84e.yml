@@ -1,16 +1,16 @@
 _id: req_4baff223fd9c41d4a2ab88ff6e11c84e
 type: Request
 parentId: fld_6e074ef242d745edabdfb71662f0a846
-modified: 1627364393236
+modified: 1627890888384
 created: 1626418749036
-url: https://api.bantubeli.com/v1/shipping/estimasi
+url: https://api.bantubeli.com/dev/shipping/estimasi
 name: Order Est
 description: ""
 method: GET
 body: {}
 parameters:
   - name: store_id
-    value: "15"
+    value: "13"
     description: ""
     id: pair_52ee6c957f1d4df194c2e51f5e602a24
   - name: latitude
@@ -22,9 +22,13 @@ parameters:
     description: ""
     id: pair_fff245ecda1640a7946fc07388da18e7
   - name: user_id
-    value: "11"
+    value: "61"
     description: ""
     id: pair_72522ca3d4e44171be87e941b9a8091e
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_2fe0c0dbba6d4158b79f387aa8d65675
 headers: []
 authentication: {}
 metaSortKey: -1626418749037

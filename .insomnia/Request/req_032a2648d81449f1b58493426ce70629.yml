@@ -1,0 +1,46 @@
+_id: req_032a2648d81449f1b58493426ce70629
+type: Request
+parentId: fld_75c0809bac9241d0b5171ad5fd25bafa
+modified: 1627890560621
+created: 1627613089948
+url: https://api.bantubeli.com/dev/cart
+name: Cek Estimasi Ongkir
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: sid
+    value: "13"
+    description: ""
+    id: pair_d1cce1f6cef14d2fa7629778e674905e
+    disabled: false
+  - name: courier_id
+    value: "340"
+    description: ""
+    id: pair_7dc51e1d7e2e423d8a5eb176d4b7293d
+    disabled: false
+  - name: mode_group
+    value: "true"
+    description: ""
+    id: pair_6dd6cca47bb3476794eea58d8db20c0d
+    disabled: true
+  - name: latitude
+    value: "-6.1510614906680985"
+    description: ""
+    id: pair_4f0dbe72b24840c2b5935c6692efd39a
+  - name: longtitude
+    value: "106.87662444931189"
+    description: ""
+    id: pair_ae620fb414904b92adb366dbef1f8e45
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RldlwvYXV0aFwvbG9naW4iLCJpYXQiOjE2Mjc0NjAwMjgsIm5iZiI6MTYyNzQ2MDAyOCwianRpIjoiMlo0eTJhWHVrN05wR1lnTSIsInN1YiI6NjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.eNGpX1pFcl7JEe7IpkN2f0jdsnI70-FlzVGDjruvIP4
+metaSortKey: -1627613089948
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

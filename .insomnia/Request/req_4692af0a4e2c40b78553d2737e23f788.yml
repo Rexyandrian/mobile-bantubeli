@@ -1,7 +1,7 @@
 _id: req_4692af0a4e2c40b78553d2737e23f788
 type: Request
 parentId: fld_c139818d2ce348d39bb5aff348c31a1c
-modified: 1626333462301
+modified: 1627460200761
 created: 1620636510500
 url: https://api.bantubeli.com/dl/product-list/home
 name: Data produk
@@ -15,12 +15,12 @@ parameters:
     value: "-6.270221033552741"
     description: ""
     id: pair_45884da56e984dff8d54888ececff6d9
-    disabled: true
+    disabled: false
   - name: longtitude
     value: "107.0224447176664"
     description: ""
     id: pair_cb38942e8bb542de99245e3cf1f29022
-    disabled: true
+    disabled: false
   - name: search
     value: fiesta
     description: ""
@@ -30,12 +30,12 @@ parameters:
     value: "-6.188271230243793"
     description: ""
     id: pair_adbea320e30745c7aef9b4b9e2bbae0c
-    disabled: false
+    disabled: true
   - name: longtitude
     value: "106.82264245559702"
     description: ""
     id: pair_9328c8dfb78c49cdac801872d2ebd3f8
-    disabled: false
+    disabled: true
   - name: limit_product
     value: "8"
     description: ""

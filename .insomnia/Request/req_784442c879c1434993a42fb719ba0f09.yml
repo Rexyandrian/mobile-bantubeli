@@ -1,7 +1,7 @@
 _id: req_784442c879c1434993a42fb719ba0f09
 type: Request
 parentId: fld_572b46dcbe7a40b585dcd8d9b89ebba7
-modified: 1620637085317
+modified: 1627475111669
 created: 1620636510564
 url: https://api.bantubeli.com/dev/checkout
 name: Checkout
@@ -26,21 +26,20 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"driver_note":"Bekasi",
+    	"driver_note":"Kalau nyasar yaudah",
     	"address":"Bekasi",
-    	"payment_id":"1",
+    	"payment_id":21,
     	"ship_long":-6.227243,
     	"ship_lat":106.86931,
-    	"store_id":1087,
+    	"courier_id":"",
+    	"store_id":13,
     	"ship_zip":"17510",
-    	"id_bag":"19964",
-    	"qty_bag":1,
     	"product":[
     		{
-    			"product_id":"124",
-    			"price":66500,
-    			"qty":2,
-    			"note":"xxxx"
+    			"note":"tes note"
+    		},
+    		{
+    			"note":"tes note 1"
     		}
     	]
     }
@@ -50,7 +49,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NzY2MzgwLCJuYmYiOjE2MTc3NjYzODAsImp0aSI6IjR3cTJFcjEwNW5vWENtc2kiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.gvfpOuoETdZ_d0n9SokXIxAhzHLz06ITKPzgMSrW0Jg
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RldlwvYXV0aFwvbG9naW4iLCJpYXQiOjE2Mjc0NjAwMjgsIm5iZiI6MTYyNzQ2MDAyOCwianRpIjoiMlo0eTJhWHVrN05wR1lnTSIsInN1YiI6NjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.eNGpX1pFcl7JEe7IpkN2f0jdsnI70-FlzVGDjruvIP4
 metaSortKey: -1616484395724
 isPrivate: false
 settingStoreCookies: true
