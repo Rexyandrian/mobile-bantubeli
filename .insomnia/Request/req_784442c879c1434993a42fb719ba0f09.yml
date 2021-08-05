@@ -1,7 +1,7 @@
 _id: req_784442c879c1434993a42fb719ba0f09
 type: Request
 parentId: fld_572b46dcbe7a40b585dcd8d9b89ebba7
-modified: 1628054718678
+modified: 1628154884367
 created: 1620636510564
 url: https://api.bantubeli.com/dev/checkout
 name: Checkout
@@ -19,8 +19,12 @@ description: |-2
       "product.*.qty"             => ["required","min:1"],
       "product.*.price"           => "required|min:1",
       "product.*.note"            => "nullable|max:250",
-      'id_bag'                    => ["required","exists:bb_products,id"],
-      "qty_bag"                   => ["required_with:id_bag","min:1"
+      "courier_id"                => "required",
+      "courier_code"              => "required"
+      
+  *Note : *
+  - courier_id diambil dari pengiriman rate->id
+  - courier_code diambil dari pengiriman logistic->code 
 method: POST
 body:
   mimeType: application/json

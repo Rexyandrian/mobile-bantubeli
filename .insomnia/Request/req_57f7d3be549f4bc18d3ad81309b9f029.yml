@@ -1,0 +1,35 @@
+_id: req_57f7d3be549f4bc18d3ad81309b9f029
+type: Request
+parentId: fld_862fb7a7412843ef938bf281084b827d
+modified: 1627921098796
+created: 1627920718371
+url: https://api.telegram.org/bot1796281648:AAEQ9nh4hMmCc2wb92kQll_emt8Mg8j8sBw/sendMessage
+name: send message
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: chat_id
+    value: "1315632435"
+    description: ""
+    id: pair_fd657a35a2f94b1fa1de4e2825132271
+  - name: text
+    value: <pre language="c++">code</pre>
+    description: ""
+    id: pair_75898c70a7994c1bbeafbee114cd8823
+    type: text
+    multiline: text/plain
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_3f984dc80cb945898abda80362d05c4a
+headers: []
+authentication: {}
+metaSortKey: -1627920718371
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

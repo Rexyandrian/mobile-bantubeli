@@ -1,0 +1,52 @@
+_id: req_2d699506e8174130ae378cf0904c5981
+type: Request
+parentId: fld_b605b0786d024566b9f481b11779c9b8
+modified: 1628098346333
+created: 1628070441381
+url: https://api.bantubeli.com/dev/quick-buy
+name: Quick Buy
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"driver_note":"Di Bekasi ya mas",
+    	"address":"Bekasi",
+    	"payment_id":21,
+    	"ship_long":106.82264245559702,
+    	"ship_lat":-6.188271230243793,
+    	"store_id":15,
+    	"courier_id":329,
+    	"courier_code":"GSN",
+    	"ship_zip":"17510",
+    	"product":[
+    		{
+    			"product_id":"102762",
+    			"price":27000,
+    			"qty":1,
+    			"note":"xxxx"
+    		},
+    		{
+    			"product_id":"102765",
+    			"price":5000,
+    			"qty":1,
+    			"note":"tas"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RldlwvYXV0aFwvbG9naW4iLCJpYXQiOjE2Mjc4ODY3OTgsIm5iZiI6MTYyNzg4Njc5OCwianRpIjoiSnF5cllqTmlyS0dwWnVOeiIsInN1YiI6MTEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.o2v5O1_E-RuHmTc9dmyq8E2gqLLpOBkJe_OklGvFaLQ
+metaSortKey: -1624328600663
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

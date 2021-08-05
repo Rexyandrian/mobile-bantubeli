@@ -1,0 +1,21 @@
+_id: req_4b73d07b9393490abbc714ffbdfa18d4
+type: Request
+parentId: fld_862fb7a7412843ef938bf281084b827d
+modified: 1627920657283
+created: 1627920637031
+url: https://api.telegram.org/bot1796281648:AAEQ9nh4hMmCc2wb92kQll_emt8Mg8j8sBw/getUpdates
+name: get update token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1627920637121
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
