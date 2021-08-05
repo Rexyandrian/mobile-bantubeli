@@ -1,7 +1,7 @@
 _id: req_eff629cc74cf47109e2a877809acefb7
 type: Request
 parentId: fld_16514a7c316043d5a7508c79dfc4de54
-modified: 1627930772752
+modified: 1628003002084
 created: 1620636510673
 url: https://api.bantubeli.com/dev/auth/me
 name: Info
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RldlwvYXV0aFwvbG9naW4iLCJpYXQiOjE2Mjc4ODY3OTgsIm5iZiI6MTYyNzg4Njc5OCwianRpIjoiSnF5cllqTmlyS0dwWnVOeiIsInN1YiI6MTEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.o2v5O1_E-RuHmTc9dmyq8E2gqLLpOBkJe_OklGvFaLQ
   disabled: false
-metaSortKey: -1616665726509
+metaSortKey: -1616665726584
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

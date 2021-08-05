@@ -1,7 +1,7 @@
 _id: req_032a2648d81449f1b58493426ce70629
 type: Request
 parentId: fld_75c0809bac9241d0b5171ad5fd25bafa
-modified: 1627923101079
+modified: 1628055069598
 created: 1627613089948
 url: https://api.bantubeli.com/dev/shipping/estimasi-courier
 name: Cek Estimasi Ongkir
@@ -15,7 +15,7 @@ parameters:
     id: pair_d1cce1f6cef14d2fa7629778e674905e
     disabled: false
   - name: courier_id
-    value: "328"
+    value: "329"
     description: ""
     id: pair_7dc51e1d7e2e423d8a5eb176d4b7293d
     disabled: false

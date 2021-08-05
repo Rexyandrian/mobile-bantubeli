@@ -1,7 +1,7 @@
 _id: req_1db766dd9a294bb3974da07454803c3c
 type: Request
 parentId: fld_6e074ef242d745edabdfb71662f0a846
-modified: 1627477424682
+modified: 1628005671886
 created: 1626806364591
 url: https://api.bantubeli.com/v1/shipping/order
 name: Cancel Order
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"order_code":"217MK8N2RWN2W",
+    	"order_code":"218VD48EVNKYK",
     	"reason":"oh kitu"
     }
 parameters: []

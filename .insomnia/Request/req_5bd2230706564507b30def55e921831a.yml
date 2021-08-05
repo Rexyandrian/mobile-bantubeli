@@ -1,9 +1,9 @@
 _id: req_5bd2230706564507b30def55e921831a
 type: Request
-parentId: fld_6e074ef242d745edabdfb71662f0a846
-modified: 1627934409421
+parentId: fld_75c0809bac9241d0b5171ad5fd25bafa
+modified: 1628005649290
 created: 1626717621079
-url: https://api.bantubeli.com/v1/shipping/order
+url: https://api.bantubeli.com/dev/shipping/order
 name: List Order
 description: ""
 method: GET
@@ -17,13 +17,13 @@ parameters:
     value: "20"
     description: ""
     id: pair_24f571e5100c44969a6d881f3d3478de
-  - name: ""
-    value: ""
+  - name: sort_by
+    value: -created_date
     description: ""
     id: pair_8fb51937695b426a9ce992009a32020e
 headers: []
 authentication: {}
-metaSortKey: -1626704305397.5
+metaSortKey: -1627376988197
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

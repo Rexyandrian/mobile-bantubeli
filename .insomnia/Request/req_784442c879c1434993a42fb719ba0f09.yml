@@ -1,7 +1,7 @@
 _id: req_784442c879c1434993a42fb719ba0f09
 type: Request
 parentId: fld_572b46dcbe7a40b585dcd8d9b89ebba7
-modified: 1627933226091
+modified: 1628054718678
 created: 1620636510564
 url: https://api.bantubeli.com/dev/checkout
 name: Checkout
@@ -28,7 +28,7 @@ body:
     {
     	"driver_note":"Kalau nyasar yaudah",
     	"address":"rumah farhan",
-    	"payment_id":21,
+    	"payment_id":25,
     	"ship_long":106.8687918,
     	"ship_lat":-6.2274937,
     	"courier_id":329,

@@ -1,7 +1,7 @@
 _id: req_79197e34565a42eca29e65b0271d4df1
 type: Request
 parentId: fld_932d633e68c846ce9e7c83ad76a33417
-modified: 1620637056417
+modified: 1628064730447
 created: 1620636510584
 url: https://api.bantubeli.com/dev/order
 name: Order list
@@ -13,7 +13,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"order_no":"CCuC1620098364"
+    	"group":"Y"
     }
 parameters: []
 headers:
