@@ -1,7 +1,7 @@
 _id: req_80de41065c284b1492b3c6da1c7df99b
 type: Request
 parentId: fld_6a822299b7c94af5b776b35130683746
-modified: 1626441988061
+modified: 1629097732588
 created: 1619497679453
 url: https://fcm.googleapis.com/fcm/send
 name: Send push notification
@@ -10,9 +10,8 @@ method: POST
 body:
   mimeType: application/json
   text: >-
-    { "registration_ids":[
-    	"ey_bAF5oCkMLtv01iaiE-g:APA91bHZk4qNexHlCqlQS3izgBbwnhuP2Qj8KMt5BOBuMbxIF0O_YMaFHqO0sWKd1oLaMZCHYxYIDSzoiMXAE9LZ002J8UzC6QfidUv8nofJDsokfFeCwoF37CZb5tD7HFr7_PwF2bPk","dIuvxy6DNkvNhtmrpcwnKU:APA91bEAykcE6aLDYDwtUoySZpFnmSjuOtx05EuBpJ30SatxQjvhdTDz5g6dcS0UdmYrOstmYpdbdjkIT34p2xkElATig_fNWQL35h7Xi4i4Ca2IJHVbI6E9o20hZpNMkWDCxk5Plab4","e_YoPrFlQ0G-hXt_iHwavH:APA91bFZhaKCLmNlyD8U9ZNd7PCcXkggq2rN9KFtrvwKVMbJh4OVTvVakAb3fRPgsS33b69ExsXnOtj6v0ObfhW4_be2LdkvvRIUMDlQHatbhn1YVuMLhG4lF2LTY_rXl7H3geDV234H"
-    ],
+    {
+    "registration_ids":["er8U7v4pQA2uFxU3etv9XS:APA91bEKdDECqaRY2Ay_5ytWB0ah7eCnskmDdyKDUU225Q9_2lO92i6Ti8VhsfJEMOddNIXAJiR1aRlNWRuBJSQEwIbHgiwW13E180l6h35DncRSiMKdNxYnM1qiwA_HltDd3Iaq26LG"],
       "notification": {
        "title": "Bantu beli",
         "body": "Tes notifikasi 1"

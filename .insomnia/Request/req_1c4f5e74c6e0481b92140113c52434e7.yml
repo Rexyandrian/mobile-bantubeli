@@ -1,18 +1,19 @@
 _id: req_1c4f5e74c6e0481b92140113c52434e7
 type: Request
 parentId: fld_81d7bf3209d242d88b0a71b035eea41e
-modified: 1628001967217
+modified: 1628756406174
 created: 1627015115251
-url: https://sandbox-id.xfers.com/api/v4/payments
+url: https://sandbox-id.xfers.com/api/v4/payments/contract_fc1ffd2ac51442508881d2a5b66123a2
 name: list payment
 description: ""
 method: GET
 body: {}
 parameters:
   - name: referenceId
-    value: "499021"
+    value: contract_bdca134c438a4d5990d31a7e1a39a361
     description: ""
     id: pair_d35b092bb7aa426b9a1d681b758c45da
+    disabled: true
 headers:
   - name: Authorization
     value: Basic

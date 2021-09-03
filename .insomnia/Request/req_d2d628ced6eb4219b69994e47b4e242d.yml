@@ -1,7 +1,7 @@
 _id: req_d2d628ced6eb4219b69994e47b4e242d
 type: Request
 parentId: fld_11ef4f97b0894ddda26f4111fa41812c
-modified: 1627309079660
+modified: 1629908774412
 created: 1627308434737
 url: https://api.bantubeli.com/v1/quick-buy
 name: Quick Buy
@@ -11,8 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"store_id":"2",
-    	"product_id":18612
+    	"store_id":"2077",
+    	"product_id":799,
+    	"qty":1,
+    	"latitude":-6.18834294257533,
+    	"longtitude":106.82263371064127
     }
 parameters: []
 headers:

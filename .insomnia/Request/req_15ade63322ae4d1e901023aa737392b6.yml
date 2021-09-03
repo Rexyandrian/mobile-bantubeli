@@ -1,7 +1,7 @@
 _id: req_15ade63322ae4d1e901023aa737392b6
 type: Request
 parentId: fld_a904368bb0bd435e8b1f44fd246bec97
-modified: 1626159174375
+modified: 1629953661802
 created: 1626159158936
 url: https://merchant-api-sandbox.shipper.id/v3/logistic
 name: Data Logistik Aktif

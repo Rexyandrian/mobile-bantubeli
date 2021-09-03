@@ -1,9 +1,9 @@
 _id: req_6a344742042a443da3f6991f6e2350d3
 type: Request
 parentId: fld_a904368bb0bd435e8b1f44fd246bec97
-modified: 1626421007236
+modified: 1630382824757
 created: 1626161666110
-url: https://merchant-api-sandbox.shipper.id/v3/pricing/domestic
+url: https://merchant-api-sandbox.shipper.id/v3/pricing/domestic/instant
 name: Pricing Domestic
 description: ""
 method: POST
@@ -11,20 +11,19 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"area_id":12433,
-    	 "origin": {
-    				"lat": "-6.175979496423558",
-    				"lng": "106.81275581150334"
-    	 },
-    		"destination": {
-    				"lat": "-6.270202366152504",
-    				"lng": "107.02242593909544"
-    	 },
-    	 "height": 4,
-    	 "item_value": 40000,
-    	 "length": 50,
-    	 "weight": 2,
-    	 "width": 40
+    	"origin": {
+    		"lat": "-6.175979496423558",
+    		"lng": "106.81275581150334"
+    	},
+    	"destination": {
+    		"lat": "-6.270202366152504",
+    		"lng": "107.02242593909544"
+    	},
+    	"height": 15,
+    	"item_value": 40000,
+    	"length": 30,
+    	"weight": 2,
+    	"width": 40
     }
 parameters: []
 headers:

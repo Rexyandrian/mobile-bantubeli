@@ -1,7 +1,7 @@
 _id: req_6fa36fd61d6d4c7a9b4d1db4665b38b3
 type: Request
 parentId: fld_11ef4f97b0894ddda26f4111fa41812c
-modified: 1627309068066
+modified: 1629373060579
 created: 1627308434740
 url: https://api.bantubeli.com/v1/quick-buy
 name: Quick Buy
@@ -11,25 +11,27 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"driver_note":"Bekasi",
-    	"address":"Bekasi",
-    	"payment_id":"2",
-    	"ship_long":106.82264245559702,
-    	"ship_lat":-6.188271230243793,
-    	"store_id":47,
-    	"ship_zip":"17510",
-    	"product":[
+    	"driver_note": "Tes Rexy Bekasi",
+    	"address": "Bekasi",
+    	"payment_id": 20,
+    	"ship_long": 106.82264245559702,
+    	"ship_lat": -6.188271230243793,
+    	"store_id": 47,
+    	"courier_id": 329,
+    	"courier_code": "GSN",
+    	"ship_zip": "17510",
+    	"product": [
     		{
-    			"product_id":"124",
-    			"price":66500,
-    			"qty":1,
-    			"note":"xxxx"
+    			"product_id": 1984,
+    			"price": 37500,
+    			"qty": 1,
+    			"note": "xxxx"
     		},
     		{
-    			"product_id":"124",
-    			"price":66500,
-    			"qty":1,
-    			"note":"xxxx"
+    			"product_id": "19964",
+    			"price": 5000,
+    			"qty": 1,
+    			"note": "tas"
     		}
     	]
     }

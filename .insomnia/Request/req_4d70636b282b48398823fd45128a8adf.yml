@@ -1,7 +1,7 @@
 _id: req_4d70636b282b48398823fd45128a8adf
 type: Request
 parentId: fld_6e074ef242d745edabdfb71662f0a846
-modified: 1627929978985
+modified: 1630520235873
 created: 1626853029967
 url: https://api.bantubeli.com/dev/shipping/pickup-order
 name: Pickup Order
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"order_code":"218P5RRP4QQEE"
+    	"order_code":"2193JG8Z74G7D"
     }
 parameters: []
 headers:

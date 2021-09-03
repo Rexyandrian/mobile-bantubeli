@@ -1,16 +1,16 @@
 _id: req_4baff223fd9c41d4a2ab88ff6e11c84e
 type: Request
 parentId: fld_6e074ef242d745edabdfb71662f0a846
-modified: 1627890888384
+modified: 1629882158624
 created: 1626418749036
-url: https://api.bantubeli.com/dev/shipping/estimasi
+url: https://api.bantubeli.com/v1/shipping/estimasi
 name: Order Est
 description: ""
 method: GET
 body: {}
 parameters:
   - name: store_id
-    value: "13"
+    value: "2077"
     description: ""
     id: pair_52ee6c957f1d4df194c2e51f5e602a24
   - name: latitude
