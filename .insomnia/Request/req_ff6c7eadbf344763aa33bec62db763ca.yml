@@ -1,0 +1,27 @@
+_id: req_ff6c7eadbf344763aa33bec62db763ca
+type: Request
+parentId: fld_2c0005192552460ea156fceb3e6a5cc1
+modified: 1628616723495
+created: 1628614854356
+url: https://api.bantubeli.com/dl/product-list/home?latitude=37.779564&longtitude=-122.391617&limit_product=8&page=1
+name: Home product list
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "21"
+    description: ""
+    id: pair_095a303524804f7a9f03fb93e61362e3
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjI0MjY4NTEzLCJuYmYiOjE2MjQyNjg1MTMsImp0aSI6InFtMHVxQjVlRVdDSkNiOVYiLCJzdWIiOjE2NiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.SZralSpz65iqjvDXoj4qHnXxH80P-VrYynUlF91z-JM
+metaSortKey: -1628614854356
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

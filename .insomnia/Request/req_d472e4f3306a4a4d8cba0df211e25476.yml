@@ -1,0 +1,48 @@
+_id: req_d472e4f3306a4a4d8cba0df211e25476
+type: Request
+parentId: fld_a904368bb0bd435e8b1f44fd246bec97
+modified: 1630297560270
+created: 1630297154683
+url: https://merchant-api-sandbox.shipper.id/v3/pricing/domestic/instant
+name: Order Est by courier area
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cod": false,
+    	"destination": {
+    		"area_id": 4691,
+    		"lat": "-6.2273721",
+    		"lng": "106.8686674"
+    	},
+    	"height": 40,
+    	"item_value": 40000,
+    	"length": 30,
+    	"origin": {
+    	  "area_id": 4866,
+    		"lat": "-6.175979496423558",
+    		"lng": "106.81275581150334"
+    	},
+    	"sort_by": [
+    		"rates"
+    	],
+    	"weight": 5.0,
+    	"width": 30
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-API-Key
+    value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+authentication: {}
+metaSortKey: -1626098065955.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

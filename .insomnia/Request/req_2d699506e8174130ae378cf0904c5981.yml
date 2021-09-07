@@ -1,7 +1,7 @@
 _id: req_2d699506e8174130ae378cf0904c5981
 type: Request
 parentId: fld_b605b0786d024566b9f481b11779c9b8
-modified: 1628765448390
+modified: 1630912455056
 created: 1628070441381
 url: https://api.bantubeli.com/dev/quick-buy
 name: Quick Buy
@@ -13,7 +13,7 @@ body:
     	{
     		"driver_note":"Di Bekasi ya mas mas",
     		"address":"Bekasi",
-    		"payment_id":27,
+    		"payment_id":22,
     		"ship_long":106.82275077641631,
     		"ship_lat":-6.1879607221142585,
     		"store_id":15,

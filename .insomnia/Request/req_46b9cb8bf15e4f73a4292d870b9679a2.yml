@@ -1,0 +1,30 @@
+_id: req_46b9cb8bf15e4f73a4292d870b9679a2
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1629352854959
+created: 1629352791056
+url: https://api.bantubeli.com/dev/print_invoice
+name: invoice_print
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"order_no":"ggga1629104863"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RldlwvYXV0aFwvbG9naW4iLCJpYXQiOjE2Mjc4ODgwMzAsIm5iZiI6MTYyNzg4ODAzMCwianRpIjoiU0h2RHRSampsbHJrN1o1MyIsInN1YiI6NjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.3K2s826JwwK3B94qhUy4sXB5Wsa-mUtR42wsNIEt4i8
+metaSortKey: -1629352791057
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_f1f053f145d64242a709b985d55fce21
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1630521227906
+created: 1630520742492
+url: https://gosend-livetracking.gojek.co.id/go-send/livetracking/detail?trackingId=TESTSHIPPER
+name: Ngabideg Ngok
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1630520742492
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

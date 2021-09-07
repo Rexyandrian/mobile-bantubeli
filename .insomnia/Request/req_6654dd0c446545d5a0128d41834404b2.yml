@@ -1,24 +1,24 @@
-_id: req_4d70636b282b48398823fd45128a8adf
+_id: req_6654dd0c446545d5a0128d41834404b2
 type: Request
-parentId: fld_6e074ef242d745edabdfb71662f0a846
-modified: 1630914004648
-created: 1626853029967
-url: https://api.bantubeli.com/dev/shipping/pickup-order
-name: Pickup Order
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1630560373997
+created: 1629355980494
+url: https://api.bantubeli.com/dev/query-in
+name: Query select test
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"order_code":"2186DVN4XZ6XV"
+    	"query":"SELECT * FROM marketplace.webhook_calls order by id desc"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1626853029967
+metaSortKey: -1629355980494
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

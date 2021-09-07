@@ -1,24 +1,27 @@
-_id: req_4d70636b282b48398823fd45128a8adf
+_id: req_2c67b4b10a0148aea55d11b0109c90e6
 type: Request
-parentId: fld_6e074ef242d745edabdfb71662f0a846
-modified: 1630914004648
-created: 1626853029967
-url: https://api.bantubeli.com/dev/shipping/pickup-order
-name: Pickup Order
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1630520752658
+created: 1630387759376
+url: https://
+name: Tes webhook
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"order_code":"2186DVN4XZ6XV"
+    	"auth":"e04f109f08cf1c213efb2af18c9b5532",
+    	"order_id":"test"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: Signature
+    value: x-bantubeli
 authentication: {}
-metaSortKey: -1626853029967
+metaSortKey: -1630387759463
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

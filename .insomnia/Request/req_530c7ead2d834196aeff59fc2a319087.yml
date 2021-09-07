@@ -1,0 +1,35 @@
+_id: req_530c7ead2d834196aeff59fc2a319087
+type: Request
+parentId: fld_574ebdf2600848a7afac78a1abcc4190
+modified: 1631009723143
+created: 1630655342056
+url: https://api.bantubeli.com/v1/setting/address
+name: Update Address
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"address_id":26,
+    	"address":"jatimulya bekasi timur bekasi 7",
+    	"phone":"085770114832",
+    	"latitude": -6.270202366152504,
+    	"longitude": 107.02242593909544,
+    	"receiver":"Rexy 2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjI0MjY4NTEzLCJuYmYiOjE2MjQyNjg1MTMsImp0aSI6InFtMHVxQjVlRVdDSkNiOVYiLCJzdWIiOjE2NiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.SZralSpz65iqjvDXoj4qHnXxH80P-VrYynUlF91z-JM
+metaSortKey: -1630652222980
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_5df23e693782445d91387b16b3e90b65
+type: Request
+parentId: fld_43b978464f204253a9a0cc07ceef577e
+modified: 1629962501118
+created: 1629962408960
+url: https://api.bantubeli.com/v1/review
+name: Product review no jwt
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: product_id
+    value: "779"
+    description: ""
+    id: pair_031ff144978e404497f3779dd3de9b19
+  - name: limit
+    value: "5"
+    description: ""
+    id: pair_631d34370bde43cfb3910d33a5f49b0b
+  - name: on_rating
+    value: all
+    description: ""
+    id: pair_ad245769e75c4a5680b5ce0866f12c16
+headers: []
+authentication: {}
+metaSortKey: -1629962408960
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

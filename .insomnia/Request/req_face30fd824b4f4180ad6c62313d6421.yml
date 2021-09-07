@@ -1,0 +1,25 @@
+_id: req_face30fd824b4f4180ad6c62313d6421
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1629228200251
+created: 1628770055385
+url: https://api.bantubeli.com/v1/test-callback
+name: My Request
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: id
+    value: "818"
+    description: ""
+    id: pair_62b1e447950e429899eda96706b12240
+headers: []
+authentication: {}
+metaSortKey: -1628770055385
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

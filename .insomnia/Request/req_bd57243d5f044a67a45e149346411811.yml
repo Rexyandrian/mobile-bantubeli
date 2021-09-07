@@ -1,0 +1,48 @@
+_id: req_bd57243d5f044a67a45e149346411811
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1630517391348
+created: 1629837364102
+url: https://api.ipgeolocation.io/ipgeo
+name: ip geo tes
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: apiKey
+    value: 2200dc1399e54131bef08116e4581e8a
+    description: ""
+    id: pair_4d9c3d87baac47198a207cc3a342db5c
+  - name: ip
+    value: 51.255.164.109
+    description: ""
+    id: pair_b07248ef4ba244348ec6ac4c34243a27
+    disabled: true
+  - name: ip
+    value: 112.215.235.167
+    description: ""
+    id: pair_41dbc4ec4fd0428aac4514c81eaabadf
+    disabled: true
+  - name: ip
+    value: 193.212.4.4
+    description: ""
+    id: pair_07f7ceaab7f343e2a2977da93e2b9464
+    disabled: true
+  - name: ip
+    value: 184.72.115.35
+    description: ""
+    id: pair_4ee23630dbaf4232890d61f717c372d1
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_a3795178d3744964baf05f8eac6f58d2
+headers: []
+authentication: {}
+metaSortKey: -1629837364102
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

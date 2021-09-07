@@ -1,0 +1,41 @@
+_id: req_0e65cd24546c47ccb95343083c4acf3a
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1630478773301
+created: 1629836910732
+url: https://ipqualityscore.com/api/json/ip/wDomHKvBUKaNB0n1mZhnOlAExDKlM3RL/184.72.115.35
+name: iqs check ip
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: strictness
+    value: "0"
+    description: ""
+    id: pair_464b7cd0feba4a4284fe097c78826d60
+  - name: allow_public_access_points
+    value: "true"
+    description: ""
+    id: pair_c643e2ec756a40e1ba73e9387afd84af
+  - name: fast
+    value: "true"
+    description: ""
+    id: pair_4aec2cb06177467a800113d803fb9b5c
+  - name: lighter_penalties
+    value: "true"
+    description: ""
+    id: pair_7fd71d5eeb0343b0bfd614eb19ea6e78
+  - name: mobile
+    value: "true"
+    description: ""
+    id: pair_d75edbee0cfd4b00ac15ff7fec6a4b54
+headers: []
+authentication: {}
+metaSortKey: -1629836910732
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

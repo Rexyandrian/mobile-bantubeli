@@ -1,7 +1,7 @@
 _id: req_7ecf92b5c288472f80240a9640b2e052
 type: Request
 parentId: fld_6a822299b7c94af5b776b35130683746
-modified: 1628782094648
+modified: 1630960114274
 created: 1620635930188
 url: https://maps.googleapis.com/maps/api/geocode/json?result_type=street_address&key=AIzaSyCLd3sdO2m1gwR0o1xz0ZpVkR4A53-tMMU
 name: Gmap lot lang
@@ -13,15 +13,19 @@ parameters:
     value: id
     description: ""
     id: pair_388a2e68973945c09f1305944d3449c1
+    disabled: true
   - name: address
     value: tegal jawa tengah
     description: ""
     id: pair_01e5e84fbce849dcac2441871f2d8c96
+    disabled: true
   - name: latlng
-    value: -6.1879607221142585,106.82275077641631
+    value: -6.2702023661525,107.0224259391
     description: ""
     id: pair_373b285e29034093a4bfdfddc265e089
-    disabled: true
+    disabled: false
+    type: text
+    multiline: text/plain
   - name: address
     value: JL. PANCORAN BARAT No.22, JAKARTA SELATAN 12780 - DKI JAKARTA
     description: ""
