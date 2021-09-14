@@ -1,7 +1,7 @@
 _id: req_a8b7b35bca944ba3a94f15e0abdd5375
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1617767891597
+modified: 1624429276938
 created: 1616484395724
 url: https://api.bantubeli.com/checkout
 name: Checkout
@@ -28,13 +28,12 @@ body:
     {
     	"driver_note":"Bekasi",
     	"address":"Bekasi",
-    	"payment_id":"1",
-    	"ship_long":-6.227243,
-    	"ship_lat":106.86931,
-    	"store_id":1087,
+    	"payment_id":"2",
+    	"ship_long":106.82264245559702,
+    	"ship_lat":-6.188271230243793,
+    	"store_id":47,
     	"ship_zip":"17510",
-    	"id_bag":"19964",
-    	"qty_bag":1,
+    	"store_id":"6",
     	"product":[
     		{
     			"product_id":"124",
@@ -50,7 +49,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NzY2MzgwLCJuYmYiOjE2MTc3NjYzODAsImp0aSI6IjR3cTJFcjEwNW5vWENtc2kiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.gvfpOuoETdZ_d0n9SokXIxAhzHLz06ITKPzgMSrW0Jg
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjI0NDI4ODE0LCJuYmYiOjE2MjQ0Mjg4MTQsImp0aSI6Ind1NWI5VkhYTTM2MVdpclkiLCJzdWIiOjE2NiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.DtlhTGRy8ol-BblHKEOe2VFYZciZWlEESlgwu__KBPM
 metaSortKey: -1616484395724
 isPrivate: false
 settingStoreCookies: true

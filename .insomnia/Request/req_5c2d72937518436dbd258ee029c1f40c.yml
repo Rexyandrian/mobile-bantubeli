@@ -1,16 +1,16 @@
 _id: req_5c2d72937518436dbd258ee029c1f40c
 type: Request
 parentId: fld_6e074ef242d745edabdfb71662f0a846
-modified: 1628736938606
+modified: 1631602784353
 created: 1626807384272
-url: https://api.bantubeli.com/dev/shipping/order
+url: https://api.bantubeli.com/v1/shipping/order
 name: Detail Order
 description: ""
 method: GET
 body: {}
 parameters:
   - name: order_code
-    value: 218YRMKKWKEDZ
+    value: 219G4X4NEMP82
     description: ""
     id: pair_cac953df5bc8430eaad04716c14be9a1
 headers: []

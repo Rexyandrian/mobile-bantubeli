@@ -1,7 +1,7 @@
 _id: req_c840f85a2d7142e99a56af2594a2e7ef
 type: Request
 parentId: fld_c6159657bf8149199773e5b95b547dff
-modified: 1623298056731
+modified: 1623996786280
 created: 1623059752451
 url: https://api.bantubeli.com/auth/exists
 name: Check exists and login
@@ -9,11 +9,11 @@ description: Jika email telah terdaftar maka melakukan login otomatis
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"email":"farhan@email.com",
-    	"device_token":"yyy",
-    	"platform":"android"
+    	"email": "xxrekapdigi08@gmail.com",
+    	"device_token": "eZFBdYnSSsCDlOdCrgQ9JT:APA91bG5NXKgqOqzmAxRrk-zbbzXULQYRaqE24Cd5sZO1-x5T29j3RgRWduy0LV_cnGsp6MrLUy4L3dbkNM3m-HRY865KSjg_hJoPAak9mC-edU49LBef0WjI1oFKPbh_8Q3FdcLlzpi",
+    	"platform": "android"
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_102ff1e4708a439791b40232d14bacd5
 type: Request
 parentId: fld_88449f47f47340cdb671563a0f4c353e
-modified: 1617248716945
+modified: 1623395967708
 created: 1616484750307
 url: https://api.bantubeli.com/cart/count
 name: Jumlah isi keranjang
@@ -16,7 +16,7 @@ parameters:
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3MjQ2NzE2LCJuYmYiOjE2MTcyNDY3MTYsImp0aSI6InJhZmN0MTJzMXpFemZYeUYiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.ImvP1tHBixNAv4PeQm5y-F9frKwAULGClrBjUhnRK80
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjIzMzAwODIyLCJuYmYiOjE2MjMzMDA4MjIsImp0aSI6Im16V3VYQThlcnBiYmN6RWQiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.hVu1qhXIK76V_L4HV760dY_9zPirhg6JeXz2Zq3Rg9g
 metaSortKey: -1616314342341
 isPrivate: false
 settingStoreCookies: true

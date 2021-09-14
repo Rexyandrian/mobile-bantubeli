@@ -1,7 +1,7 @@
 _id: req_3028ae722acf479b885388255dd38cfd
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1624420756377
+modified: 1624609841377
 created: 1624417075193
 url: https://api.bantubeli.com/dl/review-product
 name: Product Review List
@@ -33,24 +33,29 @@ method: GET
 body: {}
 parameters:
   - name: status
-    value: rated
+    value: unrated
     description: ""
     id: pair_d22d6fadecc541f5a016c702523f077c
-    disabled: true
+    disabled: false
   - name: in_rate
-    value: "4"
+    value: "5"
     description: ""
     id: pair_a3403ed02b9f4b0895f07af216542cf5
-    disabled: false
+    disabled: true
   - name: review_id
     value: "91219"
     description: ""
     id: pair_5b2176aa25684349b7fee11b368357ab
     disabled: true
+  - name: page
+    value: "2"
+    description: ""
+    id: pair_da83e64e987d429aa6cf99a40aa9b967
+    disabled: true
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NTgyNzc2LCJuYmYiOjE2MTk1ODI3NzYsImp0aSI6IlZhVjdJZmxPVElPaTM2ZkciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e1GXs-MF4feZJh7hGDvT42YPf9Nx7TKjCuikQ9eGO8
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2V4aXN0cyIsImlhdCI6MTYyMzA2NDE4NiwibmJmIjoxNjIzMDY0MTg2LCJqdGkiOiI0Tko4dW9ZSzdzSXBodjRnIiwic3ViIjoxMSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.XxNljUB_333dF52KmTz3KeMHM4Pmg4gx-XnIRRpbhLw
 metaSortKey: -1624417075193
 isPrivate: false
 settingStoreCookies: true
