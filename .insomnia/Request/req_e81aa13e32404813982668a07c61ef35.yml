@@ -1,9 +1,9 @@
 _id: req_e81aa13e32404813982668a07c61ef35
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1622795693751
+modified: 1626328171530
 created: 1615871558597
-url: https://api.bantubeli.com/dl/product/ayam
+url: https://api.bantubeli.com/dl/product-list/search
 name: Data produk
 description: "## Usage
 
@@ -249,7 +249,7 @@ parameters:
     value: "1"
     description: ""
     id: pair_be66f788311147f78d78448786cd0a8b
-    disabled: false
+    disabled: true
   - name: show_rating
     value: "1"
     description: ""
@@ -259,12 +259,12 @@ parameters:
     value: "1"
     description: ""
     id: pair_c97eaab6029742ad9ddc5efc6a8950ce
-    disabled: false
+    disabled: true
   - name: limit_store_product
-    value: "25"
+    value: "8"
     description: ""
     id: pair_7cd16cc9ae104d81b442bbd8484ea694
-    disabled: false
+    disabled: true
   - name: latitude
     value: "-6.270221033552741"
     description: ""
@@ -281,22 +281,22 @@ parameters:
     id: pair_2971a0c76c024cdaab13a777aa1c0473
     disabled: true
   - name: search
-    value: Telur
+    value: " "
     description: ""
     id: pair_d12da0ee9cc74900b10e8e937d9916f4
-    disabled: true
+    disabled: false
   - name: zip_code
     value: "10350"
     description: ""
     id: pair_f4183264655c4df8bef847ae8a6dbd03
     disabled: true
   - name: latitude
-    value: "-6.188271230243793"
+    value: "-6.909941"
     description: ""
     id: pair_adbea320e30745c7aef9b4b9e2bbae0c
     disabled: false
   - name: longtitude
-    value: "106.82264245559702"
+    value: "107.629087"
     description: ""
     id: pair_9328c8dfb78c49cdac801872d2ebd3f8
     disabled: false
@@ -304,7 +304,7 @@ parameters:
     value: price_min
     description: ""
     id: pair_1961db214de54bf6b4243466f41ffcef
-    disabled: true
+    disabled: false
   - name: filter_max
     value: "200000"
     description: ""
@@ -329,6 +329,22 @@ parameters:
     value: "true"
     description: ""
     id: pair_ce1f0958745b4d7b8c7aaf0d6084d8bc
+    disabled: true
+  - name: single_row
+    value: "1"
+    description: ""
+    id: pair_2e2f637a03864f92b09cf0081f357bd4
+    disabled: true
+  - name: limit_product
+    value: "8"
+    description: ""
+    id: pair_9d5fd137b020483e8d7c2de07060fb3a
+    disabled: false
+  - name: page
+    value: "2"
+    description: ""
+    id: pair_4381de5fe43e470e842a0bf13da2b6dd
+    disabled: false
 headers:
   - name: Content-Type
     value: application/json

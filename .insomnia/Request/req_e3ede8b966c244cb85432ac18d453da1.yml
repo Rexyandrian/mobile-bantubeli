@@ -1,7 +1,7 @@
 _id: req_e3ede8b966c244cb85432ac18d453da1
 type: Request
 parentId: fld_572b46dcbe7a40b585dcd8d9b89ebba7
-modified: 1620637089425
+modified: 1629062949031
 created: 1620636510550
 url: https://api.bantubeli.com/dev/cart
 name: Isi keranjang
@@ -9,20 +9,64 @@ description: ""
 method: GET
 body: {}
 parameters:
-  - name: longtitude
+  - name: latitude
     value: "-6.236882015488212"
     description: ""
     id: pair_153f27cfa72c4537b1ab6d5cd0692c57
     disabled: true
-  - name: latitude
+  - name: longtitude
     value: "106.7479812113364"
     description: ""
     id: pair_7ad83a3e44204f5ab3b0840347ede047
     disabled: true
+  - name: sid
+    value: "13"
+    description: ""
+    id: pair_0659dfd635834755870dd67dabed757f
+    disabled: true
+  - name: latitude
+    value: "-6.1510614906680985"
+    description: ""
+    id: pair_e36fac58423c4e289f003b152abc467a
+    disabled: true
+  - name: longtitude
+    value: "106.87662444931189"
+    description: ""
+    id: pair_b687dfb9ed4046cdaa8de7ff4b52a120
+    disabled: true
+  - name: mode_group
+    value: "true"
+    description: ""
+    id: pair_55d830294dd4427496dbf656825c9feb
+    disabled: true
+  - name: latitude
+    value: "-6.137232575158936"
+    description: ""
+    id: pair_75e74886f41d423c9c0ea1252afd78a5
+    disabled: false
+  - name: longtitude
+    value: "106.84333116530918"
+    description: ""
+    id: pair_35df9977f37244f68c024b7ecf488401
+    disabled: false
+  - name: sid
+    value: "2077"
+    description: ""
+    id: pair_296c8732fc5c41069992276480d4a9ca
+  - name: latitude
+    value: "-6.270571752282869"
+    description: ""
+    id: pair_d744a485e93a44a0b9cd669806d3454c
+    disabled: true
+  - name: longtitude
+    value: "107.02247867375071"
+    description: ""
+    id: pair_cbad031ad6344f1c88dfc2ead7006aa8
+    disabled: true
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NTgyNzc2LCJuYmYiOjE2MTk1ODI3NzYsImp0aSI6IlZhVjdJZmxPVElPaTM2ZkciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e1GXs-MF4feZJh7hGDvT42YPf9Nx7TKjCuikQ9eGO8
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RldlwvYXV0aFwvbG9naW4iLCJpYXQiOjE2Mjc4ODgwMzAsIm5iZiI6MTYyNzg4ODAzMCwianRpIjoiU0h2RHRSampsbHJrN1o1MyIsInN1YiI6NjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.3K2s826JwwK3B94qhUy4sXB5Wsa-mUtR42wsNIEt4i8
 metaSortKey: -1616378164574
 isPrivate: false
 settingStoreCookies: true

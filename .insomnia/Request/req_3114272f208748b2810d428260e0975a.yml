@@ -1,0 +1,21 @@
+_id: req_3114272f208748b2810d428260e0975a
+type: Request
+parentId: fld_81d7bf3209d242d88b0a71b035eea41e
+modified: 1627016107577
+created: 1627016106011
+url: https://sandbox-id.xfers.com/api/v4/payment_methods/virtual_bank_accounts/paymentMethodId/payments
+name: list payment method
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1627016106011
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

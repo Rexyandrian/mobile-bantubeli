@@ -1,0 +1,32 @@
+_id: req_9569a9f58da94d91b46f94cb1b5d89e7
+type: Request
+parentId: fld_5a916bd19df240bca727d4c63796934a
+modified: 1627309540965
+created: 1627308434533
+url: https://api.bantubeli.com/v1/dl/region/postal
+name: DatWil-Kode Pos
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"province_id":"11",
+    	"city_id":"155",
+    	"district_id":"1906",
+    	"village_id":"25122"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9b59b57aaf264e6abe7737a783a6402e
+authentication: {}
+metaSortKey: -1615948823362
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

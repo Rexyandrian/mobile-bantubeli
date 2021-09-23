@@ -1,7 +1,7 @@
 _id: req_48dae44368264ecd8feff626a079918b
 type: Request
 parentId: fld_4f9ac24ceaf74aa8b6d6af96165d2db4
-modified: 1620098658727
+modified: 1623813411262
 created: 1617703992219
 url: https://api.bantubeli.com/order
 name: Upload bukti pembayaran
@@ -13,7 +13,7 @@ body:
   mimeType: multipart/form-data
   params:
     - name: order_no
-      value: CCuC1620098364
+      value: dOo81623813137
       description: ""
       id: pair_35f51d439e0b48f1b1562dc900844dda
     - name: photo
@@ -28,7 +28,7 @@ headers:
     value: multipart/form-data
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjIwMDI0NjIxLCJuYmYiOjE2MjAwMjQ2MjEsImp0aSI6IktYVVV1WW1IemFJeHhvdXciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.dj6L44oyFZxVq64VyT0N17rSTXDbNwkMymKXX0-AfxU
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjIzODEzNDAzLCJuYmYiOjE2MjM4MTM0MDMsImp0aSI6ImhuZTlqeENaRDUxZTF0VTYiLCJzdWIiOjE2NiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.9yHc8Iodi3L6V0juJNtbo9GZxEMRq2wZngSEf5Cr75o
 metaSortKey: -1617364859561
 isPrivate: false
 settingStoreCookies: true

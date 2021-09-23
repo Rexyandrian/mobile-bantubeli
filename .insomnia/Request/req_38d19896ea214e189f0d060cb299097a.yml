@@ -1,0 +1,59 @@
+_id: req_38d19896ea214e189f0d060cb299097a
+type: Request
+parentId: fld_c5e5c2d60ca440349f0db7d80eed9a69
+modified: 1627356756328
+created: 1627308434603
+url: https://api.bantubeli.com/v1/checkout
+name: Checkout
+description: |-2
+      "driver_note"               => "required|string|max:250",
+      "address"                   => "required|string|max:250",
+      "payment_method"            => "required|exists:bb_bank,id",
+      "total_price"               => "required",
+      "total_qty"                 => "required",
+      "ship_long"                 => "required|numeric",
+      "ship_lat"                  => "required|numeric",
+      "store_id"                  => "required|exists:store,id",
+      'product'                   => "required|array",
+      "product.*.product_id"      => "required|exists:bb_products,id",
+      "product.*.qty"             => ["required","min:1"],
+      "product.*.price"           => "required|min:1",
+      "product.*.note"            => "nullable|max:250",
+      'id_bag'                    => ["required","exists:bb_products,id"],
+      "qty_bag"                   => ["required_with:id_bag","min:1"
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"driver_note":"Bekasi",
+    	"address":"Bekasi",
+    	"payment_id":"1",
+    	"ship_long":-6.227243,
+    	"ship_lat":106.86931,
+    	"store_id":1087,
+    	"ship_zip":"17510",
+    	"product":[
+    		{
+    			"product_id":"124",
+    			"price":66500,
+    			"qty":2,
+    			"note":"xxxx"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NzY2MzgwLCJuYmYiOjE2MTc3NjYzODAsImp0aSI6IjR3cTJFcjEwNW5vWENtc2kiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.gvfpOuoETdZ_d0n9SokXIxAhzHLz06ITKPzgMSrW0Jg
+metaSortKey: -1616484395724
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

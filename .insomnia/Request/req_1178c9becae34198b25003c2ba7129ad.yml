@@ -1,0 +1,32 @@
+_id: req_1178c9becae34198b25003c2ba7129ad
+type: Request
+parentId: fld_a32d4f4c86914e198d27abb2e65c4a83
+modified: 1627309303212
+created: 1627308434745
+url: https://api.bantubeli.com/v1/support
+name: Support message
+description: |-2
+        "title"=>"required|max:200",
+        "description"=>'required'
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description":"Isi"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NjEwNjgyLCJuYmYiOjE2MTc2MTA2ODIsImp0aSI6IllZYVd2WE0xOGxaaXVpS2giLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.DxDfNfGKh5QZTwWUy0zU5fg8pCmaZgkHf8WGGf4QJfw
+metaSortKey: -1617705244261
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,73 @@
+_id: req_de8704a1c5d34054858b4229624b4de1
+type: Request
+parentId: fld_6b9f5ceef50e469baa555ca8972f8add
+modified: 1627308434686
+created: 1627308434686
+url: https://api.bantubeli.com/review
+name: Edit review
+description: |-
+  #### attribut yang diperlukan :
+    - review_id : Id review harus merupakan produk yang telah dibeli
+    - product_id: Produk yang telah dibeli
+    - reply : maksimal panjang penulisan 200 karakter
+    - rating : minimal 1 dan maksimal 5
+
+  #### sampel :
+      {
+        "review_id": "22",
+        "product_id": "632",
+        "reply": "Kualitas pesanan terjaga baik..",
+        "rating": "4"
+      }
+  #### respon produk belum dibeli :
+      {
+        "status":false,
+        "data":null,
+        "message":"Harus memesan produk telebih dahulu"
+      }
+  #### respon batasan pada maksimal :
+      {
+        "status":false,
+        "data":null,
+        "message":"Mencapai batas maksimal 200 karakter"
+      }
+  #### respon berhasil :
+   
+       {
+        "status": true,
+        "data": true,
+        "message": "Success"
+      }
+
+  #### respon gagal :
+   
+       {
+        "status": false,
+        "data": null,
+        "message": "Failed"
+      }
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"review_id": "22",
+    	"product_id": "632",
+    	"reply": "Kualitas pesanan terjaga baik..",
+    	"rating": "4"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3MjQ2NDM0LCJuYmYiOjE2MTcyNDY0MzQsImp0aSI6IlNGWXFMQ2dXRGgxSzdGVUgiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.S4AqHeFSsUTPth8o-grU7-vyDh-mzSUnPuH0v3QFwNA
+metaSortKey: -1618950532862
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

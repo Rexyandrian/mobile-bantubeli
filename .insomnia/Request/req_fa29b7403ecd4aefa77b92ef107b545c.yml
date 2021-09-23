@@ -1,0 +1,77 @@
+_id: req_fa29b7403ecd4aefa77b92ef107b545c
+type: Request
+parentId: fld_fbbc358b42f945c9bb41169605a82fef
+modified: 1627309206289
+created: 1627308434699
+url: https://api.bantubeli.com/v1/review
+name: Add review
+description: |-
+  #### attribut yang diperlukan 
+    - product_id: Produk yang telah dibeli
+    - reply : maksimal panjang penulisan 200 karakter
+    - rating : minimal 1 dan maksimal 5
+
+  #### sampel :
+      {
+        "product_id": "632",
+        "reply": "Kualitas pesanan terjaga baik..",
+        "rating": "4"
+      }
+  #### respon produk belum dibeli :
+      {
+        "status":false,
+        "data":null,
+        "message":"Harus memesan produk telebih dahulu"
+      }
+  #### respon batasan pada maksimal :
+      {
+        "status":false,
+        "data":null,
+        "message":"Mencapai batas maksimal 200 karakter"
+      }
+  #### respon berhasil :
+   
+       {
+        "status": true,
+        "data": true,
+        "message": "Success"
+      }
+
+  #### respon gagal :
+   
+       {
+        "status": false,
+        "data": null,
+        "message": "Failed"
+      }
+      
+  #### respon telah terdapat ulasan
+      {
+        "status": false,
+        "data": null,
+        "message": "Telah memberikan ulasan"
+      }
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"product_id":12,
+    	"reply":"Pengiriman cepat",
+    	"rating":5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjIwMDI0NjIxLCJuYmYiOjE2MjAwMjQ2MjEsImp0aSI6IktYVVV1WW1IemFJeHhvdXciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.dj6L44oyFZxVq64VyT0N17rSTXDbNwkMymKXX0-AfxU
+metaSortKey: -1619000031766
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

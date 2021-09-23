@@ -1,9 +1,9 @@
 _id: req_fcd9b70d683343a4826113de34045f53
 type: Request
 parentId: fld_ae1a0f19afb242be98d11e88f9d74ce1
-modified: 1620633759680
+modified: 1625199688312
 created: 1619671021618
-url: https://api.bantubeli.com/dev/ios/tos
+url: https://api.bantubeli.com/ios/tos
 name: tos
 description: ""
 method: GET

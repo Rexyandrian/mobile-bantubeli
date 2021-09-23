@@ -1,7 +1,7 @@
 _id: req_fdfb52ac4fbe42f8a1453580b85fe3a3
 type: Request
 parentId: fld_c6159657bf8149199773e5b95b547dff
-modified: 1623298273990
+modified: 1626931154909
 created: 1623063388299
 url: https://api.bantubeli.com/auth/google_regis
 name: Google register
@@ -9,16 +9,18 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"name":"rex",
-    	"phone":"1231313122",
-    	"email":"rex@mail2.com",
-    	"address":"jatimulya",
-    	"password":"123456789",
-    	"confirm_password":"123456789",
-    	"longtitude":106.869310,
-    	"latitude":-6.227243
+    	"name": "",
+    	"email": "rekapdigi08@gmail.com",
+    	"phone": "087886791511",
+    	"address": "Joglo kembangan",
+    	"latitude": -6.21849286103795,
+    	"longtitude": 106.73297200351954,
+    	"password": "",
+    	"confirm_password": "",
+    	"device_token": "dXzOBAtZaUdNoTyvCHe56D:APA91bEt25uCGvvi2utaWIgMEHqqrskJyDQsYL4JaByvfOTVHkZ4XrR3LBp9Uwv9s8wBC7Zb_eD9foiknzz_uOZrmTfZ0R9DztYCQl7p8CMXNs2FUFpEO4dj8vY1DQgvEMnSS6Mfslbg",
+    	"platform": "ios"
     }
 parameters: []
 headers:

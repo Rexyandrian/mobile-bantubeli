@@ -1,0 +1,49 @@
+_id: req_1bb8402cd91941fea533f18e230db8db
+type: Request
+parentId: fld_a904368bb0bd435e8b1f44fd246bec97
+modified: 1630298230053
+created: 1629882406490
+url: https://merchant-api-sandbox.shipper.id/v3/pricing/domestic/regular
+name: Order Est by courier
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "cod": false,
+      "destination": {
+        "lat": "-6.2195686",
+        "lng": "106.8325872"
+      },
+      "for_order": true,
+      "height": 15,
+      "item_value": 40000,
+      "length": 30,
+    	"origin": {
+    		"lat": "-6.175979496423558",
+    		"lng": "106.81275581150334"
+    	},
+    	"rate_id":336,
+      "page": 1,
+      "sort_by": [
+        "rates"
+      ],
+      "weight": 0.5,
+      "width": 30
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-API-Key
+    value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+authentication: {}
+metaSortKey: -1626098065968
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

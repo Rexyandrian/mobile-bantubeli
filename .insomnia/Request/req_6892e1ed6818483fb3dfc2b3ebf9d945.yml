@@ -1,7 +1,7 @@
 _id: req_6892e1ed6818483fb3dfc2b3ebf9d945
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1622794820241
+modified: 1624450216995
 created: 1616122875592
 url: https://api.bantubeli.com/dl/store/detail
 name: Store detail
@@ -19,11 +19,11 @@ parameters:
     description: ""
     id: pair_67d81339fce5437b8c4d5d989683e00a
   - name: latitude
-    value: "-6.270221033552741"
+    value: "-6.188271230243793"
     description: ""
     id: pair_ad496889c72c4fa1bda257323796c4d1
   - name: longtitude
-    value: "107.0224447176664"
+    value: "106.82264245559702"
     description: ""
     id: pair_c6f8715cde284285b1e723ac59a7e810
   - name: search

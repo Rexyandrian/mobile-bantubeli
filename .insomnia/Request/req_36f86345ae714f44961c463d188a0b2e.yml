@@ -1,0 +1,30 @@
+_id: req_36f86345ae714f44961c463d188a0b2e
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1627882129396
+created: 1626691328487
+url: https://api.bantubeli.com/v1/shipping/order
+name: Create Order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"user_id":166,
+    	"order_id":49666,
+    	"courier_id":336
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626691328487
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

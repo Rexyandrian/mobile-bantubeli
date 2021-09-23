@@ -1,7 +1,7 @@
 _id: req_1702349bc2fd4c608449faa781fc5db2
 type: Request
 parentId: fld_df4db5073e4d4b7595004fbb81070159
-modified: 1620636980098
+modified: 1626020293298
 created: 1620636510650
 url: https://api.bantubeli.com/dev/review
 name: List review
@@ -10,6 +10,8 @@ description: >
     - product_id : Harus merupakan produk yang telah dibeli
     - limit : dengan minimal 5 data
     - on_rating *(opsional)* : untuk mendapatkan hasil berdasarkan rating antar 1 hingga 5
+
+
 
     
   #### sampel :

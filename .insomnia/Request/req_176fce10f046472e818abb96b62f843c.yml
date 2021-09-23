@@ -1,7 +1,7 @@
 _id: req_176fce10f046472e818abb96b62f843c
 type: Request
 parentId: fld_67ca0cdfdf5942668a5605aa272ee224
-modified: 1620634785358
+modified: 1624517546787
 created: 1615871550582
 url: https://api.bantubeli.com/cashier/login
 name: Masuk
@@ -9,10 +9,12 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     	{
-    		"email":"kasir4@bantubeli.com",
-    		"password":"123456789"
+    		"email":"kasir_bbfm2@bbfm2.com",
+    		"password":"123456789",
+    		"device_token":"daiU5YvlSkC65a5-4RLDrB:APA91bF33g96EiSe52txal32vY-kj2fX2NeRm4I82omHikbvsbcCGhtjg5-bzn-olEMRCDwF2ErZmTnNx-chIF1IRJo-D8GEKYpVSl7L7TAIkiFVyPxreeWvtJGDovdXfOs3MAsMS--0",
+    		"platform":"android"
     	}
 parameters: []
 headers:

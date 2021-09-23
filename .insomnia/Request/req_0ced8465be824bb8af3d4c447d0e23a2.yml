@@ -1,0 +1,29 @@
+_id: req_0ced8465be824bb8af3d4c447d0e23a2
+type: Request
+parentId: fld_43b978464f204253a9a0cc07ceef577e
+modified: 1629962384887
+created: 1629962209020
+url: https://api.bantubeli.com/v1/d/2077/fiesta-golden-spicy-wing-500-g-pv9799qut
+name: Product detai no jwt
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: longtitude
+    value: "106.86857625262058"
+    description: ""
+    id: pair_9263dc73609648e692ba985e7fa5ed03
+  - name: latitude
+    value: "-6.2272008208099185"
+    description: ""
+    id: pair_28639b82f8644d3c9e42524e23fc5542
+headers: []
+authentication: {}
+metaSortKey: -1629962209104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

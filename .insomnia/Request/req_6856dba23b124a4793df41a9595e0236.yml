@@ -1,0 +1,40 @@
+_id: req_6856dba23b124a4793df41a9595e0236
+type: Request
+parentId: fld_5a916bd19df240bca727d4c63796934a
+modified: 1627309575661
+created: 1627308434494
+url: https://api.bantubeli.com/v1/dl/product/category
+name: Product Category
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: id
+    value: "77"
+    description: ""
+    id: pair_cba51d41553b4256a154c82be9bce2ed
+    disabled: true
+  - name: with_sub
+    value: "true"
+    description: ""
+    id: pair_cd04ac992c444376b4fc227a709ca5e2
+    disabled: true
+  - name: show
+    value: all
+    description: ""
+    id: pair_d138bfedd28240aea087264bf89ffcbf
+    disabled: false
+  - name: pastel
+    value: "true"
+    description: ""
+    id: pair_0953de9830d64780ac92e4e4eaf86d34
+headers: []
+authentication: {}
+metaSortKey: -1615173654078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_4266d29ba9164030b5339fe72625564f
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1627328903574
+created: 1626717282308
+url: https://api.bantubeli.com/v1/shipping/order
+name: Update Order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"order_code":"217R8382JEXGE",
+    	"user_id":11,
+    	"order_id":379,
+    	"courier_id":336
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626717282308
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

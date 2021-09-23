@@ -1,7 +1,7 @@
 _id: req_784442c879c1434993a42fb719ba0f09
 type: Request
 parentId: fld_572b46dcbe7a40b585dcd8d9b89ebba7
-modified: 1620637085317
+modified: 1628838319244
 created: 1620636510564
 url: https://api.bantubeli.com/dev/checkout
 name: Checkout
@@ -19,38 +19,48 @@ description: |-2
       "product.*.qty"             => ["required","min:1"],
       "product.*.price"           => "required|min:1",
       "product.*.note"            => "nullable|max:250",
-      'id_bag'                    => ["required","exists:bb_products,id"],
-      "qty_bag"                   => ["required_with:id_bag","min:1"
+      "courier_id"                => "required",
+      "courier_code"              => "required"
+      
+  *Note : *
+  - courier_id diambil dari pengiriman rate->id
+  - courier_code diambil dari pengiriman logistic->code 
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"driver_note":"Bekasi",
-    	"address":"Bekasi",
-    	"payment_id":"1",
-    	"ship_long":-6.227243,
-    	"ship_lat":106.86931,
-    	"store_id":1087,
-    	"ship_zip":"17510",
-    	"id_bag":"19964",
-    	"qty_bag":1,
+    	"driver_note":"Kalau nyasar yaudah",
+    	"address":"rumah rexy",
+    	"payment_id":25,
+    	"ship_long":106.8687918,
+    	"ship_lat":-6.2274937,
+    	"courier_id":329,
+    	"courier_code":"GSN",
+    	"store_id":2077,
+    	"ship_zip":"13320",
     	"product":[
     		{
-    			"product_id":"124",
-    			"price":66500,
-    			"qty":2,
-    			"note":"xxxx"
+    			"product_id":130279,
+    			"price": 51000,
+    			"qty": 2,
+    			"note":"tes note"
+    		},
+    		{			
+    			"product_id":130423,
+    			"price": 5000,
+    			"qty": 1,
+    			"note":"tas"
     		}
     	]
-    }
+    }	
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NzY2MzgwLCJuYmYiOjE2MTc3NjYzODAsImp0aSI6IjR3cTJFcjEwNW5vWENtc2kiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.gvfpOuoETdZ_d0n9SokXIxAhzHLz06ITKPzgMSrW0Jg
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RldlwvYXV0aFwvbG9naW4iLCJpYXQiOjE2Mjc4ODY3OTgsIm5iZiI6MTYyNzg4Njc5OCwianRpIjoiSnF5cllqTmlyS0dwWnVOeiIsInN1YiI6MTEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.o2v5O1_E-RuHmTc9dmyq8E2gqLLpOBkJe_OklGvFaLQ
 metaSortKey: -1616484395724
 isPrivate: false
 settingStoreCookies: true

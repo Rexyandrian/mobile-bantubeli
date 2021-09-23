@@ -1,0 +1,37 @@
+_id: req_dae061d568564aaa90dd38e219136c34
+type: Request
+parentId: fld_a904368bb0bd435e8b1f44fd246bec97
+modified: 1626170061015
+created: 1626145930781
+url: https://merchant-api-sandbox.shipper.id/v3/location
+name: Keyword Terpilih
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: adm_level
+    value: "5"
+    description: ""
+    id: pair_1848cd4dc976486284f65fe65915bca1
+  - name: keyword
+    value: bekasi
+    description: ""
+    id: pair_68bde155a7c94c4d84e2f281c15029bf
+  - name: page
+    value: "25"
+    description: ""
+    id: pair_3ed98275ca444633bf1011c2cd1ed0a0
+headers:
+  - name: X-API-Key
+    value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+  - name: "`"
+    value: ""
+authentication: {}
+metaSortKey: -1626145910032
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

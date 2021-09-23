@@ -1,0 +1,21 @@
+_id: req_3f9bea7194384d2c80bc20ef62ba4d3d
+type: Request
+parentId: fld_2669878b28ce48d5be8a65fbb7d617c3
+modified: 1628166834254
+created: 1628166794479
+url: https://api.bantubeli.com/v1/60f16665bed1418f381da247d86a94c0/b6c6da34e816d54811bc7be1c3fdabad
+name: Xfers callback test
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628166794480
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

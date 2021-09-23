@@ -1,0 +1,37 @@
+_id: req_e4ac26cb0c994ff8993fb28f85e18c69
+type: Request
+parentId: fld_d50039f0ed68432a923a8278fc4375a3
+modified: 1630465637460
+created: 1627308434616
+url: https://api.bantubeli.com/v1/order
+name: Order list
+description: "    status :
+  required_without:group|in:pending,waiting,success,failed
+
+  \    order_no
+
+  \    "
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status":"success",
+    	"page":1,
+    	"show_result":8
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYyOTM1NDgzMSwibmJmIjoxNjI5MzU0ODMxLCJqdGkiOiI3WGxhTzFSUzVtclpLTzJ5Iiwic3ViIjo0MjksInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Gtj8O28QinVTNi_OEO4gs6YMA3qEPGQOnjI18dHYd5w
+metaSortKey: -1617597491351
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

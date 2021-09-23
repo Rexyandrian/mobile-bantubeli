@@ -1,0 +1,25 @@
+_id: req_bc330f2755e7478099249b5b34a0c877
+type: Request
+parentId: fld_75c0809bac9241d0b5171ad5fd25bafa
+modified: 1627407041705
+created: 1627404688192
+url: https://api.bantubeli.com/dev/qris-qr
+name: QR Payment
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: order_id
+    value: "499021"
+    description: ""
+    id: pair_ed81229b24804d478a55751e02e90f77
+headers: []
+authentication: {}
+metaSortKey: -1627404688192
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

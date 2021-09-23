@@ -1,0 +1,41 @@
+_id: req_acd5f3e414864b8e97e65dd8cccd47f5
+type: Request
+parentId: fld_c139818d2ce348d39bb5aff348c31a1c
+modified: 1626332517565
+created: 1626082117893
+url: https://api.bantubeli.com/dl/product-category/ayam
+name: Product Category List
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: limit_product
+    value: "8"
+    description: ""
+    id: pair_6345c9bd2c464fa0a97d3fc6bddc36f4
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_7fb5181a601949788647df6470a9ca92
+  - name: latitude
+    value: "-6.2273917"
+    description: ""
+    id: pair_025415c3b8004bf1a12156bb22b3087a
+  - name: longtitude
+    value: "106.86873"
+    description: ""
+    id: pair_732862c4ad1349c0942c36af7494351b
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626082117980
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

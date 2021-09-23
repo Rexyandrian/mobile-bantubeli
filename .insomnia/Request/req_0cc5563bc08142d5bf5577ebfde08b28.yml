@@ -1,0 +1,77 @@
+_id: req_0cc5563bc08142d5bf5577ebfde08b28
+type: Request
+parentId: fld_a904368bb0bd435e8b1f44fd246bec97
+modified: 1630520141018
+created: 1630297694601
+url: https://merchant-api-sandbox.shipper.id/v3/order
+name: create order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {
+      "consignee": {
+        "name": "Farhan Ismail",
+        "phone_number": "0812345678911"
+      },
+      "consigner": {
+        "name": "PRIMA FRESHMART KEBON KACANG",
+        "phone_number": "08176021268"
+      },
+      "courier": {
+        "cod": false,
+        "rate_id": 329,
+        "use_insurance": false
+      },
+      "coverage": "domestic",
+      "destination": {
+        "direction": "",
+        "address": "Jl. Pedati Raya No.119, RT.3\/RW.10, Bidara Cina, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330, Indonesia",
+        "area_id": 4691,
+        "lat": "-6.2272979905457",
+        "lng": "106.8686851949"
+      },
+      "external_id": "TES-001",
+      "origin": {
+    		"direction":"",
+        "address": "JL. KEBON KACANG IX NO. 75 B, RT. 002, RW. 002",
+        "area_id": 4862,
+        "lat": "-6.188586401910732",
+        "lng": "106.8195269998568"
+      },
+      "package": {
+        "height": 15,
+        "items": [
+          {
+    				"id":738506,
+            "name": "CP Dada Utuh 1 Kg",
+            "price": 51000,
+            "qty": 1
+          }
+        ],
+        "length": 30,
+        "package_type": 2,
+        "price": 51000,
+        "weight": 1,
+        "width": 15
+      },
+    	"payment_type": "postpay"
+    }
+parameters: []
+headers:
+  - name: X-API-Key
+    value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626811236718
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

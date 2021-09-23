@@ -1,0 +1,23 @@
+_id: req_e2a5b8a907fe4a81810695fb07f3b6d7
+type: Request
+parentId: fld_ee153469b61249b49c1dcbdf3a450129
+modified: 1626937747459
+created: 1626937701603
+url: https://api.bantubeli.com/notification/read-all
+name: read all notification
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE4MTk5ODMwLCJuYmYiOjE2MTgxOTk4MzAsImp0aSI6Im9RS2xPakhCa3g1UEI4eXIiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.5mIVqV8vBKsmfWuY-GbcFVjSNUG5Jef_2yn2__Lts5o
+metaSortKey: -1626937701603
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

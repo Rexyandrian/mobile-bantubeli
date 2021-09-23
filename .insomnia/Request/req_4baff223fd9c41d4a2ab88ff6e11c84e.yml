@@ -1,0 +1,41 @@
+_id: req_4baff223fd9c41d4a2ab88ff6e11c84e
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1629882158624
+created: 1626418749036
+url: https://api.bantubeli.com/v1/shipping/estimasi
+name: Order Est
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: store_id
+    value: "2077"
+    description: ""
+    id: pair_52ee6c957f1d4df194c2e51f5e602a24
+  - name: latitude
+    value: "-6.2273721"
+    description: ""
+    id: pair_85f90285cf8f4360a781c640c4ddf244
+  - name: longtitude
+    value: "106.8686674"
+    description: ""
+    id: pair_fff245ecda1640a7946fc07388da18e7
+  - name: user_id
+    value: "61"
+    description: ""
+    id: pair_72522ca3d4e44171be87e941b9a8091e
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_2fe0c0dbba6d4158b79f387aa8d65675
+headers: []
+authentication: {}
+metaSortKey: -1626418749037
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

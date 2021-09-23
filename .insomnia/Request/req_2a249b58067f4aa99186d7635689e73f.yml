@@ -1,15 +1,23 @@
 _id: req_2a249b58067f4aa99186d7635689e73f
 type: Request
 parentId: fld_67ca0cdfdf5942668a5605aa272ee224
-modified: 1620286348065
+modified: 1624517476272
 created: 1615871550593
 url: https://api.bantubeli.com/cashier/logout
 name: Keluar
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"device_token":"daiU5YvlSkC65a5-4RLDrB:APA91bF33g96EiSe52txal32vY-kj2fX2NeRm4I82omHikbvsbcCGhtjg5-bzn-olEMRCDwF2ErZmTnNx-chIF1IRJo-D8GEKYpVSl7L7TAIkiFVyPxreeWvtJGDovdXfOs3MAsMS--0",
+    	"platform":"android"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjIwMjg2Mjk2LCJuYmYiOjE2MjAyODYyOTYsImp0aSI6IjVZZjVneEpnbGNaT2cwUDEiLCJzdWIiOjMsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.BxKeA0nN1dOft9KGvBg3AdCyiCPFy933YnKT-JTw6mg

@@ -1,0 +1,25 @@
+_id: req_6385eeedbbad4d1d8f08015594b20563
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1630592278877
+created: 1630592249000
+url: https://api.bantubeli.com/dev/datwil-alamat
+name: test datwil gmaps
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: address
+    value: Jatimulya bekasi timur
+    description: ""
+    id: pair_549ba83c76124087a27a9d31b38c605d
+headers: []
+authentication: {}
+metaSortKey: -1630592249000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_e5e36e7e1b4e49d1983bba8e9729163d
+type: Request
+parentId: fld_75c0809bac9241d0b5171ad5fd25bafa
+modified: 1627377288856
+created: 1627376988221
+url: https://api.bantubeli.com/dev/dl/payments
+name: Payment List
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: type
+    value: all
+    description: ""
+    id: pair_ea53239a5bb54dbf8619bf96e4375fb7
+headers: []
+authentication: {}
+metaSortKey: -1627376988222
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

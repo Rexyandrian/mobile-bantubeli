@@ -1,7 +1,7 @@
 _id: req_80de41065c284b1492b3c6da1c7df99b
 type: Request
 parentId: fld_6a822299b7c94af5b776b35130683746
-modified: 1622175883324
+modified: 1629097732588
 created: 1619497679453
 url: https://fcm.googleapis.com/fcm/send
 name: Send push notification
@@ -9,11 +9,15 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"to":"b2107c1246c655fb805d7797f77f0bbe7db7b354b8f1751eefe12b78b7039fea",
-    	"priority": "high",
-    	"data": {"title": "The Title","body": "Hellof!", "sound": "default"}
+    "registration_ids":["er8U7v4pQA2uFxU3etv9XS:APA91bEKdDECqaRY2Ay_5ytWB0ah7eCnskmDdyKDUU225Q9_2lO92i6Ti8VhsfJEMOddNIXAJiR1aRlNWRuBJSQEwIbHgiwW13E180l6h35DncRSiMKdNxYnM1qiwA_HltDd3Iaq26LG"],
+      "notification": {
+       "title": "Bantu beli",
+        "body": "Tes notifikasi 1"
+      },
+      "content_available": true,
+      "priority": "high"
     }
 parameters: []
 headers:

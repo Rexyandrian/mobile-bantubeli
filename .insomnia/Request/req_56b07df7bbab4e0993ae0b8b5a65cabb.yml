@@ -1,0 +1,21 @@
+_id: req_56b07df7bbab4e0993ae0b8b5a65cabb
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1629787796825
+created: 1629787758124
+url: https://api.telegram.org/bot1796281648:AAEQ9nh4hMmCc2wb92kQll_emt8Mg8j8sBw/getUpdates
+name: Get update dev bot
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629787758124
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

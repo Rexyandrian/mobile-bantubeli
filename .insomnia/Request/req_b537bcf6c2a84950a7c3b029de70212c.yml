@@ -1,0 +1,29 @@
+_id: req_b537bcf6c2a84950a7c3b029de70212c
+type: Request
+parentId: fld_2669878b28ce48d5be8a65fbb7d617c3
+modified: 1627311300423
+created: 1627311215485
+url: https://api.bantubeli.com/v1/auth/login
+name: User Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"email":"rexygarts@gmail.com",
+    	"password":"123456789"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1627311215485
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

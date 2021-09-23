@@ -1,0 +1,37 @@
+_id: req_530628c25d6f403e80d8452eb15a1414
+type: Request
+parentId: fld_81d7bf3209d242d88b0a71b035eea41e
+modified: 1627015952326
+created: 1627015297864
+url: https://sandbox-id.xfers.com/api/v4/payment_methods/virtual_bank_accounts
+name: metode post
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data": {
+    		"attributes": {
+    			"bankShortCode": "MANDIRI",
+    			"referenceId": "customer_id_123456",
+    			"displayName": "Mandiri Virtual Account"
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: content-type
+    value: application/vnd.api+json
+  - name: Authorization
+    value: Basic
+      dGVzdF9lY2MzYWJjMzQ0ZjFhMzE5MTI4MTgzYzNhMjRmNTE0MjpjYjAzY2E2OS00YzE4LTRiNTQtYTVhZi0yZTZiZjBjNDI3Zjg=
+authentication: {}
+metaSortKey: -1627015297864
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

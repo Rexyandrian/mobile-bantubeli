@@ -1,9 +1,9 @@
 _id: req_4692af0a4e2c40b78553d2737e23f788
 type: Request
 parentId: fld_c139818d2ce348d39bb5aff348c31a1c
-modified: 1621405838537
+modified: 1627460200761
 created: 1620636510500
-url: https://api.bantubeli.com/dev/dl/product/home
+url: https://api.bantubeli.com/dl/product-list/home
 name: Data produk
 description: ""
 method: GET
@@ -11,82 +11,54 @@ body:
   mimeType: application/json
   text: ""
 parameters:
-  - name: show_category
-    value: "1"
-    description: ""
-    id: pair_be66f788311147f78d78448786cd0a8b
-    disabled: false
-  - name: show_rating
-    value: "1"
-    description: ""
-    id: pair_c5de1a0e504343218dc673949ff869d5
-    disabled: false
-  - name: limit_store
-    value: "10"
-    description: ""
-    id: pair_c97eaab6029742ad9ddc5efc6a8950ce
-    disabled: false
-  - name: limit_store_product
-    value: "4"
-    description: ""
-    id: pair_7cd16cc9ae104d81b442bbd8484ea694
-    disabled: false
   - name: latitude
     value: "-6.270221033552741"
     description: ""
     id: pair_45884da56e984dff8d54888ececff6d9
-    disabled: true
+    disabled: false
   - name: longtitude
     value: "107.0224447176664"
     description: ""
     id: pair_cb38942e8bb542de99245e3cf1f29022
-    disabled: true
+    disabled: false
   - name: search
-    value: ayam
+    value: fiesta
     description: ""
     id: pair_d12da0ee9cc74900b10e8e937d9916f4
-    disabled: true
-  - name: store_id
-    value: ""
-    description: ""
-    id: pair_f4183264655c4df8bef847ae8a6dbd03
-    disabled: true
+    disabled: false
   - name: latitude
     value: "-6.188271230243793"
     description: ""
     id: pair_adbea320e30745c7aef9b4b9e2bbae0c
-    disabled: false
+    disabled: true
   - name: longtitude
     value: "106.82264245559702"
     description: ""
     id: pair_9328c8dfb78c49cdac801872d2ebd3f8
-    disabled: false
-  - name: zip_code
-    value: "10350"
+    disabled: true
+  - name: limit_product
+    value: "8"
     description: ""
     id: pair_3982821633ce49548fb9df73883aea3b
-  - name: show_category
+  - name: page
     value: "1"
     description: ""
-    id: pair_2330d41e89354d0c8a9246d9d06da408
-  - name: show_rating
-    value: "1"
-    description: ""
-    id: pair_878f0cabaf6e4c969563e49313434b5c
-  - name: filter
-    value: date
-    description: ""
-    id: pair_980425bdc28b4b3dbd4d4b4f47c11c25
-    disabled: true
+    id: pair_379840fd18da47cd8e5ff76191c67a79
+    disabled: false
   - name: filter_min
-    value: "0"
+    value: "2000"
     description: ""
-    id: pair_47d34d6398b94543bf97bb7c49604a0f
+    id: pair_a3ac352fbb9245728ff01f8f0379191c
     disabled: true
   - name: filter_max
-    value: "999999"
+    value: "40000"
     description: ""
-    id: pair_4cd14168740149dfab53a4dd886055bc
+    id: pair_82ae3396d77d47c5aa334ef3041ad8e2
+    disabled: true
+  - name: filter
+    value: popularity
+    description: ""
+    id: pair_be3509fe9744404eb5605a99400db02c
     disabled: true
 headers:
   - name: Content-Type

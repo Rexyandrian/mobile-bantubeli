@@ -1,0 +1,21 @@
+_id: req_a39eec8283554b7ebb3abc0062af361b
+type: Request
+parentId: fld_d50039f0ed68432a923a8278fc4375a3
+modified: 1631613357995
+created: 1631605126370
+url: https://api.bantubeli.com/v1/order-tracking/ZKTP1631607098
+name: Order Tracking
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1625224550264
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,361 @@
+_id: req_975aa15371794370875cc681025c3bdf
+type: Request
+parentId: fld_5a916bd19df240bca727d4c63796934a
+modified: 1627628568709
+created: 1627308434508
+url: https://api.bantubeli.com/v1/dl/product-list/home
+name: Data produk
+description: "## Usage
+
+
+  https://api.bantubeli.com/dl/product/{section}
+
+
+  >**Section** :\ 
+
+
+  - all
+
+  - home
+
+  - featured
+
+  - trending
+
+  - hot
+
+  - discount
+
+  - category slug *(example : nugget )*
+
+
+  >**query attributes** :
+
+
+  - Required attribute(s):
+
+  \  - limit_store : numeric
+
+  \  - limit_store_product : numeric
+
+
+  - Optional attributes :
+
+  \  - filter : popularity, date, price_min & price_max
+
+  \  - search : string
+
+  \  - show_category : boolean
+
+  \  - show_rating : boolean
+
+  \  - zip_code : numeric
+
+
+  - group attribute(s) :
+
+  \  - latitude & longtitude
+
+
+  - Addon attribute(s) :
+
+  \  - filter (only price) :\ 
+
+  \      - filter_min : numeric, min 0
+
+  \      - filter_max : numeric, max 99999999
+
+  \     \ 
+
+  \  - filter :
+
+  \      - sort_by : asc, desc
+
+  \     \ 
+
+  \  \ 
+
+  \  \ 
+
+  \  \ 
+
+  >   \ 
+
+  > Success response :
+
+  >\ 
+
+  - attributes used :
+
+
+  > raw :\ 
+
+  `https://api.bantubeli.com/dl/product/search?show_category=1&show_rating=1&\
+  limit_store=4&limit_store_product=4&latitude=-6.270221033552741&longtitude=10\
+  7.0224447176664&search=ayam&zip_code=17510&filter=price_max&filter_max=13000&\
+  filter_min=0`
+
+
+  \  - show_category=1
+
+  \  - show_rating=1
+
+  \  - limit_store=1
+
+  \  - limit_store_product=4
+
+  \  - latitude=-6.270221033552741
+
+  \  - longtitude=107.0224447176664
+
+  \  - search=ayam
+
+  \  - zip_code=17510
+
+  \  - filter=price_max
+
+  \  - filter_max=13000
+
+  \  - filter_min=0
+
+  \  .
+
+  \   \ 
+
+  \ \ 
+
+  \        {
+
+  \        \"status\": true,
+
+  \        \"data\": [
+
+  \          {
+
+  \            \"id\": \"1\",
+
+  \            \"name\": \"Prima Freshmart\",
+
+  \            \"created_at\": \"2021-03-31 17:36:19\",
+
+  \            \"updated_at\": \"2021-03-31 17:36:24\",
+
+  \            \"code\": \"PFM\",
+
+  \            \"img\":
+  \"https:\\/\\/www.bantubeli.com\\/assets\\/store\\/images\\/group\\/pfm.png\",
+
+  \            \"store\": [
+
+  \            store\": [
+
+  \          {
+
+  \            \"rn\": \"1\",
+
+  \            \"rns\": \"249\",
+
+  \            \"id\": \"2077\",
+
+  \            \"phone\": \"08176021542\",
+
+  \            \"province\": \"JAWA BARAT\",
+
+  \            \"city\": \"BEKASI\",
+
+  \            \"kecamatan\": \"RAWALUMBU\",
+
+  \            \"kelurahan\": \"PENGASINAN\",
+
+  \            \"status\": \"active\",
+
+  \            \"metas\": null,
+
+  \            \"name\": \"PRIMA FRESHMART PONDOK HIJAU PERMAI\",
+
+  \            \"address\": \"PONDOK HIJAU PERMAI BLOK D 1 NO 11 RT. 002, RW.
+  011\",
+
+  \            \"zip\": \"17115\",
+
+  \            \"groups_code\": \"PFM\",
+
+  \            \"cash\": \"0\",
+
+  \            \"logo\":
+  \"https:\\/\\/www.bantubeli.com\\/assets\\/store\\/images\\/group\\/pfm.png\",
+
+  \            \"jarak\": 1.35,
+
+  \            \"product_count\": 5,
+
+  \            \"product\": [
+
+  \              {
+
+  \                \"id\": \"27459\",
+
+  \                \"name\": \"FIESTA Bakso Ayam Special 100 g\",
+
+  \                \"sku\": \"FST-BAS100g\",
+
+  \                \"type\": \"1\",
+
+  \                \"store_id\": \"2077\",
+
+  \                \"category_id\": \"19\",
+
+  \               }
+
+  \               ....
+
+  \               \"brand\": {
+
+  \                  \"title\": \"Fiesta\",
+
+  \                  \"img\":
+  \"https:\\/\\/www.bantubeli.com\\/assets\\/images\\/logos\\/brand\\/fiesta-lo\
+  go.jpg\"
+
+  \                },
+
+  \                \"category\": {
+
+  \                  \"name\": \"Bakso\",
+
+  \                  \"slug\": \"bakso\"
+
+  \                },
+
+  \                \"category_by_store\": null,
+
+  \                \"jumlah_beli\": 0
+
+  \             ]
+
+  \           }
+
+  \           ...
+
+  \        }
+
+  \        "
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: show_category
+    value: "1"
+    description: ""
+    id: pair_be66f788311147f78d78448786cd0a8b
+    disabled: true
+  - name: show_rating
+    value: "1"
+    description: ""
+    id: pair_c5de1a0e504343218dc673949ff869d5
+    disabled: true
+  - name: limit_store
+    value: "1"
+    description: ""
+    id: pair_c97eaab6029742ad9ddc5efc6a8950ce
+    disabled: true
+  - name: limit_store_product
+    value: "8"
+    description: ""
+    id: pair_7cd16cc9ae104d81b442bbd8484ea694
+    disabled: true
+  - name: latitude
+    value: "-6.270221033552741"
+    description: ""
+    id: pair_45884da56e984dff8d54888ececff6d9
+    disabled: true
+  - name: longtitude
+    value: "107.0224447176664"
+    description: ""
+    id: pair_cb38942e8bb542de99245e3cf1f29022
+    disabled: true
+  - name: zip_code
+    value: "17510"
+    description: ""
+    id: pair_2971a0c76c024cdaab13a777aa1c0473
+    disabled: true
+  - name: search
+    value: " "
+    description: ""
+    id: pair_d12da0ee9cc74900b10e8e937d9916f4
+    disabled: true
+  - name: zip_code
+    value: "10350"
+    description: ""
+    id: pair_f4183264655c4df8bef847ae8a6dbd03
+    disabled: true
+  - name: latitude
+    value: "-6.909941"
+    description: ""
+    id: pair_adbea320e30745c7aef9b4b9e2bbae0c
+    disabled: false
+  - name: longtitude
+    value: "107.629087"
+    description: ""
+    id: pair_9328c8dfb78c49cdac801872d2ebd3f8
+    disabled: false
+  - name: filter
+    value: price_min
+    description: ""
+    id: pair_1961db214de54bf6b4243466f41ffcef
+    disabled: false
+  - name: filter_max
+    value: "200000"
+    description: ""
+    id: pair_47c47bd797cb436ea833afbf744954e2
+    disabled: true
+  - name: filter_min
+    value: "20000"
+    description: ""
+    id: pair_3c5a3c342bce4675aa7633b55a0990c5
+    disabled: true
+  - name: latitude
+    value: "37.785834"
+    description: ""
+    id: pair_a401d6d897cc40b3844b9e2814ecb0dc
+    disabled: true
+  - name: longtitude
+    value: "-122.406417"
+    description: ""
+    id: pair_028dc4252bbc45eda6b944326291e9f0
+    disabled: true
+  - name: pastel
+    value: "true"
+    description: ""
+    id: pair_ce1f0958745b4d7b8c7aaf0d6084d8bc
+    disabled: true
+  - name: single_row
+    value: "1"
+    description: ""
+    id: pair_2e2f637a03864f92b09cf0081f357bd4
+    disabled: true
+  - name: limit_product
+    value: "8"
+    description: ""
+    id: pair_9d5fd137b020483e8d7c2de07060fb3a
+    disabled: false
+  - name: page
+    value: "2"
+    description: ""
+    id: pair_4381de5fe43e470e842a0bf13da2b6dd
+    disabled: false
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NTgyNzc2LCJuYmYiOjE2MTk1ODI3NzYsImp0aSI6IlZhVjdJZmxPVElPaTM2ZkciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e1GXs-MF4feZJh7hGDvT42YPf9Nx7TKjCuikQ9eGO8
+metaSortKey: -1616122875629.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

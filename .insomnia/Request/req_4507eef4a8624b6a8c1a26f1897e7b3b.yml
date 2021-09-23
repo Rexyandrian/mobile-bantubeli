@@ -1,0 +1,33 @@
+_id: req_4507eef4a8624b6a8c1a26f1897e7b3b
+type: Request
+parentId: fld_fc5083e065c0496e9b3e107fc45bbee3
+modified: 1627458785224
+created: 1627034101546
+url: https://api.bantubeli.com/mandatory-profile
+name: Mandatory Profile
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"phone":"0812345678911",
+    	"address":null,
+    	"latitude":-6.909941,
+    	"longtitude":107.629087
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2FwcGxlX2V4aXN0cyIsImlhdCI6MTYyNzQ0NTk3OCwibmJmIjoxNjI3NDQ1OTc4LCJqdGkiOiJOblJ0SGs2VWdZTjJYbEF0Iiwic3ViIjo1MjUsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.qLVwIZ34BHQiBRqJ0g1NBKR__3vnW13xlp34vT4Uj1A
+metaSortKey: -1623063388349
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

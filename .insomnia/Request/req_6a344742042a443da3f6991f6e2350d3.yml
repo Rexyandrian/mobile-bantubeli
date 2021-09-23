@@ -1,0 +1,44 @@
+_id: req_6a344742042a443da3f6991f6e2350d3
+type: Request
+parentId: fld_a904368bb0bd435e8b1f44fd246bec97
+modified: 1630382824757
+created: 1626161666110
+url: https://merchant-api-sandbox.shipper.id/v3/pricing/domestic/instant
+name: Pricing Domestic
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"origin": {
+    		"lat": "-6.175979496423558",
+    		"lng": "106.81275581150334"
+    	},
+    	"destination": {
+    		"lat": "-6.270202366152504",
+    		"lng": "107.02242593909544"
+    	},
+    	"height": 15,
+    	"item_value": 40000,
+    	"length": 30,
+    	"weight": 2,
+    	"width": 40
+    }
+parameters: []
+headers:
+  - name: X-API-Key
+    value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626154793896.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

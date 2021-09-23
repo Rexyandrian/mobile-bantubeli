@@ -1,0 +1,32 @@
+_id: req_f36beb7a43cc4359ba809c05bb8e8037
+type: Request
+parentId: fld_fc5083e065c0496e9b3e107fc45bbee3
+modified: 1627309186530
+created: 1627308434710
+url: https://api.bantubeli.com/v1/auth/login
+name: Masuk
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"email":"farhan@email.com",
+    	"password":"123456789",
+    "device_token":"eTt9Q00_S0uUep7UCRIh3P:APA91bFsF2WYs4Ujdd000XHZR2hxatQnPtyHOXis-YkLa4yC37d90MFe1jhd8mdyzGfi0LcpVL4u371GlL5mQZc_1s4mGGl3XtUhqDmb9VtUn7iEjwNcvwAu-cve8Tnm9lcBSoY0XJuf",
+    	"platform":"android"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db857bfebd674f2a9298ac5b43f574d5
+authentication: {}
+metaSortKey: -1616665726359
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

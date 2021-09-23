@@ -1,0 +1,31 @@
+_id: req_561f1d88edc44eb28bc589c2521517d5
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1629954672411
+created: 1626686802680
+url: https://api.bantubeli.com/dev/shipping/logistics_list
+name: Logistics List
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: name
+    value: GO-SEND
+    description: ""
+    id: pair_47cb5f6c564f4714846806f2ed9a38d2
+    disabled: true
+  - name: type
+    value: same day
+    description: ""
+    id: pair_0a50815efb2940a08403c1a7255b4014
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1626686802680
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

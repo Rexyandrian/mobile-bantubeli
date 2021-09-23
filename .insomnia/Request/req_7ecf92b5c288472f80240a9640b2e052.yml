@@ -1,14 +1,46 @@
 _id: req_7ecf92b5c288472f80240a9640b2e052
 type: Request
 parentId: fld_6a822299b7c94af5b776b35130683746
-modified: 1623122889076
+modified: 1630960114274
 created: 1620635930188
-url: https://maps.googleapis.com/maps/api/geocode/json?latlng=-122.406417,37.785834&result_type=postal_code&key=AIzaSyCLd3sdO2m1gwR0o1xz0ZpVkR4A53-tMMU
+url: https://maps.googleapis.com/maps/api/geocode/json?result_type=street_address&key=AIzaSyCLd3sdO2m1gwR0o1xz0ZpVkR4A53-tMMU
 name: Gmap lot lang
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - name: language
+    value: id
+    description: ""
+    id: pair_388a2e68973945c09f1305944d3449c1
+    disabled: true
+  - name: address
+    value: tegal jawa tengah
+    description: ""
+    id: pair_01e5e84fbce849dcac2441871f2d8c96
+    disabled: true
+  - name: latlng
+    value: -6.2702023661525,107.0224259391
+    description: ""
+    id: pair_373b285e29034093a4bfdfddc265e089
+    disabled: false
+    type: text
+    multiline: text/plain
+  - name: address
+    value: JL. PANCORAN BARAT No.22, JAKARTA SELATAN 12780 - DKI JAKARTA
+    description: ""
+    id: pair_571cc2391e0040b7a823bfd3844df7dd
+    disabled: true
+  - name: address
+    value: JL. DEWI SARTIKA NO.392 D CAWANG JAKARTA TIMUR
+    description: ""
+    id: pair_0fecf8f3b5524bd183d2f8cf2bb15686
+    disabled: true
+  - name: address
+    value: JL. ASEM BARIS RAYA No.13, JAKARTA SELATAN - DKI JAKARTA
+    description: ""
+    id: pair_3bc880246f1543c9bea1b5ea5326b125
+    disabled: true
 headers: []
 authentication: {}
 metaSortKey: -1620635930188

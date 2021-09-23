@@ -1,0 +1,32 @@
+_id: req_9390e1e79d1c429ba23c4342edb1d91f
+type: Request
+parentId: fld_574ebdf2600848a7afac78a1abcc4190
+modified: 1630655397967
+created: 1630652217405
+url: https://api.bantubeli.com/v1/setting/address
+name: Get Address
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: address_id
+    value: "2"
+    description: ""
+    id: pair_fa5773f6b03c48f9bece186b5e972be4
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjI0MjY4NTEzLCJuYmYiOjE2MjQyNjg1MTMsImp0aSI6InFtMHVxQjVlRVdDSkNiOVYiLCJzdWIiOjE2NiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.SZralSpz65iqjvDXoj4qHnXxH80P-VrYynUlF91z-JM
+metaSortKey: -1630652217506
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

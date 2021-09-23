@@ -1,0 +1,41 @@
+_id: req_fc548aa535834b98ae20dcb855711c7d
+type: Request
+parentId: fld_2669878b28ce48d5be8a65fbb7d617c3
+modified: 1627319948998
+created: 1627319847848
+url: https://maps.googleapis.com/maps/api/directions/json
+name: Driving Dist
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: AIzaSyCLd3sdO2m1gwR0o1xz0ZpVkR4A53-tMMU
+    description: ""
+    id: pair_48258b80b864477293be81abb2aa027d
+  - name: mode
+    value: DRIVING
+    description: ""
+    id: pair_3d8aee7a27c54bbf87e955cd7dae5401
+  - name: avoid
+    value: toll
+    description: ""
+    id: pair_731dc0374a5f459eb317d98552bda407
+  - name: destination
+    value: -6.188786432637093,106.81880271933333
+    description: ""
+    id: pair_326aa4950002420bb9a7a0f3887152e7
+  - name: origin
+    value: -6.236616464806284, 106.86012015443751
+    description: ""
+    id: pair_58eba0e3eaf04792bfb4be190d0989b4
+headers: []
+authentication: {}
+metaSortKey: -1627319847935
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

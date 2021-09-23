@@ -1,0 +1,31 @@
+_id: req_6e7782e884f842c9b7a883e78ecc7795
+type: Request
+parentId: fld_6e074ef242d745edabdfb71662f0a846
+modified: 1627929684571
+created: 1627475683498
+url: https://sandbox.shipper.id/label/sticker.php
+name: Sticker
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: oid[]
+    value: 218P5RRP4QQEE
+    description: ""
+    id: pair_e054aa471df34afb8e57c7f62d39121f
+  - name: uid
+    value: 071ea5f1e9bec90a05fb07dde62e84cd
+    description: ""
+    id: pair_251cfb9c0bd14b609034035480c54af9
+headers:
+  - name: X-API-Key
+    value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+authentication: {}
+metaSortKey: -1627475683499
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

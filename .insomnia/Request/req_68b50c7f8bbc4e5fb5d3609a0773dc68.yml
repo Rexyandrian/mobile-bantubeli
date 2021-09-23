@@ -1,0 +1,61 @@
+_id: req_68b50c7f8bbc4e5fb5d3609a0773dc68
+type: Request
+parentId: fld_5a916bd19df240bca727d4c63796934a
+modified: 1627309444898
+created: 1627308434577
+url: https://api.bantubeli.com/v1/dl/review-product
+name: Product Review List
+description: |-
+  Untuk mendapatkan detail review :
+
+      {
+        "review_id":9999
+      }
+
+  Untuk mendapatkan review berdasarkan rating :
+
+      {
+        "in_rate":4
+      }
+      
+  Untuk mendapatkan review berdasarkan yang *belum* di rating :
+
+      {
+        "status":"unrated"
+      }
+      
+   Untuk mendapatkan review berdasarkan yang *telah* di rating :
+
+      {
+        "status":"rated"
+      }
+method: GET
+body: {}
+parameters:
+  - name: status
+    value: rated
+    description: ""
+    id: pair_d22d6fadecc541f5a016c702523f077c
+    disabled: true
+  - name: in_rate
+    value: "4"
+    description: ""
+    id: pair_a3403ed02b9f4b0895f07af216542cf5
+    disabled: false
+  - name: review_id
+    value: "91219"
+    description: ""
+    id: pair_5b2176aa25684349b7fee11b368357ab
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NTgyNzc2LCJuYmYiOjE2MTk1ODI3NzYsImp0aSI6IlZhVjdJZmxPVElPaTM2ZkciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e1GXs-MF4feZJh7hGDvT42YPf9Nx7TKjCuikQ9eGO8
+metaSortKey: -1624417075193
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

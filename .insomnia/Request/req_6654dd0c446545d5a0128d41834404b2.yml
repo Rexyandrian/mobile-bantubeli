@@ -1,0 +1,28 @@
+_id: req_6654dd0c446545d5a0128d41834404b2
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1630560373997
+created: 1629355980494
+url: https://api.bantubeli.com/dev/query-in
+name: Query select test
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"query":"SELECT * FROM marketplace.webhook_calls order by id desc"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1629355980494
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

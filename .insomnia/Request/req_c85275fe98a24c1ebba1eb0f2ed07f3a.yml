@@ -1,0 +1,49 @@
+_id: req_c85275fe98a24c1ebba1eb0f2ed07f3a
+type: Request
+parentId: fld_2c0005192552460ea156fceb3e6a5cc1
+modified: 1626007696001
+created: 1626007493695
+url: https://api.bantubeli.com/improve/product/home
+name: Landing produk
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit_store
+    value: "1"
+    description: ""
+    id: pair_eff2cb8b3d7a463a9f02e84f2337833d
+  - name: limit_store_product
+    value: "25"
+    description: ""
+    id: pair_1556441db95b49c1bf2873b75c4aedfb
+  - name: latitude
+    value: "-6.90994"
+    description: ""
+    id: pair_850ac53183d544c99666fb198b0e860c
+  - name: longtitude
+    value: "107.629087"
+    description: ""
+    id: pair_c08535fa6f2b4295b607e35d8edb08f7
+  - name: pastel
+    value: "true"
+    description: ""
+    id: pair_edf7579616d34c898ce240b4274cc7cf
+  - name: single_row
+    value: "1"
+    description: ""
+    id: pair_af522bd652d14d30b8bc64a81afa4cb1
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_d042f8d4abc74163b3bd05069281cf4f
+headers: []
+authentication: {}
+metaSortKey: -1626007493695
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

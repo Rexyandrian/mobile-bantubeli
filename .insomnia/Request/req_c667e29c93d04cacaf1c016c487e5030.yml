@@ -1,0 +1,23 @@
+_id: req_c667e29c93d04cacaf1c016c487e5030
+type: Request
+parentId: fld_a904368bb0bd435e8b1f44fd246bec97
+modified: 1631593805301
+created: 1630299119433
+url: https://merchant-api-sandbox.shipper.id/v3/order
+name: Order list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-API-Key
+    value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+authentication: {}
+metaSortKey: -1630299119433
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

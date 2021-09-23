@@ -1,0 +1,30 @@
+_id: req_77c24b8f015047ccb165977a833d2a7f
+type: Request
+parentId: fld_574ebdf2600848a7afac78a1abcc4190
+modified: 1630963526550
+created: 1630655322770
+url: https://api.bantubeli.com/v1/setting/address
+name: Delete Address
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"address_id":25
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjI0MjY4NTEzLCJuYmYiOjE2MjQyNjg1MTMsImp0aSI6InFtMHVxQjVlRVdDSkNiOVYiLCJzdWIiOjE2NiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.SZralSpz65iqjvDXoj4qHnXxH80P-VrYynUlF91z-JM
+metaSortKey: -1630655322770
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

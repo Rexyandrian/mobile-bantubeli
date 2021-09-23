@@ -1,0 +1,33 @@
+_id: req_5edbdf34f98e47dfa03f392d6bed50c3
+type: Request
+parentId: fld_6a822299b7c94af5b776b35130683746
+modified: 1625720034693
+created: 1625717610171
+url: https://api.bantubeli.com/mobile-notif
+name: Scapp payment confirm notif
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"order_id":49666
+    }
+parameters:
+  - name: order_id
+    value: ""
+    description: ""
+    id: pair_a3f5b90757174b8c91322ff8ba15b0ca
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1625717610171
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

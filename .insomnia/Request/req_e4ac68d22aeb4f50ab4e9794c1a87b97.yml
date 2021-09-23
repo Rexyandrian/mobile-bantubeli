@@ -1,0 +1,38 @@
+_id: req_e4ac68d22aeb4f50ab4e9794c1a87b97
+type: Request
+parentId: fld_a904368bb0bd435e8b1f44fd246bec97
+modified: 1626159170227
+created: 1626155975858
+url: https://merchant-api-sandbox.shipper.id/v3/location/country/228/provinces
+name: Data Provinsi Negara
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "2"
+    description: ""
+    id: pair_66f2115003aa4fd78b9fab6bccfd10ea
+    disabled: true
+  - name: page
+    value: "4"
+    description: ""
+    id: pair_0db0ee9b9c4e48d3940cb1370b017c11
+    disabled: true
+  - name: country_id
+    value: "228"
+    description: ""
+    id: pair_f36d027f357e49e4a850ee27ab6d8c77
+    disabled: true
+headers:
+  - name: X-API-Key
+    value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+authentication: {}
+metaSortKey: -1626098065993
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_f15445d1477e4de09af8e39c85a95678
+type: Request
+parentId: fld_33147a52618d40bcadb6b6625960cca7
+modified: 1627309286941
+created: 1627308434642
+url: https://api.bantubeli.com/v1/notification/read
+name: Read Notification
+description: >-2
+              'id'=>['required_without:read',Rule::exists('bb_notification','id')->where(function($query){
+                  $query->where('user_id',auth('api')->user()->id); 
+              })],
+              'read'=>"in:all"
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"read":"all"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE4MTk5ODMwLCJuYmYiOjE2MTgxOTk4MzAsImp0aSI6Im9RS2xPakhCa3g1UEI4eXIiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.5mIVqV8vBKsmfWuY-GbcFVjSNUG5Jef_2yn2__Lts5o
+metaSortKey: -1617705894517
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

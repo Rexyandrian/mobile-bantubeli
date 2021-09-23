@@ -1,0 +1,86 @@
+_id: req_6ba58526690f42679e9c435cecf7d947
+type: Request
+parentId: fld_a904368bb0bd435e8b1f44fd246bec97
+modified: 1626844499867
+created: 1626815089067
+url: https://merchant-api-sandbox.shipper.id/v3/order/217R8382JEXGE
+name: update order
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >
+    {
+      "consignee": {
+        "name": "Farhan Ismail",
+        "phone_number": "0812345678911"
+      },
+      "consigner": {
+        "name": "PRIMA FRESHMART KEBON KACANG",
+        "phone_number": "08176021268"
+      },
+      "courier": {
+        "cod": false,
+        "rate_id": 4,
+        "use_insurance": false
+      },
+      "coverage": "domestic",
+      "destination": {
+        "direction": "",
+        "postcode": "13330",
+        "country_id": 228,
+        "country_name": "INDONESIA",
+        "province_id": 6,
+        "province_name": "DKI Jakarta",
+        "city_id": 40,
+        "city_name": "Jakarta Timur",
+        "suburb_id": 479,
+        "suburb_name": "Jatinegara",
+        "address": "Jl. Pedati Raya No.119, RT.3\/RW.10, Bidara Cina, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330, Indonesia",
+        "area_id": 4691,
+        "lat": "-6.2272979905457",
+        "lng": "106.8686851949"
+      },
+      "external_id": "EXTERNALID123",
+      "origin": {
+    		"direction":"",
+        "suburb_id": 506,
+        "address": "JL. KEBON KACANG IX NO. 75 B, RT. 002, RW. 002",
+        "area_id": 4862,
+        "lat": "-6.188586401910732",
+        "lng": "106.8195269998568"
+      },
+      "package": {
+        "height": 45,
+        "items": [
+          {
+    				"id":738506,
+            "name": "CP Dada Utuh 1 Kg",
+            "price": 51000,
+            "qty": 1
+          }
+        ],
+        "length": 30,
+        "package_type": 2,
+        "price": 89500,
+        "weight": 1.5,
+        "width": 15
+      }
+    }
+parameters: []
+headers:
+  - name: X-API-Key
+    value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1626815089068
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
