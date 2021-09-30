@@ -1,9 +1,9 @@
 _id: req_2aac8154a8a547aca0ae0215292ad214
 type: Request
 parentId: fld_1df2fa9e395b4aca82dda5a5ec4dbbd1
-modified: 1619408756274
+modified: 1622631418931
 created: 1617866483833
-url: https://api.bantubeli.com/driver/order
+url: "\thttps://maps.googleapis.com/maps/api/geocode/json"
 name: Order list
 description: |-2
           "status"=>"required_without:group|in:waiting,process,arrived",
@@ -18,17 +18,24 @@ description: |-2
 method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"order_no":"jNuF1619405389"
-    }
-parameters: []
+  text: ""
+parameters:
+  - name: latlng
+    value: -6.1885091999999995,106.82277820000002
+    description: ""
+    id: pair_21bfb4747d034416b287ec76e4392d5b
+  - name: key
+    value: AIzaSyCLd3sdO2m1gwR0o1xz0ZpVkR4A53-tMMU
+    description: ""
+    id: pair_5d59bbe82235412a9ffdd3dcda9bdbc9
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_8bc5fa6a4c5644f794169e265d6b46e5
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RyaXZlclwvbG9naW4iLCJpYXQiOjE2MTg5ODczMzQsIm5iZiI6MTYxODk4NzMzNCwianRpIjoiZ1hGTk5vZHFoSmEwUUthVSIsInN1YiI6MSwicHJ2IjoiOTE5YzMyNmQ0M2FiMTUxOWE4YmEzYjg1ODZiNjg3NTJlOGM4MzgwNyJ9.gRovRGd_H58f9g2OSVRH2wJJBHSlSAqSRL9ww4UUOXs
+  disabled: true
 metaSortKey: -1617866483884
 isPrivate: false
 settingStoreCookies: true

@@ -1,14 +1,14 @@
 _id: req_975aa15371794370875cc681025c3bdf
 type: Request
 parentId: fld_5a916bd19df240bca727d4c63796934a
-modified: 1627628568709
+modified: 1632884209395
 created: 1627308434508
-url: https://api.bantubeli.com/v1/dl/product-list/home
+url: https://api.bantubeli.com/v1/dl/product-category/ayam
 name: Data produk
 description: "## Usage
 
 
-  https://api.bantubeli.com/dl/product/{section}
+  https://api.bantubeli.com/dl/product-{section}/{slug-category}
 
 
   >**Section** :\ 
@@ -348,6 +348,7 @@ parameters:
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_db4deb89bf954f329db641077f0b3b50
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE5NTgyNzc2LCJuYmYiOjE2MTk1ODI3NzYsImp0aSI6IlZhVjdJZmxPVElPaTM2ZkciLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.0e1GXs-MF4feZJh7hGDvT42YPf9Nx7TKjCuikQ9eGO8
