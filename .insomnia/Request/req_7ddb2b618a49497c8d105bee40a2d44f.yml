@@ -1,0 +1,26 @@
+_id: req_7ddb2b618a49497c8d105bee40a2d44f
+type: Request
+parentId: fld_5a916bd19df240bca727d4c63796934a
+modified: 1632972140580
+created: 1632471115597
+url: https://api.bantubeli.com/v1/version
+name: Check Apps Version
+description: GET APPLICATION VERSION
+method: GET
+body: {}
+parameters:
+  - name: is
+    value: android
+    description: ""
+    id: pair_08029188e1564d798e3f4a4ccfc582eb
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1632471115597
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
