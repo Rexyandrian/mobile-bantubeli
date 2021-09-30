@@ -1,9 +1,9 @@
 _id: req_0236160bbd3947818ca26112af6fde66
 type: Request
 parentId: fld_3eada20440ac4225978cf7e4a91bd565
-modified: 1623121541094
+modified: 1632718922011
 created: 1615871558584
-url: https://api.bantubeli.com/dl/product/category
+url: https://api.bantubeli.com/v1/dl/product/category?pastel=true
 name: Product Category
 description: ""
 method: GET
