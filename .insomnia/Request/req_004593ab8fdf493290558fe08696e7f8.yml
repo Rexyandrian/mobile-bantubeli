@@ -1,32 +1,28 @@
-_id: req_6d0b151b667e41a0bab52de0102adcbf
+_id: req_004593ab8fdf493290558fe08696e7f8
 type: Request
 parentId: fld_c44869056eb145af939328ddab2b54f4
-modified: 1633326716237
-created: 1627308434774
+modified: 1633328719299
+created: 1633319030170
 url: https://api.bantubeli.com/v1/cashier/order
-name: Order list
-description: |-2
-        "status"=>"in:process,courier,send,arrived,success,failed",
-        "group"=>"required_without:status|in:Y,N"
-        "no_order"=>"required","e.g OlhQ1633069490",
-        "page" => "required","e.g page of datas",
-        "limit" => "required","e.g limit of page = 10",
-method: GET
+name: Order Shiping
+description: ""
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "no_order": "0W4B1633326678"
+    	"no_order" : "0W4B1633326678"
+    	
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_9187d45a6cee47399486612917372c52
+    id: pair_e84fad687a3b42d0b260d91bcc8555d8
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjMzMzI2NTUxLCJuYmYiOjE2MzMzMjY1NTEsImp0aSI6Ik9VSGdEdDc0YUNtVDRKQU4iLCJzdWIiOjMsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.C7MlQ7HpZkwNv7N4CxEK2gduUhErm56nET5jb4IfB7I
-metaSortKey: -1617604024659
+metaSortKey: -1633319030171
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
