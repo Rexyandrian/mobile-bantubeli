@@ -1,21 +1,22 @@
 _id: req_6d0b151b667e41a0bab52de0102adcbf
 type: Request
 parentId: fld_c44869056eb145af939328ddab2b54f4
-modified: 1633314289602
+modified: 1633315393523
 created: 1627308434774
 url: https://api.bantubeli.com/v1/cashier/order
 name: Order list
 description: |-2
         "status"=>"in:process,courier,send,arrived,success,failed",
         "group"=>"required_without:status|in:Y,N"
+        "no_order"=>"required","e.g OlhQ1633069490",
+        "page" => "required","e.g page of datas",
+        "limit" => "required","e.g limit of page = 10",
 method: GET
 body:
   mimeType: application/json
   text: |-
     {
-      "status":"failed",
-    	"limit" : 10,
-    	"page" : 1
+      "no_order":"OlhQ1633069490"
     }
 parameters: []
 headers:
