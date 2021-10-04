@@ -1,7 +1,7 @@
 _id: req_6d0b151b667e41a0bab52de0102adcbf
 type: Request
 parentId: fld_c44869056eb145af939328ddab2b54f4
-modified: 1627308807265
+modified: 1633314289602
 created: 1627308434774
 url: https://api.bantubeli.com/v1/cashier/order
 name: Order list
@@ -13,12 +13,15 @@ body:
   mimeType: application/json
   text: |-
     {
-      "order_no":"aO111620633275"
+      "status":"failed",
+    	"limit" : 10,
+    	"page" : 1
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_9187d45a6cee47399486612917372c52
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjIwNjM4NzM4LCJuYmYiOjE2MjA2Mzg3MzgsImp0aSI6IkhhMWdpZHJKWVZBWmZOalgiLCJzdWIiOjUsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.ngT2yKKGAP1CvfGBP50N18t6JK5lAJqLg3OQYullLtw
