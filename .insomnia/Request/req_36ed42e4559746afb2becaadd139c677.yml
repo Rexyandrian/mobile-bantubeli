@@ -1,7 +1,7 @@
 _id: req_36ed42e4559746afb2becaadd139c677
 type: Request
 parentId: fld_4e98aeeb0b8841548e1d70af882a1fb8
-modified: 1627308649829
+modified: 1633420321123
 created: 1627308434807
 url: https://api.bantubeli.com/v1/driver/order
 name: Sending Order
@@ -11,15 +11,16 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"order_no":"LztQ1625319662"
+    	"order_no":"8YVA1632905554"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_e9b7d002b4c742da88749584c54adc08
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RyaXZlclwvbG9naW4iLCJpYXQiOjE2MjE0OTY0MzksIm5iZiI6MTYyMTQ5NjQzOSwianRpIjoiOXB6NEdLSkFEN2F3Qk9BayIsInN1YiI6MywicHJ2IjoiOTE5YzMyNmQ0M2FiMTUxOWE4YmEzYjg1ODZiNjg3NTJlOGM4MzgwNyJ9.oUnADi_GHiCEWRFjNEkqd0CtxlE5hHI9isht6kpKSaU
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9kcml2ZXJcL2xvZ2luIiwiaWF0IjoxNjMzNDE5NzAyLCJuYmYiOjE2MzM0MTk3MDIsImp0aSI6Ik9CV1lXUGFFTDN6aTBKOEUiLCJzdWIiOjMsInBydiI6IjkxOWMzMjZkNDNhYjE1MTlhOGJhM2I4NTg2YjY4NzUyZThjODM4MDcifQ.HWhFkJZSyBuUf9wfEwMhBaf1zVVeIRGcSh5PKShIwfE
 metaSortKey: -1617866483834
 isPrivate: false
 settingStoreCookies: true
