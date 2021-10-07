@@ -1,0 +1,31 @@
+_id: req_3e0b7412eaf04585a71931371e3c56b4
+type: Request
+parentId: fld_c44869056eb145af939328ddab2b54f4
+modified: 1633597413509
+created: 1633592450094
+url: https://api.bantubeli.com/v1/cashier/order/cancel
+name: Cancel Order
+description: '     "no_order" : "required, e.g 0W4B1633326678"'
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"no_order" : "0W4B1633326678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d5b4f184a2e146cdbbf0c79a461f19e7
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjMzMzI2NTUxLCJuYmYiOjE2MzMzMjY1NTEsImp0aSI6Ik9VSGdEdDc0YUNtVDRKQU4iLCJzdWIiOjMsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.C7MlQ7HpZkwNv7N4CxEK2gduUhErm56nET5jb4IfB7I
+metaSortKey: -1633592450094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
