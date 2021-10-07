@@ -1,7 +1,7 @@
 _id: req_323b38085cd2493584c2292ca02ac7a7
 type: Request
 parentId: fld_c44869056eb145af939328ddab2b54f4
-modified: 1627308793328
+modified: 1633578938441
 created: 1627308434781
 url: https://api.bantubeli.com/v1/cashier/order/status
 name: Status order count
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjIwMjAwOTg1LCJuYmYiOjE2MjAyMDA5ODUsImp0aSI6Im55OFlLOGxuek4wNWxjWG4iLCJzdWIiOjMsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ._CU_-ah0QuqI_7f3fS_zaE8KAo97FExC_cFbWLckUfw
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2Nhc2hpZXJcL2xvZ2luIiwiaWF0IjoxNjMzMzI2NTUxLCJuYmYiOjE2MzMzMjY1NTEsImp0aSI6Ik9VSGdEdDc0YUNtVDRKQU4iLCJzdWIiOjMsInBydiI6IjM3MTk0ZjU0NDNhMmJlZmYyMzRiMDM5Y2Q4Njk3OGViOGFiZDI5YzMifQ.C7MlQ7HpZkwNv7N4CxEK2gduUhErm56nET5jb4IfB7I
 metaSortKey: -1618802035950
 isPrivate: false
 settingStoreCookies: true
