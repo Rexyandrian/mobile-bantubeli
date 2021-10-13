@@ -1,0 +1,31 @@
+_id: req_2634c42bd8c746b0ba5db4448365dabb
+type: Request
+parentId: fld_faa2324bb1c940ef967e8a394b2eb240
+modified: 1634110601398
+created: 1634109204266
+url: https://api.bantubeli.com/v1/coupon/get
+name: Ambil Kupon
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id" : 11
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f90acd6e1e7d4777b24cd96245853258
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzNDEwMDIyNywibmJmIjoxNjM0MTAwMjI3LCJqdGkiOiJ0a3RRdFJkUU5vTEhITGdYIiwic3ViIjoxNTIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.1okXhTxxX4yhb8JxofY7Ey08ZDVGGwdNj2t3j-iYULY
+metaSortKey: -1634109204266
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

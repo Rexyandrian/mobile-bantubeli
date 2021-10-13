@@ -1,0 +1,23 @@
+_id: req_7345ba7a2f974053a8bbc94dcaf4d74f
+type: Request
+parentId: fld_faa2324bb1c940ef967e8a394b2eb240
+modified: 1634100249807
+created: 1634094547315
+url: https://api.bantubeli.com/v1/coupon
+name: Get All Coupon
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzNDEwMDIyNywibmJmIjoxNjM0MTAwMjI3LCJqdGkiOiJ0a3RRdFJkUU5vTEhITGdYIiwic3ViIjoxNTIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.1okXhTxxX4yhb8JxofY7Ey08ZDVGGwdNj2t3j-iYULY
+metaSortKey: -1634094547315
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
