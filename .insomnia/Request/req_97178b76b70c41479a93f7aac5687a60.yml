@@ -1,7 +1,7 @@
 _id: req_97178b76b70c41479a93f7aac5687a60
 type: Request
 parentId: fld_9065870fd2294f5fb54e6688e6b78919
-modified: 1634628239959
+modified: 1634631163456
 created: 1634610728445
 url: https://api.bantubeli.com/v1/coupon/paginate
 name: All Coupon w/ paginate
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"limit" : 5, 
+    	"limit" : 3 , 
     	"page" : 1
     }
 parameters: []
