@@ -1,11 +1,32 @@
 _id: req_1d724d111d0f46ee93935e98f0d54631
 type: Request
 parentId: fld_faa2324bb1c940ef967e8a394b2eb240
-modified: 1634108563759
+modified: 1634612942091
 created: 1634095774304
 url: https://api.bantubeli.com/v1/coupon
 name: Create Coupon
-description: ""
+description: >-2
+              $duration = [
+                  'start_coupon' => $request->start,
+                  'end_coupon' => $request->end
+                      ];
+              $rules = [
+                  'min_price' => $request->min_price,
+                  'cashback' => $request->cashback??null, // dalam persen
+                  'ongkir' => $request->ongkir??null,
+                  'discount' => $request->discount??null, // isi total potongan aja
+                  'max_cashback' => $request->max_cashback, // maximal cashback yang di terima
+                  'max_use' => $request->use??null, // maximal penggunaan kupon / user
+                  'kuota' => $request->kuota,
+                  ];
+              $data = [
+                  'title' => $request->title, // judul dari coupon
+                  'body' => $request->body, // isi dari kontent
+                  'duration' => json_encode($duration), // durasi 
+                  'img' => $request->img, // link gambar
+                  'product' => $request->product??null, // kategori produk atau sku 
+                  'rules' => json_encode($rules),
+                  'coupon_code' => strtoupper($request->code??Str::random(8))
 method: POST
 body:
   mimeType: application/json

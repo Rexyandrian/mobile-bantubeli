@@ -1,7 +1,7 @@
 _id: req_2634c42bd8c746b0ba5db4448365dabb
 type: Request
 parentId: fld_faa2324bb1c940ef967e8a394b2eb240
-modified: 1634202006653
+modified: 1634617637179
 created: 1634109204266
 url: https://api.bantubeli.com/v1/coupon/get
 name: Ambil Kupon
@@ -13,7 +13,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id" : 11
+    	"id" : 9
     }
 parameters: []
 headers:
