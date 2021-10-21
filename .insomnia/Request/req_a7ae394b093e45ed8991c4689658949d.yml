@@ -1,7 +1,7 @@
 _id: req_a7ae394b093e45ed8991c4689658949d
 type: Request
 parentId: fld_faa2324bb1c940ef967e8a394b2eb240
-modified: 1634617979827
+modified: 1634798796712
 created: 1634105174976
 url: https://api.bantubeli.com/v1/coupon/show
 name: Detail Coupon
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id":11
+    	"id":10
     	
     }
 parameters: []

@@ -1,11 +1,11 @@
 _id: req_98df6abe7156469499dc8e8a762c518d
 type: Request
 parentId: fld_faa2324bb1c940ef967e8a394b2eb240
-modified: 1634617595200
+modified: 1634803895038
 created: 1634201929644
 url: https://api.bantubeli.com/v1/coupon/use
 name: Pake Kupon
-description: ""
+description: "\t\"coupon\" : ['Required']"
 method: POST
 body:
   mimeType: application/json
