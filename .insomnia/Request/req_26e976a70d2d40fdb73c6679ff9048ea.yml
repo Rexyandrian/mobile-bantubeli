@@ -1,9 +1,9 @@
-_id: req_fbabda2901674e28b19435dc6b4f8ec6
+_id: req_26e976a70d2d40fdb73c6679ff9048ea
 type: Request
-parentId: fld_9065870fd2294f5fb54e6688e6b78919
-modified: 1635131356547
-created: 1634783095995
-url: https://api.bantubeli.com/dev/coupon/testing
+parentId: fld_5ec6369a31c44a618726be1c075a8bae
+modified: 1635131312682
+created: 1635131312682
+url: https://api.bantubeli.com/v1/coupon/testing
 name: Testing
 description: "    for testing query n some function"
 method: GET

@@ -1,9 +1,9 @@
 _id: req_69e3174fe3594549a175f70cd3eeda9e
 type: Request
 parentId: fld_faa2324bb1c940ef967e8a394b2eb240
-modified: 1634114789276
+modified: 1635137381043
 created: 1634114677721
-url: https://api.bantubeli.com/v1/coupon/me
+url: https://api.bantubeli.com/dev/coupon/me
 name: Kupon Saya
 description: ""
 method: GET
@@ -14,7 +14,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzNDEwMDIyNywibmJmIjoxNjM0MTAwMjI3LCJqdGkiOiJ0a3RRdFJkUU5vTEhITGdYIiwic3ViIjoxNTIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.1okXhTxxX4yhb8JxofY7Ey08ZDVGGwdNj2t3j-iYULY
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RldlwvYXV0aFwvbG9naW4iLCJpYXQiOjE2MzUxMzE0NjIsIm5iZiI6MTYzNTEzMTQ2MiwianRpIjoiSkM1T0Y4RzZPTmhObmVXZiIsInN1YiI6NjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.0Q88fRXEeEm7cHZXIC5rPHV4ZJUEzq-1u2la-k42nqs
 metaSortKey: -1634107189647
 isPrivate: false
 settingStoreCookies: true

@@ -1,0 +1,61 @@
+_id: req_3b502d06626b4bf2a0fa5b33697bf683
+type: Request
+parentId: fld_d2d1979b7e7e402688316cccff20b3a9
+modified: 1635131312698
+created: 1635131312698
+url: https://api.bantubeli.com/v1/coupon
+name: Create Coupon
+description: >-2
+              $duration = [
+                  'start_coupon' => $request->start,
+                  'end_coupon' => $request->end
+                      ];
+              $rules = [
+                  'min_price' => $request->min_price,
+                  'cashback' => $request->cashback??null, // dalam persen
+                  'ongkir' => $request->ongkir??null,
+                  'discount' => $request->discount??null, // isi total potongan aja
+                  'max_cashback' => $request->max_cashback, // maximal cashback yang di terima
+                  'max_use' => $request->use??null, // maximal penggunaan kupon / user
+                  'kuota' => $request->kuota,
+                  ];
+              $data = [
+                  'title' => $request->title, // judul dari coupon
+                  'body' => $request->body, // isi dari kontent
+                  'duration' => json_encode($duration), // durasi 
+                  'img' => $request->img, // link gambar
+                  'product' => $request->product??null, // kategori produk atau sku 
+                  'rules' => json_encode($rules),
+                  'coupon_code' => strtoupper($request->code??Str::random(8))
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"title" : "Cashback 90%",
+    	"body" : "Augue euismod parturient fermentum sodales cum vivamus euismod pede. Mauris iaculis hendrerit feugiatfaucibus sed enim parturient parturient erat bibendum elementum hendrerit taciti convallis massa semper. Fames Pulvinar arcu ultrices potenti adipiscing Interdum platea fusce taciti non quisque ornare Velit orci tincidunt est nullam ullamcorper vulputate hac vestibulum gravida id id vulputate vehicula ipsum enim. Tristique mollis adipiscing pulvinar mattis class magna tempus montes gravida leo. Faucibus magnis. Ut in platea pede erat felis mattis per, euismod. Nonummy rutrum ultrices laoreet rhoncus pharetra Phasellus magna commodo tincidunt dapibus lacus. Orci a tellus lectus posuere vulputate primis ante fermentum tortor euismod.",
+    	"start" : "09-10-2021 10:00:00",
+    	"end" : "10-12-2021 10:00:00",
+    	"img" : "/assets/images/banners/1/konten-produk8.jpg",
+    	"min_price" : 100000,
+    	"cashback" : 13,
+    	"product" : 146,
+    	"max_cashback" :  3000,
+    	"use" : 3
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_439179ceb9554dcaae60756088bd793b
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzNDEwMDIyNywibmJmIjoxNjM0MTAwMjI3LCJqdGkiOiJ0a3RRdFJkUU5vTEhITGdYIiwic3ViIjoxNTIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.1okXhTxxX4yhb8JxofY7Ey08ZDVGGwdNj2t3j-iYULY
+metaSortKey: -1634095774304
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

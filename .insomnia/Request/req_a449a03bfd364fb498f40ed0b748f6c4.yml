@@ -1,9 +1,9 @@
-_id: req_97178b76b70c41479a93f7aac5687a60
+_id: req_a449a03bfd364fb498f40ed0b748f6c4
 type: Request
-parentId: fld_9065870fd2294f5fb54e6688e6b78919
-modified: 1635137322955
-created: 1634610728445
-url: https://api.bantubeli.com/dev/coupon/paginate
+parentId: fld_5ec6369a31c44a618726be1c075a8bae
+modified: 1635131312675
+created: 1635131312675
+url: https://api.bantubeli.com/v1/coupon/paginate
 name: All Coupon w/ paginate
 description: ""
 method: POST
@@ -21,7 +21,7 @@ headers:
     id: pair_8b2a54b08b7042ee87d755b5d9d8fc83
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RldlwvYXV0aFwvbG9naW4iLCJpYXQiOjE2MzUxMzE0NjIsIm5iZiI6MTYzNTEzMTQ2MiwianRpIjoiSkM1T0Y4RzZPTmhObmVXZiIsInN1YiI6NjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.0Q88fRXEeEm7cHZXIC5rPHV4ZJUEzq-1u2la-k42nqs
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzNDEwMDIyNywibmJmIjoxNjM0MTAwMjI3LCJqdGkiOiJ0a3RRdFJkUU5vTEhITGdYIiwic3ViIjoxNTIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.1okXhTxxX4yhb8JxofY7Ey08ZDVGGwdNj2t3j-iYULY
 metaSortKey: -1634610728445
 isPrivate: false
 settingStoreCookies: true

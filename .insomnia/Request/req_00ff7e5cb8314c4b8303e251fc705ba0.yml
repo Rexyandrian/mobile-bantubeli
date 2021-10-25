@@ -1,24 +1,27 @@
-_id: req_fbabda2901674e28b19435dc6b4f8ec6
+_id: req_00ff7e5cb8314c4b8303e251fc705ba0
 type: Request
-parentId: fld_9065870fd2294f5fb54e6688e6b78919
-modified: 1635131356547
-created: 1634783095995
-url: https://api.bantubeli.com/dev/coupon/testing
-name: Testing
-description: "    for testing query n some function"
-method: GET
+parentId: fld_d2d1979b7e7e402688316cccff20b3a9
+modified: 1635131312715
+created: 1635131312715
+url: https://api.bantubeli.com/v1/coupon/use
+name: Pake Kupon
+description: "\t\"coupon\" : ['Required']"
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"coupon" : 14
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_f00d637bde24464b8f673b8153661f58
+    id: pair_617bcc9479134ab8bc46a94e21786861
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzNDEwMDIyNywibmJmIjoxNjM0MTAwMjI3LCJqdGkiOiJ0a3RRdFJkUU5vTEhITGdYIiwic3ViIjoxNTIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.1okXhTxxX4yhb8JxofY7Ey08ZDVGGwdNj2t3j-iYULY
-metaSortKey: -1634783095995
+metaSortKey: -1634201929644
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

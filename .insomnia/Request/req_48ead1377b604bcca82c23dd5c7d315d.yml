@@ -1,24 +1,19 @@
-_id: req_fbabda2901674e28b19435dc6b4f8ec6
+_id: req_48ead1377b604bcca82c23dd5c7d315d
 type: Request
-parentId: fld_9065870fd2294f5fb54e6688e6b78919
-modified: 1635131356547
-created: 1634783095995
-url: https://api.bantubeli.com/dev/coupon/testing
-name: Testing
-description: "    for testing query n some function"
+parentId: fld_5ec6369a31c44a618726be1c075a8bae
+modified: 1635131312688
+created: 1635131312688
+url: https://api.bantubeli.com/v1/coupon/update
+name: Update
+description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_f00d637bde24464b8f673b8153661f58
+headers: []
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzNDEwMDIyNywibmJmIjoxNjM0MTAwMjI3LCJqdGkiOiJ0a3RRdFJkUU5vTEhITGdYIiwic3ViIjoxNTIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.1okXhTxxX4yhb8JxofY7Ey08ZDVGGwdNj2t3j-iYULY
-metaSortKey: -1634783095995
+metaSortKey: -1634789640622
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

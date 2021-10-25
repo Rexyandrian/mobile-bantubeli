@@ -1,9 +1,9 @@
 _id: req_a7ae394b093e45ed8991c4689658949d
 type: Request
 parentId: fld_faa2324bb1c940ef967e8a394b2eb240
-modified: 1634798796712
+modified: 1635146499197
 created: 1634105174976
-url: https://api.bantubeli.com/v1/coupon/show
+url: https://api.bantubeli.com/dev/coupon/show
 name: Detail Coupon
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id":10
+    	"id":18
     	
     }
 parameters: []
@@ -21,7 +21,7 @@ headers:
     id: pair_86b78bf9e4064e4da2d7a45d66b10389
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzNDEwMDIyNywibmJmIjoxNjM0MTAwMjI3LCJqdGkiOiJ0a3RRdFJkUU5vTEhITGdYIiwic3ViIjoxNTIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.1okXhTxxX4yhb8JxofY7Ey08ZDVGGwdNj2t3j-iYULY
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RldlwvYXV0aFwvbG9naW4iLCJpYXQiOjE2MzUxMzE0NjIsIm5iZiI6MTYzNTEzMTQ2MiwianRpIjoiSkM1T0Y4RzZPTmhObmVXZiIsInN1YiI6NjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.0Q88fRXEeEm7cHZXIC5rPHV4ZJUEzq-1u2la-k42nqs
 metaSortKey: -1634105175028
 isPrivate: false
 settingStoreCookies: true

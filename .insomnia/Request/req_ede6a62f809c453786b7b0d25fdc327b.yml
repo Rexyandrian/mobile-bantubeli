@@ -1,9 +1,9 @@
-_id: req_2634c42bd8c746b0ba5db4448365dabb
+_id: req_ede6a62f809c453786b7b0d25fdc327b
 type: Request
-parentId: fld_faa2324bb1c940ef967e8a394b2eb240
-modified: 1635137812554
-created: 1634109204266
-url: https://api.bantubeli.com/dev/coupon/get
+parentId: fld_d2d1979b7e7e402688316cccff20b3a9
+modified: 1635131312708
+created: 1635131312708
+url: https://api.bantubeli.com/v1/coupon/get
 name: Ambil Kupon
 description: |-2
           id = ['optionl'],
@@ -13,7 +13,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id" : 18
+    	"id" : 10
     }
 parameters: []
 headers:
@@ -22,7 +22,7 @@ headers:
     id: pair_f90acd6e1e7d4777b24cd96245853258
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2RldlwvYXV0aFwvbG9naW4iLCJpYXQiOjE2MzUxMzE0NjIsIm5iZiI6MTYzNTEzMTQ2MiwianRpIjoiSkM1T0Y4RzZPTmhObmVXZiIsInN1YiI6NjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.0Q88fRXEeEm7cHZXIC5rPHV4ZJUEzq-1u2la-k42nqs
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzNDEwMDIyNywibmJmIjoxNjM0MTAwMjI3LCJqdGkiOiJ0a3RRdFJkUU5vTEhITGdYIiwic3ViIjoxNTIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.1okXhTxxX4yhb8JxofY7Ey08ZDVGGwdNj2t3j-iYULY
 metaSortKey: -1634109204266
 isPrivate: false
 settingStoreCookies: true
