@@ -1,18 +1,24 @@
 _id: req_a449a03bfd364fb498f40ed0b748f6c4
 type: Request
 parentId: fld_5ec6369a31c44a618726be1c075a8bae
-modified: 1635131312675
+modified: 1635309265904
 created: 1635131312675
 url: https://api.bantubeli.com/v1/coupon/paginate
 name: All Coupon w/ paginate
-description: ""
+description: |-2
+              {
+                "limit" : 5, // limit per halaman [' required ']
+                "page" : 1, // jumlah halaman [' required ']
+                "keyword" : "cashback" ['optional untuk pencarian ']
+              }
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
     	"limit" : 5, 
-    	"page" : 1
+    	"page" : 1,
+    	"keyword" : "cashback"
     }
 parameters: []
 headers:
