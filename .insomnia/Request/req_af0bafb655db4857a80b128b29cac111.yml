@@ -1,34 +1,35 @@
-_id: req_a449a03bfd364fb498f40ed0b748f6c4
+_id: req_af0bafb655db4857a80b128b29cac111
 type: Request
 parentId: fld_5ec6369a31c44a618726be1c075a8bae
-modified: 1635827723926
-created: 1635131312675
-url: https://api.bantubeli.com/v1/coupon/paginate
-name: All Coupon w/ paginate
+modified: 1635829380469
+created: 1635827634325
+url: https://api.bantubeli.com/v1/coupon/check
+name: Checking Coupon
 description: |-2
-              {
-                "limit" : 5, // limit per halaman [' required ']
-                "page" : 1, // jumlah halaman [' required ']
-                "keyword" : "cashback" ['optional untuk pencarian ']
-              }
-method: POST
+           E.g How To Use This API URL
+           {
+            "kupon_id": 74, // kupon id
+            "price": 200000, // harga total
+            "ongkir": 10000   // harga ongkir yang di dapatkan
+          }
+method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"limit" : 5, 
-    	"page" : 1,
-    	"keyword" : "cashback"
+    	"kupon_id": 11,
+    	"price": 2000,
+    	"ongkir": 10000
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_8b2a54b08b7042ee87d755b5d9d8fc83
+    id: pair_4922917ce5264b2c9fb8f4ab720752cb
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzNDEwMDIyNywibmJmIjoxNjM0MTAwMjI3LCJqdGkiOiJ0a3RRdFJkUU5vTEhITGdYIiwic3ViIjoxNTIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.1okXhTxxX4yhb8JxofY7Ey08ZDVGGwdNj2t3j-iYULY
-metaSortKey: -1634610728445
+metaSortKey: -1635827634325
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

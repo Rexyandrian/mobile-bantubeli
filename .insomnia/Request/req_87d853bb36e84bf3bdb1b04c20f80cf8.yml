@@ -1,7 +1,7 @@
 _id: req_87d853bb36e84bf3bdb1b04c20f80cf8
 type: Request
 parentId: fld_d50039f0ed68432a923a8278fc4375a3
-modified: 1627309344007
+modified: 1635821666840
 created: 1627308434625
 url: https://api.bantubeli.com/v1/order-finish
 name: Selesai penerimaan
@@ -17,6 +17,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_4e5a61768e634c0ebe5a0543e1c0b18d
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE4MTk5ODMwLCJuYmYiOjE2MTgxOTk4MzAsImp0aSI6Im9RS2xPakhCa3g1UEI4eXIiLCJzdWIiOjExLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.5mIVqV8vBKsmfWuY-GbcFVjSNUG5Jef_2yn2__Lts5o

@@ -1,34 +1,27 @@
-_id: req_a449a03bfd364fb498f40ed0b748f6c4
+_id: req_c243f287c478409186b0315c9eb98b20
 type: Request
-parentId: fld_5ec6369a31c44a618726be1c075a8bae
-modified: 1635827723926
-created: 1635131312675
-url: https://api.bantubeli.com/v1/coupon/paginate
-name: All Coupon w/ paginate
-description: |-2
-              {
-                "limit" : 5, // limit per halaman [' required ']
-                "page" : 1, // jumlah halaman [' required ']
-                "keyword" : "cashback" ['optional untuk pencarian ']
-              }
+parentId: fld_9496f97594764f35ba8ee682e269d29c
+modified: 1635479418249
+created: 1635477095906
+url: https://api.bantubeli.com/v1/coupon/game/coin
+name: Flip
+description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"limit" : 5, 
-    	"page" : 1,
-    	"keyword" : "cashback"
+    	"coin": "Ekor"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_8b2a54b08b7042ee87d755b5d9d8fc83
+    id: pair_570ba5fc2b2d498981c05b53cefdaf35
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzNDEwMDIyNywibmJmIjoxNjM0MTAwMjI3LCJqdGkiOiJ0a3RRdFJkUU5vTEhITGdYIiwic3ViIjoxNTIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.1okXhTxxX4yhb8JxofY7Ey08ZDVGGwdNj2t3j-iYULY
-metaSortKey: -1634610728445
+metaSortKey: -1635477095906
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_95e99711076a4353a5721dc1a9720de8
 type: Request
 parentId: fld_c5e5c2d60ca440349f0db7d80eed9a69
-modified: 1627309413708
+modified: 1635822130152
 created: 1627308434595
 url: https://api.bantubeli.com/v1/cart
 name: Keranjang
@@ -32,6 +32,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_b6405d8eb4d84af68c3cf189f9bd2bc3
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJhbnR1YmVsaS5jb21cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjE3NzY2MzgwLCJuYmYiOjE2MTc3NjYzODAsImp0aSI6IjR3cTJFcjEwNW5vWENtc2kiLCJzdWIiOjEyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.gvfpOuoETdZ_d0n9SokXIxAhzHLz06ITKPzgMSrW0Jg

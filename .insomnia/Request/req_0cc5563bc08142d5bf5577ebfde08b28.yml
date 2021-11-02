@@ -1,7 +1,7 @@
 _id: req_0cc5563bc08142d5bf5577ebfde08b28
 type: Request
 parentId: fld_a904368bb0bd435e8b1f44fd246bec97
-modified: 1630520141018
+modified: 1635823573070
 created: 1630297694601
 url: https://merchant-api-sandbox.shipper.id/v3/order
 name: create order
@@ -62,10 +62,13 @@ parameters: []
 headers:
   - name: X-API-Key
     value: 2F0BDtFH7wQuKsXH3vbNvkb7aPhcI6uqCuE2djoXub89a03r3jrlwu1e80OsRdj8
+    id: pair_5c0bb8fdd1944be882a8c9bb252d5fcc
   - name: Accept
     value: application/json
+    id: pair_325640ba342640349d25cf9dba170fe6
   - name: Content-Type
     value: application/json
+    id: pair_5c0ec17106cc46c58e9f1e4e00810930
 authentication: {}
 metaSortKey: -1626811236718
 isPrivate: false
